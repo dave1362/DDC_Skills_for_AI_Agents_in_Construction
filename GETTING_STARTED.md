@@ -1,83 +1,83 @@
 # Getting Started: Construction Company Automation Guide
 
-**Data-Driven Construction: От изолированных данных к автоматизации**
+**Data-Driven Construction: From Isolated Data to Automation**
 
-> "Если данные — это новая нефть, нам нужно научиться их определять, находить, добывать и перерабатывать, чтобы сделать их ценными." — Ralph Montague
+> "If data is the new oil, we need to learn to define it, find it, mine it, refine it, to make it valuable." — Ralph Montague
 
 ---
 
-## Ключевая идея
+## Core Concept
 
-**Автоматизация строительства начинается не с BIM, а с понимания данных.**
+**Construction automation starts not with BIM, but with understanding data.**
 
-BIM, ERP, Excel, PDF, фотографии — это всё **базы данных** в разных форматах. За каждым файлом Revit скрывается структурированная база данных. За каждым PDF — неструктурированный текст. Понимание типов данных и их связей — фундамент автоматизации.
+BIM, ERP, Excel, PDF, photos — these are all **databases** in different formats. Behind every Revit file is a structured database. Behind every PDF is unstructured text. Understanding data types and their relationships is the foundation of automation.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    ДАННЫЕ В СТРОИТЕЛЬСТВЕ                           │
+│                      DATA IN CONSTRUCTION                           │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│   СТРУКТУРИРОВАННЫЕ        ПОЛУСТРУКТУРИРОВАННЫЕ      НЕСТРУКТУРИРОВАННЫЕ
-│   ─────────────────        ──────────────────────      ──────────────────
-│   • Excel таблицы          • IFC модели               • PDF контракты
-│   • Базы данных ERP        • JSON/XML файлы           • Фотографии
-│   • CSV экспорты           • API ответы               • Письма и заметки
-│   • Расписания P6          • BCF файлы                • Сканы документов
+│   STRUCTURED              SEMI-STRUCTURED          UNSTRUCTURED     │
+│   ──────────              ───────────────          ────────────     │
+│   • Excel spreadsheets    • IFC models             • PDF contracts  │
+│   • ERP databases         • JSON/XML files         • Photos         │
+│   • CSV exports           • API responses          • Emails & notes │
+│   • P6 schedules          • BCF files              • Scanned docs   │
 │                                                                      │
-│   Легко обрабатывать       Требуют парсинга           Требуют AI/OCR
-│   SQL запросы              Схема гибкая               Нет схемы
+│   Easy to process         Requires parsing         Requires AI/OCR  │
+│   SQL queries             Flexible schema          No schema        │
 │                                                                      │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Содержание
+## Table of Contents
 
-1. [Шаг 1: Оценка текущего состояния данных](#шаг-1-оценка-текущего-состояния-данных)
-2. [Шаг 2: Обнаружение изолированных данных (Data Silos)](#шаг-2-обнаружение-изолированных-данных)
-3. [Шаг 3: Классификация и инвентаризация данных](#шаг-3-классификация-и-инвентаризация-данных)
-4. [Шаг 4: Построение ETL пайплайнов](#шаг-4-построение-etl-пайплайнов)
-5. [Шаг 5: Автоматизация ключевых процессов](#шаг-5-автоматизация-ключевых-процессов)
-6. [Кейсы из практики](#кейсы-из-практики)
-7. [Дорожная карта по отделам](#дорожная-карта-по-отделам)
+1. [Step 1: Assess Current Data State](#step-1-assess-current-data-state)
+2. [Step 2: Detect Data Silos](#step-2-detect-data-silos)
+3. [Step 3: Classify and Inventory Data](#step-3-classify-and-inventory-data)
+4. [Step 4: Build ETL Pipelines](#step-4-build-etl-pipelines)
+5. [Step 5: Automate Key Processes](#step-5-automate-key-processes)
+6. [Real-World Cases](#real-world-cases)
+7. [Roadmap by Department](#roadmap-by-department)
 
 ---
 
-## Шаг 1: Оценка текущего состояния данных
+## Step 1: Assess Current Data State
 
-**Источник:** DDC Book, Chapter 1.1 — "Эволюция использования данных в строительстве"
+**Source:** DDC Book, Chapter 1.1 — "Evolution of Data Usage in Construction"
 
-### Уровни цифровой зрелости
+### Digital Maturity Levels
 
 ```python
 from enum import Enum
 
 class MaturityLevel(Enum):
-    LEVEL_0_PAPER = 0      # Бумажный документооборот
-    LEVEL_1_BASIC = 1      # Excel, email, файловые хранилища
-    LEVEL_2_STRUCTURED = 2  # Специализированное ПО, базы данных
-    LEVEL_3_INTEGRATED = 3  # Интегрированные системы (ERP + PM)
-    LEVEL_4_AUTOMATED = 4   # Автоматические workflow, ML модели
-    LEVEL_5_PREDICTIVE = 5  # Предиктивная аналитика, цифровые двойники
+    LEVEL_0_PAPER = 0      # Paper-based document flow
+    LEVEL_1_BASIC = 1      # Excel, email, file shares
+    LEVEL_2_STRUCTURED = 2  # Specialized software, databases
+    LEVEL_3_INTEGRATED = 3  # Integrated systems (ERP + PM)
+    LEVEL_4_AUTOMATED = 4   # Automated workflows, ML models
+    LEVEL_5_PREDICTIVE = 5  # Predictive analytics, digital twins
 ```
 
-### Быстрая самооценка
+### Quick Self-Assessment
 
-| Вопрос | Да (1) | Нет (0) |
-|--------|--------|---------|
-| Есть единая база кодов работ (cost codes)? | | |
-| Данные передаются между отделами автоматически? | | |
-| Отчёты генерируются без ручного сбора данных? | | |
-| Есть история изменений в данных (версионирование)? | | |
-| Данные доступны с мобильных устройств на объекте? | | |
+| Question | Yes (1) | No (0) |
+|----------|---------|--------|
+| Do you have a unified cost code database? | | |
+| Is data transferred between departments automatically? | | |
+| Are reports generated without manual data collection? | | |
+| Do you have version history for data changes? | | |
+| Is data accessible from mobile devices on site? | | |
 
-**Результат:**
-- 0-1: Level 1 — Базовая цифровизация
-- 2-3: Level 2-3 — Готовы к интеграции
-- 4-5: Level 4+ — Готовы к AI автоматизации
+**Results:**
+- 0-1: Level 1 — Basic digitization
+- 2-3: Level 2-3 — Ready for integration
+- 4-5: Level 4+ — Ready for AI automation
 
-### Практический кейс: Оценка компании
+### Practical Case: Company Assessment
 
 ```python
 # 2_DDC_Book/Chapter-1.1/data-evolution-analysis/SKILL.md
@@ -93,56 +93,56 @@ class DataFlowAssessment:
     automation_level: float   # 0-1
     issues: List[str]
 
-# Пример анализа типичной строительной компании
+# Example: Typical construction company analysis
 assessment = {
     "design": DataFlowAssessment(
         category="design",
         source_systems=["AutoCAD", "Revit"],
-        integration_level=0.3,  # Данные передаются вручную
+        integration_level=0.3,  # Data transferred manually
         automation_level=0.1,
-        issues=["Нет связи с системой смет", "Ручной экспорт спецификаций"]
+        issues=["No link to estimating system", "Manual specification export"]
     ),
     "cost": DataFlowAssessment(
         category="cost",
-        source_systems=["Excel", "1C"],
+        source_systems=["Excel", "Sage"],
         integration_level=0.2,
         automation_level=0.0,
-        issues=["Сметы в разных форматах", "Дублирование данных"]
+        issues=["Estimates in different formats", "Data duplication"]
     )
 }
 
-# Типичный результат: integration_level = 0.25 → Level 2
+# Typical result: integration_level = 0.25 → Level 2
 ```
 
 ---
 
-## Шаг 2: Обнаружение изолированных данных
+## Step 2: Detect Data Silos
 
-**Источник:** DDC Book, Chapter 1.2 — "Технологии и системы управления в современном строительстве"
+**Source:** DDC Book, Chapter 1.2 — "Technologies and Management Systems in Modern Construction"
 
-### Что такое Data Silos?
+### What are Data Silos?
 
-**Data Silo** — изолированный источник данных, не связанный с другими системами. Это главный враг автоматизации.
+**Data Silo** — an isolated data source not connected to other systems. This is the main enemy of automation.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                         DATA SILOS                                   │
+│                           DATA SILOS                                 │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
 │    ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐ │
-│    │  Excel   │     │   ERP    │     │   BIM    │     │  Photos  │ │
-│    │  сметы   │     │   1C     │     │  Revit   │     │  объекта │ │
+│    │  Excel   │     │   ERP    │     │   BIM    │     │   Site   │ │
+│    │ Estimates│     │   Sage   │     │  Revit   │     │  Photos  │ │
 │    └──────────┘     └──────────┘     └──────────┘     └──────────┘ │
 │         ↑                ↑                ↑                ↑        │
 │         │                │                │                │        │
 │         └────────────────┴────────────────┴────────────────┘        │
-│                    НЕТ АВТОМАТИЧЕСКОЙ СВЯЗИ                         │
-│                    Данные копируются вручную                        │
+│                    NO AUTOMATIC CONNECTION                          │
+│                    Data copied manually                             │
 │                                                                      │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Практический кейс: Обнаружение silos
+### Practical Case: Detecting Silos
 
 ```python
 # 2_DDC_Book/Chapter-1.2/data-silo-detection/SKILL.md
@@ -152,176 +152,175 @@ from typing import List
 from enum import Enum
 
 class SiloSeverity(Enum):
-    CRITICAL = "critical"   # Критичное влияние на бизнес
-    HIGH = "high"           # Значительная неэффективность
-    MEDIUM = "medium"       # Заметные проблемы
-    LOW = "low"             # Незначительные неудобства
+    CRITICAL = "critical"   # Critical business impact
+    HIGH = "high"           # Significant inefficiency
+    MEDIUM = "medium"       # Noticeable issues
+    LOW = "low"             # Minor inconvenience
 
 @dataclass
 class DataSource:
     name: str
     department: str
-    data_entities: List[str]  # Какие данные содержит
-    connections: List[str]    # С чем связан (пусто = silo!)
-    has_api: bool             # Есть ли возможность интеграции
+    data_entities: List[str]  # What data it contains
+    connections: List[str]    # What it's connected to (empty = silo!)
+    has_api: bool             # Integration capability
 
-# Типичная картина в строительной компании
+# Typical picture in a construction company
 sources = [
     DataSource(
-        name="Excel сметы",
-        department="Сметный отдел",
-        data_entities=["стоимость", "объёмы", "расценки"],
-        connections=[],  # SILO! Ни с чем не связан
+        name="Excel Estimates",
+        department="Estimating",
+        data_entities=["costs", "quantities", "rates"],
+        connections=[],  # SILO! Not connected to anything
         has_api=False
     ),
     DataSource(
-        name="1C Бухгалтерия",
-        department="Бухгалтерия",
-        data_entities=["счета", "платежи", "договора"],
-        connections=["банк"],
-        has_api=True  # Можно интегрировать!
+        name="Sage Accounting",
+        department="Accounting",
+        data_entities=["invoices", "payments", "contracts"],
+        connections=["bank"],
+        has_api=True  # Can be integrated!
     ),
     DataSource(
-        name="Revit модели",
-        department="Проектный отдел",
-        data_entities=["геометрия", "спецификации", "объёмы"],
-        connections=[],  # SILO! Данные не экспортируются автоматически
-        has_api=True  # Но есть API для интеграции
+        name="Revit Models",
+        department="Design",
+        data_entities=["geometry", "specifications", "quantities"],
+        connections=[],  # SILO! Data not exported automatically
+        has_api=True  # But has API for integration
     )
 ]
 
-# Анализ: 2 из 3 источников — изолированные silos
-# Рекомендация: связать Revit → Excel сметы → 1C
+# Analysis: 2 of 3 sources are isolated silos
+# Recommendation: connect Revit → Excel Estimates → Sage
 ```
 
-### Приоритеты устранения silos
+### Silo Elimination Priorities
 
-| Severity | Пример | Действие |
-|----------|--------|----------|
-| CRITICAL | Сметы не связаны с фактическими затратами | ETL пайплайн |
-| HIGH | BIM не экспортирует в сметную программу | API интеграция |
-| MEDIUM | Фото объекта хранятся локально | Cloud синхронизация |
-| LOW | Контакты подрядчиков в личных телефонах | CRM система |
+| Severity | Example | Action |
+|----------|---------|--------|
+| CRITICAL | Estimates not linked to actual costs | ETL pipeline |
+| HIGH | BIM doesn't export to estimating software | API integration |
+| MEDIUM | Site photos stored locally | Cloud sync |
+| LOW | Subcontractor contacts in personal phones | CRM system |
 
 ---
 
-## Шаг 3: Классификация и инвентаризация данных
+## Step 3: Classify and Inventory Data
 
-**Источник:** DDC Book, Chapter 2.1 — "Типы данных в строительстве"
+**Source:** DDC Book, Chapter 2.1 — "Data Types in Construction"
 
-### Классификация по структуре
+### Classification by Structure
 
 ```python
 # 2_DDC_Book/Chapter-2.1/data-type-classifier/SKILL.md
 
 class DataStructure(Enum):
-    STRUCTURED = "structured"           # Таблицы, БД, Excel
+    STRUCTURED = "structured"           # Tables, databases, Excel
     SEMI_STRUCTURED = "semi_structured" # JSON, XML, IFC
-    UNSTRUCTURED = "unstructured"       # PDF, фото, видео
-    GEOMETRIC = "geometric"             # CAD, BIM геометрия
-    TEMPORAL = "temporal"               # Расписания, временные ряды
+    UNSTRUCTURED = "unstructured"       # PDF, photos, video
+    GEOMETRIC = "geometric"             # CAD, BIM geometry
+    TEMPORAL = "temporal"               # Schedules, time series
 ```
 
-### Практический кейс: Инвентаризация данных
+### Practical Case: Data Inventory
 
 ```python
-# Проведите инвентаризацию всех источников данных в компании
+# Conduct an inventory of all data sources in your company
 
 data_inventory = [
     {
-        "name": "Сметы проектов",
+        "name": "Project Estimates",
         "format": "Excel (.xlsx)",
         "structure": "STRUCTURED",
-        "location": "Сетевой диск Z:",
-        "volume": "500 файлов",
-        "update_frequency": "Ежедневно",
-        "owner": "Сметный отдел",
-        "integration": "Ручной экспорт в 1C"
+        "location": "Network Drive Z:",
+        "volume": "500 files",
+        "update_frequency": "Daily",
+        "owner": "Estimating Department",
+        "integration": "Manual export to Sage"
     },
     {
-        "name": "BIM модели",
+        "name": "BIM Models",
         "format": "Revit (.rvt), IFC",
-        "structure": "SEMI_STRUCTURED",  # IFC = база данных!
+        "structure": "SEMI_STRUCTURED",  # IFC = database!
         "location": "BIM360",
-        "volume": "50 проектов",
-        "update_frequency": "Еженедельно",
-        "owner": "Проектный отдел",
-        "integration": "Нет автоматической связи"
+        "volume": "50 projects",
+        "update_frequency": "Weekly",
+        "owner": "Design Department",
+        "integration": "No automatic connection"
     },
     {
-        "name": "Договоры",
+        "name": "Contracts",
         "format": "PDF, Word",
         "structure": "UNSTRUCTURED",
         "location": "SharePoint",
-        "volume": "2000 документов",
-        "update_frequency": "По необходимости",
-        "owner": "Юридический отдел",
-        "integration": "Ручной поиск"
+        "volume": "2000 documents",
+        "update_frequency": "As needed",
+        "owner": "Legal Department",
+        "integration": "Manual search"
     }
 ]
 
-# Рекомендации по хранению
+# Storage recommendations
 storage_recommendations = {
     "STRUCTURED": "Relational Database (PostgreSQL)",
-    "SEMI_STRUCTURED": "Document Database (MongoDB) или Data Lake",
-    "UNSTRUCTURED": "Object Storage (S3) + Vector DB для поиска",
-    "GEOMETRIC": "File System + IFC сервер",
+    "SEMI_STRUCTURED": "Document Database (MongoDB) or Data Lake",
+    "UNSTRUCTURED": "Object Storage (S3) + Vector DB for search",
+    "GEOMETRIC": "File System + IFC server",
     "TEMPORAL": "Time Series DB (InfluxDB)"
 }
 ```
 
-### Ключевой инсайт: IFC = База данных
+### Key Insight: IFC = Database
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    IFC ≠ Просто 3D модель                           │
-│                    IFC = Структурированная база данных              │
+│                    IFC ≠ Just a 3D Model                            │
+│                    IFC = Structured Database                        │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│   IFC файл содержит:                                                │
-│   ├── IfcProject (проект)                                           │
-│   │   ├── IfcSite (участок)                                         │
-│   │   │   ├── IfcBuilding (здание)                                  │
-│   │   │   │   ├── IfcBuildingStorey (этаж)                          │
-│   │   │   │   │   ├── IfcWall (стена)                               │
-│   │   │   │   │   │   ├── Pset_WallCommon (свойства)                │
+│   IFC file contains:                                                │
+│   ├── IfcProject (project)                                          │
+│   │   ├── IfcSite (site)                                            │
+│   │   │   ├── IfcBuilding (building)                                │
+│   │   │   │   ├── IfcBuildingStorey (floor)                         │
+│   │   │   │   │   ├── IfcWall (wall)                                │
+│   │   │   │   │   │   ├── Pset_WallCommon (properties)              │
 │   │   │   │   │   │   │   ├── IsExternal: True                      │
 │   │   │   │   │   │   │   ├── FireRating: "2 hour"                  │
-│   │   │   │   │   │   ├── BaseQuantities (объёмы)                   │
+│   │   │   │   │   │   ├── BaseQuantities (quantities)               │
 │   │   │   │   │   │   │   ├── NetVolume: 15.5 m³                    │
 │   │   │   │   │   │   │   ├── NetArea: 45.2 m²                      │
 │                                                                      │
-│   Можно извлечь: объёмы, площади, материалы, связи                  │
-│   И автоматически передать в сметную программу!                     │
+│   Can extract: volumes, areas, materials, relationships             │
+│   And automatically transfer to estimating software!                │
 │                                                                      │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Шаг 4: Построение ETL пайплайнов
+## Step 4: Build ETL Pipelines
 
-**Источник:** DDC Book, Chapter 4.2 — "ETL и автоматизация процессов"
+**Source:** DDC Book, Chapter 4.2 — "ETL and Process Automation"
 
-> "ETL: переход от ручного управления к автоматизации позволяет компаниям обрабатывать данные без постоянного человеческого вмешательства."
+> "ETL: transitioning from manual management to automation allows companies to process data without constant human intervention."
 
-### Что такое ETL?
+### What is ETL?
 
 ```
 ┌─────────┐    ┌───────────┐    ┌────────┐
 │ EXTRACT │ -> │ TRANSFORM │ -> │  LOAD  │
-│ Извлечь │    │ Преобразов│    │ Загруз │
 └─────────┘    └───────────┘    └────────┘
      │               │               │
      ▼               ▼               ▼
-  Источники      Обработка       Выходы
-  - Excel        - Очистка       - Excel отчёт
-  - PDF          - Валидация     - PDF отчёт
-  - BIM/IFC      - Расчёты       - База данных
-  - API          - Агрегация     - API
+  Sources         Process         Outputs
+  - Excel         - Clean         - Excel report
+  - PDF           - Validate      - PDF report
+  - BIM/IFC       - Calculate     - Database
+  - API           - Aggregate     - API
 ```
 
-### Практический кейс: ETL для сметных данных
+### Practical Case: ETL for Estimate Data
 
 ```python
 # 2_DDC_Book/Chapter-4.2/etl-pipeline/SKILL.md
@@ -330,7 +329,7 @@ import pandas as pd
 from pathlib import Path
 
 class ConstructionETLPipeline:
-    """ETL пайплайн для строительных данных"""
+    """ETL pipeline for construction data"""
 
     def __init__(self, config):
         self.config = config
@@ -338,112 +337,112 @@ class ConstructionETLPipeline:
         self.errors = []
 
     def extract(self):
-        """EXTRACT: Извлечение из разных источников"""
-        print("Извлечение данных...")
+        """EXTRACT: Pull from various sources"""
+        print("Extracting data...")
 
         all_data = []
 
-        # Из Excel файлов
+        # From Excel files
         for file in Path(self.config['input_folder']).glob("*.xlsx"):
             df = pd.read_excel(file)
             df['_source'] = file.name
             all_data.append(df)
-            print(f"  Извлечено: {file.name}")
+            print(f"  Extracted: {file.name}")
 
         self.data = pd.concat(all_data, ignore_index=True)
-        print(f"  Всего записей: {len(self.data)}")
+        print(f"  Total records: {len(self.data)}")
         return self
 
     def transform(self):
-        """TRANSFORM: Очистка и преобразование"""
-        print("Преобразование данных...")
+        """TRANSFORM: Clean and process"""
+        print("Transforming data...")
 
-        # Удаление пустых строк
+        # Remove empty rows
         self.data = self.data.dropna(how='all')
 
-        # Стандартизация названий
-        if 'Категория' in self.data.columns:
-            self.data['Категория'] = self.data['Категория'].str.strip().str.title()
+        # Standardize names
+        if 'Category' in self.data.columns:
+            self.data['Category'] = self.data['Category'].str.strip().str.title()
 
-        # Расчёт итогов
-        if 'Количество' in self.data.columns and 'Цена' in self.data.columns:
-            self.data['Сумма'] = self.data['Количество'] * self.data['Цена']
+        # Calculate totals
+        if 'Quantity' in self.data.columns and 'Unit_Price' in self.data.columns:
+            self.data['Total'] = self.data['Quantity'] * self.data['Unit_Price']
 
-        # Валидация
-        invalid = self.data[self.data['Количество'] <= 0]
+        # Validation
+        invalid = self.data[self.data['Quantity'] <= 0]
         if len(invalid) > 0:
-            self.errors.append(f"Найдено {len(invalid)} строк с некорректным количеством")
+            self.errors.append(f"Found {len(invalid)} rows with invalid quantity")
 
-        print(f"  Обработано записей: {len(self.data)}")
-        print(f"  Ошибок валидации: {len(self.errors)}")
+        print(f"  Processed records: {len(self.data)}")
+        print(f"  Validation errors: {len(self.errors)}")
         return self
 
     def load(self):
-        """LOAD: Сохранение результатов"""
-        print("Загрузка результатов...")
+        """LOAD: Save results"""
+        print("Loading results...")
 
-        # Сводный отчёт
-        summary = self.data.groupby('Категория').agg({
-            'Сумма': 'sum',
-            'Количество': 'sum'
+        # Summary report
+        summary = self.data.groupby('Category').agg({
+            'Total': 'sum',
+            'Quantity': 'sum'
         }).round(2)
 
-        # Сохранение в Excel
+        # Save to Excel
         output_path = self.config['output_file']
         with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
-            self.data.to_excel(writer, sheet_name='Данные', index=False)
-            summary.to_excel(writer, sheet_name='Сводка')
+            self.data.to_excel(writer, sheet_name='Data', index=False)
+            summary.to_excel(writer, sheet_name='Summary')
 
-        print(f"  Сохранено: {output_path}")
+        print(f"  Saved: {output_path}")
         return self
 
     def run(self):
-        """Запуск полного пайплайна"""
+        """Run complete pipeline"""
         return self.extract().transform().load()
 
-# Использование
+# Usage
 config = {
-    'input_folder': './сметы/',
-    'output_file': './отчёты/сводная_смета.xlsx'
+    'input_folder': './estimates/',
+    'output_file': './reports/consolidated_estimate.xlsx'
 }
 
 pipeline = ConstructionETLPipeline(config)
 pipeline.run()
 ```
 
-### Автоматизация с n8n
+### Automation with n8n
 
 ```json
 // 3_DDC_Insights/Automation-Workflows/n8n-daily-report/SKILL.md
 
 {
-  "workflow": "Ежедневный отчёт",
-  "trigger": "Каждый день в 17:00",
+  "workflow": "Daily Report",
+  "trigger": "Every day at 5:00 PM",
   "nodes": [
     {
-      "name": "Получить данные о погоде",
+      "name": "Get Weather Data",
       "type": "HTTP Request",
       "url": "api.openweathermap.org"
     },
     {
-      "name": "Получить данные из Excel",
+      "name": "Get Excel Data",
       "type": "Spreadsheet File",
       "operation": "read"
     },
     {
-      "name": "Обработать данные",
+      "name": "Process Data",
       "type": "Code",
-      "code": "// Агрегация и форматирование"
+      "code": "// Aggregation and formatting"
     },
     {
-      "name": "Сгенерировать PDF",
+      "name": "Generate PDF",
       "type": "HTTP Request",
       "url": "pdf-service/generate"
     },
     {
-      "name": "Отправить email",
+      "name": "Send Email",
       "type": "Email Send",
-      "to": "management@company.ru"
+      "to": "management@company.com"
     }
   ]
 }
@@ -451,11 +450,11 @@ pipeline.run()
 
 ---
 
-## Шаг 5: Автоматизация ключевых процессов
+## Step 5: Automate Key Processes
 
-### Процесс 1: Автоматическое составление смет
+### Process 1: Automated Estimate Creation
 
-**Источник:** DDC Book, Chapter 3.1 — "Расчёт стоимости и составление смет"
+**Source:** DDC Book, Chapter 3.1 — "Cost Calculations and Estimates"
 
 ```python
 # 2_DDC_Book/Chapter-3.1/estimate-builder/SKILL.md
@@ -465,14 +464,14 @@ from enum import Enum
 from typing import List
 
 class CostCategory(Enum):
-    LABOR = "labor"           # Работы
-    MATERIAL = "material"     # Материалы
-    EQUIPMENT = "equipment"   # Механизмы
-    SUBCONTRACTOR = "subcontractor"  # Субподряд
+    LABOR = "labor"
+    MATERIAL = "material"
+    EQUIPMENT = "equipment"
+    SUBCONTRACTOR = "subcontractor"
 
 @dataclass
 class EstimateLineItem:
-    code: str           # Код работы (из CWICR базы)
+    code: str           # Work code (from CWICR database)
     description: str
     quantity: float
     unit: str
@@ -484,7 +483,7 @@ class EstimateLineItem:
         return round(self.quantity * self.unit_cost, 2)
 
 class EstimateBuilder:
-    """Построение смет из структурированных данных"""
+    """Build estimates from structured data"""
 
     def __init__(self, project_name: str):
         self.project_name = project_name
@@ -505,103 +504,103 @@ class EstimateBuilder:
         return direct * (1 + markup_total)
 
     def import_from_ifc(self, ifc_path: str, price_database: dict):
-        """Импорт объёмов из IFC и расценок из базы"""
+        """Import quantities from IFC and rates from database"""
         import ifcopenshell
 
         model = ifcopenshell.open(ifc_path)
 
         for wall in model.by_type("IfcWall"):
-            # Извлекаем объём из IFC
+            # Extract volume from IFC
             volume = self._get_quantity(wall, "NetVolume")
 
-            # Находим расценку в базе
+            # Find rate in database
             material = self._get_material(wall)
             price_info = price_database.get(material, {})
 
             self.add_item(
                 code=price_info.get('code', 'N/A'),
-                description=f"Стена: {wall.Name}",
+                description=f"Wall: {wall.Name}",
                 quantity=volume,
-                unit="м³",
+                unit="m³",
                 unit_cost=price_info.get('unit_cost', 0),
                 category=CostCategory.MATERIAL
             )
 
-# Пример использования
-estimate = EstimateBuilder("Офисное здание")
+# Example usage
+estimate = EstimateBuilder("Office Building")
 
-# Добавление позиций
-estimate.add_item("03.30.00", "Бетон фундамента", 500, "м³", 180, CostCategory.MATERIAL)
-estimate.add_item("03.30.01", "Работы по бетонированию", 500, "м³", 50, CostCategory.LABOR)
-estimate.add_item("05.12.00", "Металлоконструкции", 50, "т", 4500, CostCategory.SUBCONTRACTOR)
+# Add line items
+estimate.add_item("03.30.00", "Foundation Concrete", 500, "m³", 180, CostCategory.MATERIAL)
+estimate.add_item("03.30.01", "Concrete Placement", 500, "m³", 50, CostCategory.LABOR)
+estimate.add_item("05.12.00", "Structural Steel", 50, "ton", 4500, CostCategory.SUBCONTRACTOR)
 
-print(f"Прямые затраты: {estimate.get_direct_cost():,.0f} руб")
-print(f"Итого с накладными: {estimate.get_total_cost():,.0f} руб")
+print(f"Direct Cost: ${estimate.get_direct_cost():,.0f}")
+print(f"Total with Markups: ${estimate.get_total_cost():,.0f}")
 ```
 
-### Процесс 2: Автоматический контроль отклонений
+### Process 2: Automated Variance Tracking
 
 ```python
-# Связка: Плановые данные (смета) ↔ Фактические данные (ERP)
+# Link: Planned data (estimate) ↔ Actual data (ERP)
 
 class BudgetVarianceAnalyzer:
-    """Анализ отклонений факт vs план"""
+    """Analyze actual vs planned variances"""
 
     def __init__(self, planned_df, actual_df):
         self.planned = planned_df
         self.actual = actual_df
 
     def calculate_variance(self):
-        """Расчёт отклонений по каждой позиции"""
+        """Calculate variance for each line item"""
         merged = self.planned.merge(
             self.actual,
-            on='Код работы',
-            suffixes=('_план', '_факт')
+            on='Work_Code',
+            suffixes=('_planned', '_actual')
         )
 
-        merged['Отклонение'] = merged['Сумма_факт'] - merged['Сумма_план']
-        merged['Отклонение_%'] = (merged['Отклонение'] / merged['Сумма_план']) * 100
+        merged['Variance'] = merged['Total_actual'] - merged['Total_planned']
+        merged['Variance_%'] = (merged['Variance'] / merged['Total_planned']) * 100
 
         return merged
 
     def get_alerts(self, threshold=10):
-        """Позиции с отклонением > threshold%"""
+        """Items with variance > threshold%"""
         variance = self.calculate_variance()
-        return variance[abs(variance['Отклонение_%']) > threshold]
+        return variance[abs(variance['Variance_%']) > threshold]
 
-# Автоматическая проверка каждую неделю
-# n8n workflow: ERP → Analyzer → Email руководству
+# Automatic weekly check
+# n8n workflow: ERP → Analyzer → Email to management
 ```
 
-### Процесс 3: Автоматическая генерация отчётов
+### Process 3: Automated Report Generation
 
 ```python
 # 3_DDC_Insights/Automation-Workflows/n8n-daily-report/SKILL.md
 
 def generate_daily_report(project_data: dict) -> str:
-    """Генерация ежедневного отчёта"""
+    """Generate daily report"""
 
     report = f"""
-# Ежедневный отчёт: {project_data['name']}
-**Дата:** {project_data['date']}
+# Daily Report: {project_data['name']}
+**Date:** {project_data['date']}
 
-## Погода
-- Температура: {project_data['weather']['temp']}°C
-- Условия: {project_data['weather']['condition']}
+## Weather
+- Temperature: {project_data['weather']['temp']}°F
+- Conditions: {project_data['weather']['condition']}
 
-## Рабочая сила
-| Профессия | Человек | Часы |
-|-----------|---------|------|
+## Labor
+| Trade | Workers | Hours |
+|-------|---------|-------|
 """
     for labor in project_data['labor']:
         report += f"| {labor['trade']} | {labor['count']} | {labor['hours']} |\n"
 
     report += f"""
-## Прогресс
-- Выполнено: {project_data['progress']}%
-- Отклонение от графика: {project_data['schedule_variance']} дней
+## Progress
+- Completed: {project_data['progress']}%
+- Schedule Variance: {project_data['schedule_variance']} days
 
-## Проблемы
+## Issues
 """
     for issue in project_data.get('issues', []):
         report += f"- {issue}\n"
@@ -611,22 +610,22 @@ def generate_daily_report(project_data: dict) -> str:
 
 ---
 
-## Кейсы из практики
+## Real-World Cases
 
-### Кейс 1: От 2 дней к 2 часам — автоматизация сметы
+### Case 1: From 2 Days to 2 Hours — Estimate Automation
 
-**Проблема:** Сметчик тратит 2 дня на составление сметы, вручную перенося данные из спецификаций Revit в Excel.
+**Problem:** Estimator spends 2 days creating estimates, manually transferring data from Revit specifications to Excel.
 
-**Решение:**
-1. Экспорт данных из Revit в IFC
-2. Парсинг IFC с помощью ifcopenshell
-3. Автоматическое сопоставление с базой расценок CWICR
-4. Генерация Excel сметы
+**Solution:**
+1. Export data from Revit to IFC
+2. Parse IFC using ifcopenshell
+3. Automatic matching with CWICR rate database
+4. Generate Excel estimate
 
-**Результат:** 2 часа вместо 2 дней. Экономия 80% времени.
+**Result:** 2 hours instead of 2 days. 80% time savings.
 
 ```python
-# Упрощённый пример
+# Simplified example
 import ifcopenshell
 
 def ifc_to_estimate(ifc_path, price_db):
@@ -634,13 +633,13 @@ def ifc_to_estimate(ifc_path, price_db):
     estimate_items = []
 
     for element in model.by_type("IfcBuildingElement"):
-        # Извлекаем объёмы
+        # Extract quantities
         quantities = get_element_quantities(element)
 
-        # Классифицируем элемент
+        # Classify element
         category = classify_element(element)
 
-        # Находим расценку
+        # Find rate
         price = price_db.get(category)
 
         estimate_items.append({
@@ -654,11 +653,11 @@ def ifc_to_estimate(ifc_path, price_db):
     return estimate_items
 ```
 
-### Кейс 2: Единая база работ вместо хаоса
+### Case 2: Unified Work Database Instead of Chaos
 
-**Проблема:** В компании 5 сметчиков, каждый использует свои названия работ. "Бетонирование фундамента", "Устройство ж/б фундамента", "Бетонные работы (фундамент)" — одна и та же работа с разными названиями.
+**Problem:** Company has 5 estimators, each uses their own work names. "Concrete foundation pour", "Cast-in-place foundation concrete", "Foundation concrete work" — same work with different names.
 
-**Решение:** CWICR Database — 55,719 стандартизированных позиций работ на 9 языках.
+**Solution:** CWICR Database — 55,719 standardized work items in 9 languages.
 
 ```python
 # 1_DDC_Toolkit/CWICR-Database/semantic-search-cwicr/SKILL.md
@@ -666,12 +665,12 @@ def ifc_to_estimate(ifc_path, price_db):
 from qdrant_client import QdrantClient
 
 def search_cwicr(query: str) -> list:
-    """Семантический поиск по базе работ"""
+    """Semantic search in work items database"""
     client = QdrantClient("localhost", port=6333)
 
-    # Векторный поиск (понимает синонимы!)
+    # Vector search (understands synonyms!)
     results = client.search(
-        collection_name="ddc_cwicr_ru",
+        collection_name="ddc_cwicr_en",
         query_vector=get_embedding(query),
         limit=5
     )
@@ -686,159 +685,159 @@ def search_cwicr(query: str) -> list:
         for r in results
     ]
 
-# Теперь любой запрос найдёт правильную позицию
-search_cwicr("бетонирование фундамента")
-# → [{'code': '03.30.00', 'description': 'Бетонные работы - фундаменты', ...}]
-
+# Now any query finds the correct item
 search_cwicr("concrete foundation pour")
+# → [{'code': '03.30.00', 'description': 'Concrete works - foundations', ...}]
+
+search_cwicr("cast-in-place foundation")
 # → [{'code': '03.30.00', 'description': 'Concrete works - foundations', ...}]
 ```
 
-### Кейс 3: Автоматический контроль сроков
+### Case 3: Automated Schedule Tracking
 
-**Проблема:** Отклонения в графике обнаруживаются слишком поздно.
+**Problem:** Schedule variances discovered too late.
 
-**Решение:** ETL пайплайн, который ежедневно сравнивает план и факт.
+**Solution:** ETL pipeline that daily compares planned vs actual.
 
 ```python
-# Ежедневная проверка (запускается через n8n или Airflow)
+# Daily check (runs via n8n or Airflow)
 
 def check_schedule_variance(project_id):
-    # Извлекаем данные
-    planned = get_planned_schedule(project_id)  # Из P6/MS Project
-    actual = get_actual_progress(project_id)     # Из Procore/фото
+    # Extract data
+    planned = get_planned_schedule(project_id)  # From P6/MS Project
+    actual = get_actual_progress(project_id)     # From Procore/photos
 
-    # Анализируем
+    # Analyze
     for task in planned:
         actual_progress = actual.get(task['id'], {})
 
         if actual_progress['completion'] < task['planned_completion']:
             variance = task['planned_completion'] - actual_progress['completion']
 
-            if variance > 5:  # Отклонение > 5%
+            if variance > 5:  # Variance > 5%
                 send_alert(
-                    to="pm@company.ru",
-                    subject=f"Отставание: {task['name']}",
-                    body=f"Отклонение: {variance}%. Требуется корректировка."
+                    to="pm@company.com",
+                    subject=f"Delay: {task['name']}",
+                    body=f"Variance: {variance}%. Action required."
                 )
 ```
 
 ---
 
-## Дорожная карта по отделам
+## Roadmap by Department
 
-### Сметный отдел
+### Estimating Department
 
-| Неделя | Действие | Скилл |
-|--------|----------|-------|
-| 1 | Внедрение единой базы расценок | `semantic-search-cwicr` |
-| 2 | Автоматический импорт объёмов из IFC | `bim-qto` |
-| 3-4 | ETL пайплайн: IFC → Смета | `etl-pipeline` |
-| 5+ | Автоматическая генерация смет | `estimate-builder` |
+| Week | Action | Skill |
+|------|--------|-------|
+| 1 | Implement unified cost code database | `semantic-search-cwicr` |
+| 2 | Automated quantity import from IFC | `bim-qto` |
+| 3-4 | ETL pipeline: IFC → Estimate | `etl-pipeline` |
+| 5+ | Automated estimate generation | `estimate-builder` |
 
-### Производственный отдел
+### Project Management
 
-| Неделя | Действие | Скилл |
-|--------|----------|-------|
-| 1 | Цифровизация ежедневных отчётов | `n8n-daily-report` |
-| 2 | Автоматический сбор фото с объекта | `n8n-photo-report` |
-| 3-4 | Связь графика и факта | `schedule-delay-analyzer` |
-| 5+ | Предиктивная аналитика сроков | `duration-prediction` |
+| Week | Action | Skill |
+|------|--------|-------|
+| 1 | Digitize daily reports | `n8n-daily-report` |
+| 2 | Automated site photo collection | `n8n-photo-report` |
+| 3-4 | Link schedule to actuals | `schedule-delay-analyzer` |
+| 5+ | Predictive schedule analytics | `duration-prediction` |
 
-### Финансовый отдел
+### Finance Department
 
-| Неделя | Действие | Скилл |
-|--------|----------|-------|
-| 1 | Автоматический контроль бюджета | `budget-variance-analyzer` |
-| 2 | Прогноз cash flow | `cash-flow-forecaster` |
-| 3-4 | Интеграция с ERP | `erp-data-extractor` |
-| 5+ | ML модель прогноза затрат | `cost-prediction` |
+| Week | Action | Skill |
+|------|--------|-------|
+| 1 | Automated budget tracking | `budget-variance-analyzer` |
+| 2 | Cash flow forecasting | `cash-flow-forecaster` |
+| 3-4 | ERP integration | `erp-data-extractor` |
+| 5+ | ML cost prediction model | `cost-prediction` |
 
-### Руководство
+### Executive Team
 
-| Неделя | Действие | Скилл |
-|--------|----------|-------|
-| 1 | Оценка цифровой зрелости | `data-evolution-analysis` |
-| 2 | Обнаружение data silos | `data-silo-detection` |
-| 3-4 | KPI дашборд | `kpi-dashboard` |
-| 5+ | Стратегия цифровой трансформации | `digital-maturity-assessment` |
-
----
-
-## ROI автоматизации
-
-### Экономия времени по процессам
-
-| Процесс | Ручное время | Автоматизация | Экономия |
-|---------|--------------|---------------|----------|
-| Составление сметы | 16 часов | 2 часа | 87% |
-| Ежедневный отчёт | 2 часа | 10 мин | 92% |
-| Контроль бюджета | 4 часа/неделя | 30 мин | 87% |
-| Поиск расценки | 15 мин/позиция | 10 сек | 99% |
-
-### Пример расчёта
-
-```
-Компания: 30 сотрудников, 5 активных проектов
-
-Экономия времени:
-- Сметы: 5 смет/мес × 14 ч = 70 ч/мес
-- Отчёты: 5 проектов × 1.8 ч × 22 дня = 198 ч/мес
-- Контроль: 5 проектов × 3.5 ч × 4 недели = 70 ч/мес
-
-Итого: 338 часов/месяц
-
-При средней ставке 2000 руб/час: 676,000 руб/мес
-Консервативная оценка (50%): 338,000 руб/мес
-
-Затраты на внедрение: 150,000 руб (разово)
-Окупаемость: < 1 месяца
-```
+| Week | Action | Skill |
+|------|--------|-------|
+| 1 | Digital maturity assessment | `data-evolution-analysis` |
+| 2 | Data silo detection | `data-silo-detection` |
+| 3-4 | KPI dashboard | `kpi-dashboard` |
+| 5+ | Digital transformation strategy | `digital-maturity-assessment` |
 
 ---
 
-## Быстрый старт
+## ROI of Automation
 
-### День 1: Установка
+### Time Savings by Process
+
+| Process | Manual Time | Automated Time | Savings |
+|---------|-------------|----------------|---------|
+| Estimate Creation | 16 hours | 2 hours | 87% |
+| Daily Report | 2 hours | 10 min | 92% |
+| Budget Tracking | 4 hours/week | 30 min | 87% |
+| Rate Lookup | 15 min/item | 10 sec | 99% |
+
+### Calculation Example
+
+```
+Company: 30 employees, 5 active projects
+
+Time Savings:
+- Estimates: 5/month × 14 hr savings = 70 hr/month
+- Reports: 5 projects × 1.8 hr × 22 days = 198 hr/month
+- Tracking: 5 projects × 3.5 hr × 4 weeks = 70 hr/month
+
+Total: 338 hours/month
+
+At $50/hour rate: $16,900/month
+Conservative estimate (50%): $8,450/month
+
+Implementation cost: $3,000 (one-time)
+Payback period: < 1 month
+```
+
+---
+
+## Quick Start
+
+### Day 1: Installation
 
 ```bash
 pip install pandas openpyxl ifcopenshell pdfplumber qdrant-client
 git clone https://github.com/datadrivenconstruction/DDC_Skills.git
 ```
 
-### День 2-3: Инвентаризация данных
+### Day 2-3: Data Inventory
 
 ```python
-# Составьте список всех источников данных
-# Используйте data-silo-detection для анализа
+# List all data sources
+# Use data-silo-detection for analysis
 python analyze_data_sources.py
 ```
 
-### День 4-5: Первый ETL пайплайн
+### Day 4-5: First ETL Pipeline
 
 ```python
-# Свяжите хотя бы 2 источника данных
-# Например: Excel сметы → Сводный отчёт
+# Connect at least 2 data sources
+# Example: Excel estimates → Summary report
 python run_etl.py
 ```
 
-### Неделя 2+: Масштабирование
+### Week 2+: Scale Up
 
 ```python
-# Добавляйте новые источники
-# Автоматизируйте новые процессы
-# Измеряйте ROI
+# Add new data sources
+# Automate new processes
+# Measure ROI
 ```
 
 ---
 
-## Ресурсы
+## Resources
 
-- **Книга:** "Data-Driven Construction" by Artem Boiko (ISBN 978-3-9826255-9-1)
-- **Сайт:** https://datadrivenconstruction.io
-- **CWICR база:** https://openconstructionestimate.com
+- **Book:** "Data-Driven Construction" by Artem Boiko (ISBN 978-3-9826255-9-1)
+- **Website:** https://datadrivenconstruction.io
+- **CWICR Database:** https://openconstructionestimate.com
 - **GitHub:** https://github.com/datadrivenconstruction
 
 ---
 
-**Начните сегодня. Автоматизация строительства — это автоматизация данных.**
+**Start today. Construction automation is data automation.**

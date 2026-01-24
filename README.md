@@ -1,34 +1,34 @@
 # DDC Skills Collection for Claude Code
 
-**AI-инструменты для автоматизации строительной компании**
+**AI Tools for Construction Company Automation**
 
-> *"Если данные — это новая нефть, нам нужно научиться их определять, находить, добывать и перерабатывать."* — Ralph Montague
+> *"If data is the new oil, we need to learn to define it, find it, mine it, refine it, to make it valuable."* — Ralph Montague
 
 ---
 
-## Что это?
+## What is this?
 
-Коллекция из **167 готовых скиллов** для автоматизации процессов строительной компании с помощью AI.
+A collection of **167 ready-to-use skills** for automating construction company processes with AI.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│    ВАША КОМПАНИЯ                    DDC SKILLS                    РЕЗУЛЬТАТ│
-│    ─────────────                    ──────────                    ─────────│
+│    YOUR COMPANY                     DDC SKILLS                      RESULT  │
+│    ────────────                     ──────────                      ──────  │
 │                                                                             │
 │    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
-│    │  Excel   │ ───────────────>  │   ETL    │ ─────────────>  │ Автомат. ││
-│    │  сметы   │                   │ Pipeline │                 │  отчёты  ││
+│    │  Excel   │ ───────────────>  │   ETL    │ ─────────────>  │  Auto    ││
+│    │ Estimates│                   │ Pipeline │                 │ Reports  ││
 │    └──────────┘                   └──────────┘                 └──────────┘│
 │                                                                             │
 │    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
-│    │  Revit   │ ───────────────>  │   IFC    │ ─────────────>  │ Автомат. ││
-│    │  модели  │                   │ Парсинг  │                 │  сметы   ││
+│    │  Revit   │ ───────────────>  │   IFC    │ ─────────────>  │  Auto    ││
+│    │  Models  │                   │ Parsing  │                 │ Estimates││
 │    └──────────┘                   └──────────┘                 └──────────┘│
 │                                                                             │
 │    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
-│    │  Фото    │ ───────────────>  │   AI     │ ─────────────>  │ Автомат. ││
-│    │ объекта  │                   │ Анализ   │                 │ прогресс ││
+│    │  Site    │ ───────────────>  │   AI     │ ─────────────>  │  Auto    ││
+│    │  Photos  │                   │ Analysis │                 │ Progress ││
 │    └──────────┘                   └──────────┘                 └──────────┘│
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -36,64 +36,64 @@
 
 ---
 
-## Для кого?
+## Who is this for?
 
-| Роль | Что получите | Начните с |
-|------|--------------|-----------|
-| **Руководитель** | Понимание как автоматизировать компанию | [GETTING_STARTED.md](GETTING_STARTED.md) |
-| **Сметчик** | Автоматизация составления смет | `estimate-builder`, `semantic-search-cwicr` |
-| **Прораб/PM** | Автоматические отчёты | `n8n-daily-report`, `n8n-photo-report` |
-| **IT/Разработчик** | Готовые Python скрипты и API | Любой скилл из `2_DDC_Book/` |
+| Role | What you get | Start with |
+|------|--------------|------------|
+| **Executive** | Understanding how to automate your company | [GETTING_STARTED.md](GETTING_STARTED.md) |
+| **Estimator** | Automated estimate creation | `estimate-builder`, `semantic-search-cwicr` |
+| **PM / Superintendent** | Automatic reports | `n8n-daily-report`, `n8n-photo-report` |
+| **IT / Developer** | Ready Python scripts and APIs | Any skill from `2_DDC_Book/` |
 
 ---
 
-## Как это работает?
+## How does it work?
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         ПУТЬ К АВТОМАТИЗАЦИИ                                │
+│                         PATH TO AUTOMATION                                  │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│   ШАГ 1                 ШАГ 2                 ШАГ 3                 ШАГ 4   │
-│   Анализ                Связать               Автоматиз.           Масштаб │
-│   ──────                ───────               ──────────           ─────── │
+│   STEP 1              STEP 2              STEP 3              STEP 4       │
+│   Analyze             Connect             Automate            Scale        │
+│   ───────             ───────             ────────            ─────        │
 │                                                                             │
-│   ┌─────────┐          ┌─────────┐          ┌─────────┐          ┌───────┐ │
-│   │ Найти   │    →     │ Убрать  │    →     │ Создать │    →     │Добав- │ │
-│   │ data    │          │ data    │          │ ETL     │          │лять   │ │
-│   │ silos   │          │ silos   │          │ pipeline│          │скиллы │ │
-│   └─────────┘          └─────────┘          └─────────┘          └───────┘ │
+│   ┌─────────┐        ┌─────────┐        ┌─────────┐        ┌─────────┐    │
+│   │  Find   │   →    │ Remove  │   →    │ Create  │   →    │  Add    │    │
+│   │  data   │        │  data   │        │  ETL    │        │  more   │    │
+│   │  silos  │        │  silos  │        │ pipeline│        │ skills  │    │
+│   └─────────┘        └─────────┘        └─────────┘        └─────────┘    │
 │                                                                             │
-│   data-silo-           etl-pipeline         n8n-daily-           + ML      │
-│   detection            data-type-           report               + AI      │
-│                        classifier                                + Agents  │
+│   data-silo-         etl-pipeline       n8n-daily-          + ML          │
+│   detection          data-type-         report              + AI          │
+│                      classifier                             + Agents      │
 │                                                                             │
-│   Время: 1-2 дня       Время: 1 неделя      Время: 2-4 недели    Постоянно│
+│   Time: 1-2 days     Time: 1 week       Time: 2-4 weeks     Ongoing       │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Структура коллекции
+## Collection Structure
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                              4 КАТЕГОРИИ                                    │
+│                              4 CATEGORIES                                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
 │  ┌─────────────────────────┐      ┌─────────────────────────┐              │
 │  │     1_DDC_Toolkit       │      │      2_DDC_Book         │              │
 │  │     ──────────────      │      │      ──────────         │              │
 │  │                         │      │                         │              │
-│  │  Готовые инструменты:   │      │  50 скиллов из книги:   │              │
+│  │  Production tools:      │      │  50 skills from book:   │              │
 │  │                         │      │                         │              │
-│  │  • CWICR база           │      │  • Типы данных          │              │
-│  │    55,719 работ         │      │  • ETL пайплайны        │              │
-│  │    9 языков             │      │  • ML модели            │              │
-│  │                         │      │  • Аналитика            │              │
-│  │  • CAD конвертеры       │      │                         │              │
-│  │    Revit → Excel        │      │  Источник:              │              │
+│  │  • CWICR Database       │      │  • Data types           │              │
+│  │    55,719 work items    │      │  • ETL pipelines        │              │
+│  │    9 languages          │      │  • ML models            │              │
+│  │                         │      │  • Analytics            │              │
+│  │  • CAD Converters       │      │                         │              │
+│  │    Revit → Excel        │      │  Source:                │              │
 │  │    IFC → Excel          │      │  "Data-Driven           │              │
 │  │    DWG → Excel          │      │   Construction"         │              │
 │  │                         │      │                         │              │
@@ -103,15 +103,15 @@
 │  │     3_DDC_Insights      │      │     4_DDC_Curated       │              │
 │  │     ─────────────       │      │     ────────────        │              │
 │  │                         │      │                         │              │
-│  │  Workflows и кейсы:     │      │  Внешние скиллы:        │              │
+│  │  Workflows & cases:     │      │  External skills:       │              │
 │  │                         │      │                         │              │
-│  │  • n8n автоматизация    │      │  • PDF генерация        │              │
-│  │  • Ежедневные отчёты    │      │  • Excel отчёты         │              │
-│  │  • Фото-отчёты с AI     │      │  • Проверка качества    │              │
-│  │  • Интеграции           │      │  • Безопасность         │              │
+│  │  • n8n automation       │      │  • PDF generation       │              │
+│  │  • Daily reports        │      │  • Excel reports        │              │
+│  │  • Photo reports w/ AI  │      │  • Quality assurance    │              │
+│  │  • Integrations         │      │  • Security             │              │
 │  │                         │      │                         │              │
-│  │  Источник:              │      │  Источник:              │              │
-│  │  Реальная практика      │      │  Anthropic, GitHub      │              │
+│  │  Source:                │      │  Source:                │              │
+│  │  Real-world practice    │      │  Anthropic, GitHub      │              │
 │  │                         │      │                         │              │
 │  └─────────────────────────┘      └─────────────────────────┘              │
 │                                                                             │
@@ -120,190 +120,191 @@
 
 ---
 
-## Топ-10 скиллов для старта
+## Top 10 Skills to Start
 
-| # | Скилл | Что делает | Экономия времени |
-|---|-------|-----------|------------------|
-| 1 | `semantic-search-cwicr` | Поиск расценок по базе 55,719 работ | 99% (15 мин → 10 сек) |
-| 2 | `etl-pipeline` | Автоматическая обработка Excel/PDF | 80% |
-| 3 | `estimate-builder` | Составление смет из данных | 87% |
-| 4 | `n8n-daily-report` | Автоматические ежедневные отчёты | 92% |
-| 5 | `data-silo-detection` | Поиск изолированных данных | - |
-| 6 | `ifc-to-excel` | Извлечение объёмов из BIM | 90% |
-| 7 | `n8n-photo-report` | Анализ фото объекта с AI | 83% |
-| 8 | `cost-prediction` | ML прогноз стоимости | - |
-| 9 | `schedule-delay-analyzer` | Анализ отклонений графика | 87% |
-| 10 | `kpi-dashboard` | Дашборд с KPI проекта | 75% |
+| # | Skill | What it does | Time savings |
+|---|-------|--------------|--------------|
+| 1 | `semantic-search-cwicr` | Search 55,719 work items database | 99% (15 min → 10 sec) |
+| 2 | `etl-pipeline` | Automated Excel/PDF processing | 80% |
+| 3 | `estimate-builder` | Build estimates from data | 87% |
+| 4 | `n8n-daily-report` | Automated daily reports | 92% |
+| 5 | `data-silo-detection` | Find isolated data sources | - |
+| 6 | `ifc-to-excel` | Extract quantities from BIM | 90% |
+| 7 | `n8n-photo-report` | AI-powered site photo analysis | 83% |
+| 8 | `cost-prediction` | ML cost forecasting | - |
+| 9 | `schedule-delay-analyzer` | Schedule variance analysis | 87% |
+| 10 | `kpi-dashboard` | Project KPI dashboard | 75% |
 
 ---
 
-## Быстрый старт
+## Quick Start
 
-### 1. Установка
+### 1. Installation
 
 ```bash
 pip install pandas openpyxl ifcopenshell pdfplumber qdrant-client
 ```
 
-### 2. Пример: Поиск расценки
+### 2. Example: Search Work Items
 
 ```python
-# Вместо 15 минут поиска в справочниках → 10 секунд
+# Instead of 15 minutes searching manuals → 10 seconds
 
 from qdrant_client import QdrantClient
 
 client = QdrantClient("localhost", port=6333)
 results = client.search(
-    collection_name="ddc_cwicr_ru",
-    query_vector=get_embedding("бетонирование фундамента"),
+    collection_name="ddc_cwicr_en",
+    query_vector=get_embedding("concrete foundation pour"),
     limit=5
 )
 
-# Результат:
-# [{'code': '03.30.00', 'description': 'Бетонные работы - фундаменты', 'unit': 'm³'}]
+# Result:
+# [{'code': '03.30.00', 'description': 'Concrete works - foundations', 'unit': 'm³'}]
 ```
 
-### 3. Пример: ETL пайплайн
+### 3. Example: ETL Pipeline
 
 ```python
-# Автоматическая обработка всех Excel файлов из папки
+# Automatic processing of all Excel files from folder
 
 import pandas as pd
 from pathlib import Path
 
-# Извлечение
-all_data = [pd.read_excel(f) for f in Path("./сметы/").glob("*.xlsx")]
+# Extract
+all_data = [pd.read_excel(f) for f in Path("./estimates/").glob("*.xlsx")]
 df = pd.concat(all_data)
 
-# Преобразование
-df['Сумма'] = df['Количество'] * df['Цена']
-summary = df.groupby('Категория')['Сумма'].sum()
+# Transform
+df['Total'] = df['Quantity'] * df['Unit_Price']
+summary = df.groupby('Category')['Total'].sum()
 
-# Загрузка
-summary.to_excel("сводный_отчёт.xlsx")
+# Load
+summary.to_excel("summary_report.xlsx")
 ```
 
-### 4. Пример: Автоматический отчёт (n8n)
+### 4. Example: Automated Report (n8n)
 
 ```
-Триггер: Каждый день в 17:00
+Trigger: Every day at 5:00 PM
     ↓
-Получить данные: Excel + API погоды
+Get data: Excel + Weather API
     ↓
-Обработать: Агрегация + форматирование
+Process: Aggregation + formatting
     ↓
-Результат: PDF отчёт → Email руководству
+Result: PDF report → Email to management
 ```
 
 ---
 
-## Ключевая идея
+## Core Concept
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                                                                             │
-│   BIM, ERP, Excel, PDF, фото — это всё БАЗЫ ДАННЫХ в разных форматах       │
+│   BIM, ERP, Excel, PDF, photos — these are all DATABASES in different      │
+│   formats. Understanding this is the key to automation.                     │
 │                                                                             │
 │   ┌────────────────┐   ┌────────────────┐   ┌────────────────┐             │
-│   │ СТРУКТУРИРОВАН │   │ ПОЛУСТРУКТУРИР │   │ НЕСТРУКТУРИРОВ │             │
+│   │   STRUCTURED   │   │ SEMI-STRUCTURED│   │  UNSTRUCTURED  │             │
 │   │ ────────────── │   │ ────────────── │   │ ────────────── │             │
 │   │                │   │                │   │                │             │
 │   │ • Excel        │   │ • IFC (BIM)    │   │ • PDF          │             │
-│   │ • База 1С      │   │ • JSON         │   │ • Фото         │             │
-│   │ • CSV          │   │ • XML          │   │ • Сканы        │             │
+│   │ • SQL Database │   │ • JSON         │   │ • Photos       │             │
+│   │ • CSV          │   │ • XML          │   │ • Scans        │             │
 │   │                │   │                │   │                │             │
-│   │ SQL запросы ✓  │   │ Парсинг ✓      │   │ AI/OCR ✓       │             │
+│   │ SQL queries ✓  │   │ Parsing ✓      │   │ AI/OCR ✓       │             │
 │   └────────────────┘   └────────────────┘   └────────────────┘             │
 │                                                                             │
-│   DDC Skills помогают СВЯЗАТЬ эти данные и АВТОМАТИЗИРОВАТЬ процессы       │
+│   DDC Skills help CONNECT this data and AUTOMATE processes                 │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Документация
+## Documentation
 
-| Документ | Описание | Для кого |
-|----------|----------|----------|
-| [**GETTING_STARTED.md**](GETTING_STARTED.md) | Пошаговое руководство по автоматизации | Руководители, начинающие |
-| [OPTIMIZER_GUIDE.md](OPTIMIZER_GUIDE.md) | Как эффективно работать с Claude | Разработчики |
-| [IMPROVEMENT_ROADMAP.md](IMPROVEMENT_ROADMAP.md) | План развития коллекции | Контрибьюторы |
+| Document | Description | Audience |
+|----------|-------------|----------|
+| [**GETTING_STARTED.md**](GETTING_STARTED.md) | Step-by-step automation guide | Executives, beginners |
+| [OPTIMIZER_GUIDE.md](OPTIMIZER_GUIDE.md) | How to work effectively with Claude | Developers |
+| [IMPROVEMENT_ROADMAP.md](IMPROVEMENT_ROADMAP.md) | Collection development plan | Contributors |
 
 ---
 
-## Структура папок
+## Folder Structure
 
 ```
 DDC_Skills/
 │
-├── 1_DDC_Toolkit/              ← Готовые инструменты
-│   ├── CWICR-Database/         ← База 55,719 работ
+├── 1_DDC_Toolkit/              ← Production tools
+│   ├── CWICR-Database/         ← 55,719 work items database
 │   ├── CAD-Converters/         ← Revit/IFC/DWG → Excel
 │   └── ...
 │
-├── 2_DDC_Book/                 ← 50 скиллов из книги
-│   ├── Chapter-1.1/            ← Эволюция данных
+├── 2_DDC_Book/                 ← 50 skills from the book
+│   ├── Chapter-1.1/            ← Data evolution
 │   ├── Chapter-1.2/            ← Data silos
-│   ├── Chapter-2.1/            ← Типы данных
-│   ├── Chapter-4.2/            ← ETL пайплайны
+│   ├── Chapter-2.1/            ← Data types
+│   ├── Chapter-4.2/            ← ETL pipelines
 │   └── ...
 │
-├── 3_DDC_Insights/             ← Практические workflows
-│   └── Automation-Workflows/   ← n8n автоматизация
+├── 3_DDC_Insights/             ← Practical workflows
+│   └── Automation-Workflows/   ← n8n automation
 │
-├── 4_DDC_Curated/              ← Внешние скиллы
-│   ├── Document-Generation/    ← PDF/Excel генерация
-│   └── Quality-Assurance/      ← Проверка качества
+├── 4_DDC_Curated/              ← External skills
+│   ├── Document-Generation/    ← PDF/Excel generation
+│   └── Quality-Assurance/      ← Quality checks
 │
-├── GETTING_STARTED.md          ← НАЧНИТЕ ЗДЕСЬ
-└── README.md                   ← Вы здесь
+├── GETTING_STARTED.md          ← START HERE
+└── README.md                   ← You are here
 ```
 
 ---
 
-## ROI автоматизации
+## ROI of Automation
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           ПРИМЕР РАСЧЁТА ROI                                │
+│                           ROI CALCULATION EXAMPLE                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│   Компания: 30 сотрудников, 5 активных проектов                            │
+│   Company: 30 employees, 5 active projects                                 │
 │                                                                             │
-│   ЭКОНОМИЯ ВРЕМЕНИ:                                                        │
+│   TIME SAVINGS:                                                            │
 │   ┌─────────────────────────────────────────────────────────┐              │
-│   │ Сметы:    5 смет/мес × 14 ч экономии    =  70 ч/мес    │              │
-│   │ Отчёты:   5 проектов × 1.8 ч × 22 дня   = 198 ч/мес    │              │
-│   │ Контроль: 5 проектов × 3.5 ч × 4 недели =  70 ч/мес    │              │
+│   │ Estimates: 5/month × 14 hr savings     =  70 hr/month  │              │
+│   │ Reports:   5 projects × 1.8 hr × 22 days = 198 hr/month │              │
+│   │ Tracking:  5 projects × 3.5 hr × 4 weeks =  70 hr/month │              │
 │   ├─────────────────────────────────────────────────────────┤              │
-│   │ ИТОГО:                                    338 ч/мес     │              │
+│   │ TOTAL:                                   338 hr/month   │              │
 │   └─────────────────────────────────────────────────────────┘              │
 │                                                                             │
-│   При ставке 2000 руб/час: 676,000 руб/мес                                 │
-│   Консервативно (50%):     338,000 руб/мес                                 │
+│   At $50/hour rate:        $16,900/month                                   │
+│   Conservative (50%):       $8,450/month                                   │
 │                                                                             │
-│   Затраты на внедрение:    150,000 руб (разово)                            │
+│   Implementation cost:      $3,000 (one-time)                              │
 │   ─────────────────────────────────────────────                            │
-│   ОКУПАЕМОСТЬ:             < 1 месяца                                      │
+│   PAYBACK PERIOD:          < 1 month                                       │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Ресурсы
+## Resources
 
-| Ресурс | Ссылка |
-|--------|--------|
-| Книга | "Data-Driven Construction" by Artem Boiko (ISBN 978-3-9826255-9-1) |
-| Сайт | https://datadrivenconstruction.io |
+| Resource | Link |
+|----------|------|
+| Book | "Data-Driven Construction" by Artem Boiko (ISBN 978-3-9826255-9-1) |
+| Website | https://datadrivenconstruction.io |
 | CWICR Demo | https://openconstructionestimate.com |
 | GitHub | https://github.com/datadrivenconstruction |
 
 ---
 
-## Лицензия
+## License
 
 - **CWICR Database**: CC BY 4.0
 - **DDC Tools**: MIT License
@@ -311,4 +312,4 @@ DDC_Skills/
 
 ---
 
-**Начните автоматизацию сегодня → [GETTING_STARTED.md](GETTING_STARTED.md)**
+**Start automation today → [GETTING_STARTED.md](GETTING_STARTED.md)**
