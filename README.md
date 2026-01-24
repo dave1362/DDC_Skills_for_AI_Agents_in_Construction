@@ -2,7 +2,7 @@
 
 **AI Tools for Construction Company Automation**
 
-> *"If data is the new oil, we need to learn to define it, find it, mine it, refine it, to make it valuable."* — Ralph Montague
+> *"ETL: transitioning from manual to automated management allows companies to process data without constant human intervention."* — Data-Driven Construction, Chapter 4.2
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Data-Driven Construction: From Isolated Data to Automation**
 
-> "If data is the new oil, we need to learn to define it, find it, mine it, refine it, to make it valuable." — Ralph Montague
+> "Predictions and forecasts based on historical data allow companies to make more accurate decisions about project costs and timelines." — Data-Driven Construction, Chapter 4.5
 
 ---
 
