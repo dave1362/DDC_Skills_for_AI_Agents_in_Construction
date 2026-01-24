@@ -1,225 +1,314 @@
 # DDC Skills Collection for Claude Code
 
-A comprehensive collection of AI skills for construction industry automation, organized into 4 super-categories.
+**AI-инструменты для автоматизации строительной компании**
 
-## Strategic Documents
-
-| Document | Purpose |
-|----------|---------|
-| [OPTIMIZER_GUIDE.md](OPTIMIZER_GUIDE.md) | How to communicate with Claude for maximum quality |
-| [IMPROVEMENT_ROADMAP.md](IMPROVEMENT_ROADMAP.md) | Strategic plan for skills collection development |
-| [ADDITIONAL_SKILLS_PROPOSAL.md](ADDITIONAL_SKILLS_PROPOSAL.md) | Proposed new skills for construction automation |
-
-## Super-Categories Overview
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         DDC SKILLS COLLECTION                                │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  ┌──────────┐│
-│  │  DDC_Toolkit    │  │ DDC_Methodology │  │  DDC_Insights   │  │DDC_Curated│
-│  │                 │  │                 │  │                 │  │          ││
-│  │ Production-ready│  │ Book-based      │  │ Community       │  │ External ││
-│  │ tools & DBs     │  │ methodology     │  │ insights        │  │ curated  ││
-│  │                 │  │                 │  │                 │  │          ││
-│  │ • Converters    │  │ • 41 skills     │  │ • Workflows     │  │ • PDF    ││
-│  │ • CWICR DB      │  │ • 5 parts       │  │ • Best practices│  │ • Excel  ││
-│  │ • Kaggle        │  │ • 17 chapters   │  │ • Case studies  │  │ • QA     ││
-│  │ • noBIM tool    │  │                 │  │                 │  │ • Security│
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘  └──────────┘│
-│                                                                              │
-│  Source: DDC Tools    Source: DDC Book    Source: Social Media  Source:     │
-│  & Repositories                           & Telegram Groups     Community   │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-## 1. DDC_Toolkit
-
-**Production-ready tools and databases from DataDrivenConstruction.io**
-
-| Category | Skills | Description |
-|----------|--------|-------------|
-| CWICR-Database | semantic-search-cwicr | 55,719 work items, 9 languages |
-| CAD-Converters | revit-to-excel, ifc-to-excel, dwg-to-excel, dgn-to-excel | No-license CAD conversion |
-| Kaggle-Notebooks | 5000-projects-analysis | Large-scale BIM analytics |
-| BIM-Visualization | nobim-image-generator | Python-based visualization |
-
-**Sources:**
-- [OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR)
-- [cad2data Pipeline](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline)
-- [Revit-IFC-Creating-images](https://github.com/datadrivenconstruction/Revit-IFC-Creating-images)
-- [Kaggle Notebooks](https://www.kaggle.com/artemboiko)
-
-## 2. DDC_Methodology
-
-**Skills based on "Data-Driven Construction" book by Artem Boiko**
-
-| Part | Chapters | Skills | Topics |
-|------|----------|--------|--------|
-| I | 1.1-1.2 | 3 | Data evolution, ERP systems |
-| II | 2.1-2.6 | 14 | Data types, Pandas, LLM, quality |
-| III | 3.1-3.5 | 9 | Cost estimation, QTO, scheduling |
-| IV | 4.1-4.5 | 14 | Analytics, ETL, ML predictions |
-| V | 5.1 | 1 | Digital transformation |
-
-**Total: 41 skills** generated from book chapters
-
-**Source:**
-- Book: "Data-Driven Construction" (ISBN 978-3-9826255-9-1)
-- Website: https://datadrivenconstruction.io
-
-## 3. DDC_Insights
-
-**Skills derived from community discussions and social media content**
-
-| Category | Focus |
-|----------|-------|
-| Automation-Workflows | n8n pipelines for construction |
-| Industry-Analysis | Digital transformation insights |
-| Integration-Patterns | System integration patterns |
-
-**Key Skills:**
-- n8n-pto-pipeline (task distribution)
-- n8n-cost-estimation (automated estimates)
-
-**Sources:**
-- LinkedIn posts and articles
-- Telegram groups (n8n Workflows, BIM Open Source)
-- Facebook and social media content
-
-## 4. DDC_Curated
-
-**External skills curated for construction industry**
-
-| Category | Skills | Original Source |
-|----------|--------|--------------------|
-| Document-Generation | pdf-construction, xlsx-construction | Anthropic Skills |
-| Data-Processing | web-artifacts, data-analysis | Community |
-| Quality-Assurance | security-review-construction, verification-loop-construction, continuous-learning | everything-claude-code |
-
-**New Skills (January 2026):**
-- **security-review-construction** - Data security for construction systems
-- **verification-loop-construction** - QA for estimates, schedules, reports
-- **continuous-learning** - Pattern extraction from sessions
-
-**Sources:**
-- Anthropic Official Skills
-- [everything-claude-code](https://github.com/affaan-m/everything-claude-code)
-- [awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)
-- [obra/superpowers](https://github.com/obra/superpowers)
-
-## Quick Start
-
-### Optimizer Communication
-
-Read [OPTIMIZER_GUIDE.md](OPTIMIZER_GUIDE.md) for best practices on:
-- Structuring requests for maximum quality
-- Context optimization techniques
-- Skill invocation patterns
-- Error recovery strategies
-
-### Install Dependencies
-```bash
-pip install pandas openpyxl qdrant-client openai matplotlib seaborn scikit-learn pdfplumber
-```
-
-### Use DDC_Toolkit
-```python
-# Semantic search for cost estimation
-from qdrant_client import QdrantClient
-client = QdrantClient("localhost", port=6333)
-results = client.search(collection_name="ddc_cwicr_en", query_vector=embedding, limit=10)
-```
-
-### Use DDC_Methodology
-```python
-# Run book analysis script
-python analyze_book_skills.py
-```
-
-### Use DDC_Insights
-Import n8n workflows from JSON files and customize for your needs.
-
-### Use DDC_Curated
-Combine with DDC tools for complete construction automation.
-
-## Folder Structure
-
-```
-DDC_Skills/
-├── DDC_Toolkit/                  # Production tools
-│   ├── CWICR-Database/
-│   ├── CAD-Converters/
-│   ├── Kaggle-Notebooks/
-│   └── BIM-Visualization/
-│
-├── DDC_Methodology/              # Book-based skills
-│   ├── Chapter-1.1/
-│   ├── Chapter-1.2/
-│   │   ... (17 chapters)
-│   └── Chapter-5.1/
-│
-├── DDC_Insights/                 # Community insights
-│   ├── Automation-Workflows/
-│   ├── Industry-Analysis/
-│   └── Integration-Patterns/
-│
-├── DDC_Curated/                  # External curated
-│   ├── Document-Generation/
-│   ├── Data-Processing/
-│   └── Quality-Assurance/
-│
-├── OPTIMIZER_GUIDE.md            # Communication best practices
-├── IMPROVEMENT_ROADMAP.md        # Strategic development plan
-├── ADDITIONAL_SKILLS_PROPOSAL.md # Proposed new skills
-└── README.md                     # This file
-```
-
-## Roadmap
-
-See [IMPROVEMENT_ROADMAP.md](IMPROVEMENT_ROADMAP.md) for the complete development roadmap:
-
-### Phase 1: Foundation (Current)
-- Core DDC tools and database skills
-- Book-based methodology skills
-- Essential curated skills
-
-### Phase 2: Automation
-- n8n workflow expansion
-- MCP integrations for construction platforms
-- Document processing automation
-
-### Phase 3: Quality Assurance
-- Verification skills
-- Security review skills
-- Continuous learning
-
-### Phase 4: AI/ML
-- Cost prediction models
-- Schedule optimization
-- Computer vision for site photos
-
-### Phase 5: Multi-Agent
-- Specialized construction agents
-- Agent orchestration framework
-- Swarm capabilities
-
-## Resources
-
-- **Book**: "Data-Driven Construction" by Artem Boiko
-- **Website**: https://datadrivenconstruction.io
-- **GitHub**: https://github.com/datadrivenconstruction
-- **Demo**: https://openconstructionestimate.com
-
-## License
-
-- **DDC CWICR Database**: CC BY 4.0
-- **DDC Tools**: MIT License
-- **Skills**: MIT License
-- **Curated Skills**: Varies by source
+> *"Если данные — это новая нефть, нам нужно научиться их определять, находить, добывать и перерабатывать."* — Ralph Montague
 
 ---
 
-*"If data is the new oil, we need to learn to define it, find it, mine it, refine it, to make it valuable."* — Ralph Montague
+## Что это?
+
+Коллекция из **167 готовых скиллов** для автоматизации процессов строительной компании с помощью AI.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│    ВАША КОМПАНИЯ                    DDC SKILLS                    РЕЗУЛЬТАТ│
+│    ─────────────                    ──────────                    ─────────│
+│                                                                             │
+│    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
+│    │  Excel   │ ───────────────>  │   ETL    │ ─────────────>  │ Автомат. ││
+│    │  сметы   │                   │ Pipeline │                 │  отчёты  ││
+│    └──────────┘                   └──────────┘                 └──────────┘│
+│                                                                             │
+│    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
+│    │  Revit   │ ───────────────>  │   IFC    │ ─────────────>  │ Автомат. ││
+│    │  модели  │                   │ Парсинг  │                 │  сметы   ││
+│    └──────────┘                   └──────────┘                 └──────────┘│
+│                                                                             │
+│    ┌──────────┐                   ┌──────────┐                 ┌──────────┐│
+│    │  Фото    │ ───────────────>  │   AI     │ ─────────────>  │ Автомат. ││
+│    │ объекта  │                   │ Анализ   │                 │ прогресс ││
+│    └──────────┘                   └──────────┘                 └──────────┘│
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Для кого?
+
+| Роль | Что получите | Начните с |
+|------|--------------|-----------|
+| **Руководитель** | Понимание как автоматизировать компанию | [GETTING_STARTED.md](GETTING_STARTED.md) |
+| **Сметчик** | Автоматизация составления смет | `estimate-builder`, `semantic-search-cwicr` |
+| **Прораб/PM** | Автоматические отчёты | `n8n-daily-report`, `n8n-photo-report` |
+| **IT/Разработчик** | Готовые Python скрипты и API | Любой скилл из `2_DDC_Book/` |
+
+---
+
+## Как это работает?
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         ПУТЬ К АВТОМАТИЗАЦИИ                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ШАГ 1                 ШАГ 2                 ШАГ 3                 ШАГ 4   │
+│   Анализ                Связать               Автоматиз.           Масштаб │
+│   ──────                ───────               ──────────           ─────── │
+│                                                                             │
+│   ┌─────────┐          ┌─────────┐          ┌─────────┐          ┌───────┐ │
+│   │ Найти   │    →     │ Убрать  │    →     │ Создать │    →     │Добав- │ │
+│   │ data    │          │ data    │          │ ETL     │          │лять   │ │
+│   │ silos   │          │ silos   │          │ pipeline│          │скиллы │ │
+│   └─────────┘          └─────────┘          └─────────┘          └───────┘ │
+│                                                                             │
+│   data-silo-           etl-pipeline         n8n-daily-           + ML      │
+│   detection            data-type-           report               + AI      │
+│                        classifier                                + Agents  │
+│                                                                             │
+│   Время: 1-2 дня       Время: 1 неделя      Время: 2-4 недели    Постоянно│
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Структура коллекции
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              4 КАТЕГОРИИ                                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ┌─────────────────────────┐      ┌─────────────────────────┐              │
+│  │     1_DDC_Toolkit       │      │      2_DDC_Book         │              │
+│  │     ──────────────      │      │      ──────────         │              │
+│  │                         │      │                         │              │
+│  │  Готовые инструменты:   │      │  50 скиллов из книги:   │              │
+│  │                         │      │                         │              │
+│  │  • CWICR база           │      │  • Типы данных          │              │
+│  │    55,719 работ         │      │  • ETL пайплайны        │              │
+│  │    9 языков             │      │  • ML модели            │              │
+│  │                         │      │  • Аналитика            │              │
+│  │  • CAD конвертеры       │      │                         │              │
+│  │    Revit → Excel        │      │  Источник:              │              │
+│  │    IFC → Excel          │      │  "Data-Driven           │              │
+│  │    DWG → Excel          │      │   Construction"         │              │
+│  │                         │      │                         │              │
+│  └─────────────────────────┘      └─────────────────────────┘              │
+│                                                                             │
+│  ┌─────────────────────────┐      ┌─────────────────────────┐              │
+│  │     3_DDC_Insights      │      │     4_DDC_Curated       │              │
+│  │     ─────────────       │      │     ────────────        │              │
+│  │                         │      │                         │              │
+│  │  Workflows и кейсы:     │      │  Внешние скиллы:        │              │
+│  │                         │      │                         │              │
+│  │  • n8n автоматизация    │      │  • PDF генерация        │              │
+│  │  • Ежедневные отчёты    │      │  • Excel отчёты         │              │
+│  │  • Фото-отчёты с AI     │      │  • Проверка качества    │              │
+│  │  • Интеграции           │      │  • Безопасность         │              │
+│  │                         │      │                         │              │
+│  │  Источник:              │      │  Источник:              │              │
+│  │  Реальная практика      │      │  Anthropic, GitHub      │              │
+│  │                         │      │                         │              │
+│  └─────────────────────────┘      └─────────────────────────┘              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Топ-10 скиллов для старта
+
+| # | Скилл | Что делает | Экономия времени |
+|---|-------|-----------|------------------|
+| 1 | `semantic-search-cwicr` | Поиск расценок по базе 55,719 работ | 99% (15 мин → 10 сек) |
+| 2 | `etl-pipeline` | Автоматическая обработка Excel/PDF | 80% |
+| 3 | `estimate-builder` | Составление смет из данных | 87% |
+| 4 | `n8n-daily-report` | Автоматические ежедневные отчёты | 92% |
+| 5 | `data-silo-detection` | Поиск изолированных данных | - |
+| 6 | `ifc-to-excel` | Извлечение объёмов из BIM | 90% |
+| 7 | `n8n-photo-report` | Анализ фото объекта с AI | 83% |
+| 8 | `cost-prediction` | ML прогноз стоимости | - |
+| 9 | `schedule-delay-analyzer` | Анализ отклонений графика | 87% |
+| 10 | `kpi-dashboard` | Дашборд с KPI проекта | 75% |
+
+---
+
+## Быстрый старт
+
+### 1. Установка
+
+```bash
+pip install pandas openpyxl ifcopenshell pdfplumber qdrant-client
+```
+
+### 2. Пример: Поиск расценки
+
+```python
+# Вместо 15 минут поиска в справочниках → 10 секунд
+
+from qdrant_client import QdrantClient
+
+client = QdrantClient("localhost", port=6333)
+results = client.search(
+    collection_name="ddc_cwicr_ru",
+    query_vector=get_embedding("бетонирование фундамента"),
+    limit=5
+)
+
+# Результат:
+# [{'code': '03.30.00', 'description': 'Бетонные работы - фундаменты', 'unit': 'm³'}]
+```
+
+### 3. Пример: ETL пайплайн
+
+```python
+# Автоматическая обработка всех Excel файлов из папки
+
+import pandas as pd
+from pathlib import Path
+
+# Извлечение
+all_data = [pd.read_excel(f) for f in Path("./сметы/").glob("*.xlsx")]
+df = pd.concat(all_data)
+
+# Преобразование
+df['Сумма'] = df['Количество'] * df['Цена']
+summary = df.groupby('Категория')['Сумма'].sum()
+
+# Загрузка
+summary.to_excel("сводный_отчёт.xlsx")
+```
+
+### 4. Пример: Автоматический отчёт (n8n)
+
+```
+Триггер: Каждый день в 17:00
+    ↓
+Получить данные: Excel + API погоды
+    ↓
+Обработать: Агрегация + форматирование
+    ↓
+Результат: PDF отчёт → Email руководству
+```
+
+---
+
+## Ключевая идея
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   BIM, ERP, Excel, PDF, фото — это всё БАЗЫ ДАННЫХ в разных форматах       │
+│                                                                             │
+│   ┌────────────────┐   ┌────────────────┐   ┌────────────────┐             │
+│   │ СТРУКТУРИРОВАН │   │ ПОЛУСТРУКТУРИР │   │ НЕСТРУКТУРИРОВ │             │
+│   │ ────────────── │   │ ────────────── │   │ ────────────── │             │
+│   │                │   │                │   │                │             │
+│   │ • Excel        │   │ • IFC (BIM)    │   │ • PDF          │             │
+│   │ • База 1С      │   │ • JSON         │   │ • Фото         │             │
+│   │ • CSV          │   │ • XML          │   │ • Сканы        │             │
+│   │                │   │                │   │                │             │
+│   │ SQL запросы ✓  │   │ Парсинг ✓      │   │ AI/OCR ✓       │             │
+│   └────────────────┘   └────────────────┘   └────────────────┘             │
+│                                                                             │
+│   DDC Skills помогают СВЯЗАТЬ эти данные и АВТОМАТИЗИРОВАТЬ процессы       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Документация
+
+| Документ | Описание | Для кого |
+|----------|----------|----------|
+| [**GETTING_STARTED.md**](GETTING_STARTED.md) | Пошаговое руководство по автоматизации | Руководители, начинающие |
+| [OPTIMIZER_GUIDE.md](OPTIMIZER_GUIDE.md) | Как эффективно работать с Claude | Разработчики |
+| [IMPROVEMENT_ROADMAP.md](IMPROVEMENT_ROADMAP.md) | План развития коллекции | Контрибьюторы |
+
+---
+
+## Структура папок
+
+```
+DDC_Skills/
+│
+├── 1_DDC_Toolkit/              ← Готовые инструменты
+│   ├── CWICR-Database/         ← База 55,719 работ
+│   ├── CAD-Converters/         ← Revit/IFC/DWG → Excel
+│   └── ...
+│
+├── 2_DDC_Book/                 ← 50 скиллов из книги
+│   ├── Chapter-1.1/            ← Эволюция данных
+│   ├── Chapter-1.2/            ← Data silos
+│   ├── Chapter-2.1/            ← Типы данных
+│   ├── Chapter-4.2/            ← ETL пайплайны
+│   └── ...
+│
+├── 3_DDC_Insights/             ← Практические workflows
+│   └── Automation-Workflows/   ← n8n автоматизация
+│
+├── 4_DDC_Curated/              ← Внешние скиллы
+│   ├── Document-Generation/    ← PDF/Excel генерация
+│   └── Quality-Assurance/      ← Проверка качества
+│
+├── GETTING_STARTED.md          ← НАЧНИТЕ ЗДЕСЬ
+└── README.md                   ← Вы здесь
+```
+
+---
+
+## ROI автоматизации
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           ПРИМЕР РАСЧЁТА ROI                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   Компания: 30 сотрудников, 5 активных проектов                            │
+│                                                                             │
+│   ЭКОНОМИЯ ВРЕМЕНИ:                                                        │
+│   ┌─────────────────────────────────────────────────────────┐              │
+│   │ Сметы:    5 смет/мес × 14 ч экономии    =  70 ч/мес    │              │
+│   │ Отчёты:   5 проектов × 1.8 ч × 22 дня   = 198 ч/мес    │              │
+│   │ Контроль: 5 проектов × 3.5 ч × 4 недели =  70 ч/мес    │              │
+│   ├─────────────────────────────────────────────────────────┤              │
+│   │ ИТОГО:                                    338 ч/мес     │              │
+│   └─────────────────────────────────────────────────────────┘              │
+│                                                                             │
+│   При ставке 2000 руб/час: 676,000 руб/мес                                 │
+│   Консервативно (50%):     338,000 руб/мес                                 │
+│                                                                             │
+│   Затраты на внедрение:    150,000 руб (разово)                            │
+│   ─────────────────────────────────────────────                            │
+│   ОКУПАЕМОСТЬ:             < 1 месяца                                      │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Ресурсы
+
+| Ресурс | Ссылка |
+|--------|--------|
+| Книга | "Data-Driven Construction" by Artem Boiko (ISBN 978-3-9826255-9-1) |
+| Сайт | https://datadrivenconstruction.io |
+| CWICR Demo | https://openconstructionestimate.com |
+| GitHub | https://github.com/datadrivenconstruction |
+
+---
+
+## Лицензия
+
+- **CWICR Database**: CC BY 4.0
+- **DDC Tools**: MIT License
+- **Skills**: MIT License
+
+---
+
+**Начните автоматизацию сегодня → [GETTING_STARTED.md](GETTING_STARTED.md)**
