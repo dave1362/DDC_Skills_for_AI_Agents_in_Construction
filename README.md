@@ -13,6 +13,33 @@
 
 A collection of **172 ready-to-use skills** for automating construction company processes with AI.
 
+**The majority of skills are based on the book ["Data-Driven Construction"](Books/)** — a comprehensive methodology for digital transformation in construction. The book serves as a strategic roadmap: from understanding your current data landscape to implementing advanced AI/ML solutions. Each chapter translates directly into practical skills you can deploy immediately.
+
+<table>
+<tr>
+<td width="180">
+
+<a href="Books/">
+<img src="https://datadrivenconstruction.io/wp-content/uploads/2024/03/DDC-Book-5.jpg" alt="Data-Driven Construction Book" width="160">
+</a>
+
+</td>
+<td>
+
+**Use the book as your digital transformation guide:**
+
+1. **Assess** your current state with Part I (data silos, maturity level)
+2. **Understand** your data types with Part II (structured, semi-structured, unstructured)
+3. **Automate** calculations with Part III (estimation, QTO, scheduling)
+4. **Scale** with analytics and ML from Part IV (dashboards, predictions)
+5. **Strategize** long-term with Chapter 5 (threats, opportunities)
+
+**[Download Free in 31 Languages →](Books/)**
+
+</td>
+</tr>
+</table>
+
 ```mermaid
 flowchart LR
     subgraph INPUT["📥 YOUR DATA"]
@@ -59,6 +86,60 @@ flowchart LR
 
 ---
 
+## Collection Structure
+
+Skills are organized by source and complexity level:
+
+```mermaid
+mindmap
+  root((DDC Skills<br/>172 skills))
+    1_DDC_Toolkit
+      CWICR Database
+        55,719 work items
+        9 languages
+      CAD Converters
+        Revit → Excel
+        IFC → Excel
+        DWG → Excel
+      Analytics
+        KPI Dashboard
+        Cost Analysis
+    2_DDC_Book
+      Part I: Data Evolution
+      Part II: Data Types
+      Part III: Estimation
+      Part IV: Analytics & ML
+      Part V: Threats & Strategy
+    3_DDC_Insights
+      n8n Workflows
+        Daily Reports
+        Photo Reports
+      AI Agents 2026
+      Field Automation
+    4_DDC_Curated
+      Document Generation
+        PDF
+        Excel
+      Quality Assurance
+    5_DDC_Innovative
+      AI/ML Skills
+        Defect Detection
+        Risk Assessment
+      IoT & Sensors
+      Advanced BIM
+        Digital Twin
+```
+
+| Category | Description | Skills |
+|----------|-------------|--------|
+| **1_DDC_Toolkit** | Production-ready tools: CWICR database, CAD converters | 85 |
+| **2_DDC_Book** | Skills from each book chapter - your learning path | 50 |
+| **3_DDC_Insights** | Community workflows: n8n automation, AI agents, field tools | 10 |
+| **4_DDC_Curated** | External integrations: document generation, quality checks | 5 |
+| **5_DDC_Innovative** | Advanced: computer vision, IoT, digital twins | 22 |
+
+---
+
 ## How does it work?
 
 ```mermaid
@@ -90,53 +171,6 @@ flowchart LR
     style S2 fill:#fff3e0
     style S3 fill:#e8f5e9
     style S4 fill:#e3f2fd
-```
-
----
-
-## Collection Structure
-
-```mermaid
-mindmap
-  root((DDC Skills<br/>172 skills))
-    1_DDC_Toolkit
-      CWICR Database
-        55,719 work items
-        9 languages
-      CAD Converters
-        Revit → Excel
-        IFC → Excel
-        DWG → Excel
-      Analytics
-        KPI Dashboard
-        Cost Analysis
-    2_DDC_Book
-      Part I: Data Evolution
-      Part II: Data Types
-      Part III: Estimation
-      Part IV: Analytics & ML
-      Part V: Threats & Strategy
-    3_DDC_Insights
-      n8n Workflows
-        Daily Reports
-        Photo Reports
-      Integration Patterns
-    4_DDC_Curated
-      Document Generation
-        PDF
-        Excel
-      Quality Assurance
-      Security
-    5_DDC_Innovative
-      AI/ML Skills
-        Defect Detection
-        Risk Assessment
-      IoT & Sensors
-        Material Tracking
-        Site Monitoring
-      Advanced BIM
-        Digital Twin
-        Clash Detection
 ```
 
 ---
@@ -331,40 +365,6 @@ pie title Time Savings by Process
 | Cost forecasting | Expert intuition | ML prediction models |
 
 *These are just a few examples. See [GETTING_STARTED.md](GETTING_STARTED.md) for complete automation scenarios.*
-
----
-
-## About the Book
-
-<table>
-<tr>
-<td width="200">
-
-<img src="https://datadrivenconstruction.io/wp-content/uploads/2024/03/DDC-Book-5.jpg" alt="Data-Driven Construction Book Cover" width="180">
-
-</td>
-<td>
-
-**"Data-Driven Construction: Navigating the Data Age"** by Artem Boiko
-
-The methodology behind this skills collection. **2nd Edition 2025** - downloaded by **10,000+ professionals** from construction companies worldwide.
-
-**What's inside:**
-- Data types in construction (structured, semi-structured, unstructured)
-- How to detect and eliminate data silos
-- ETL pipelines for construction automation
-- Machine learning for cost and schedule prediction
-- Digital transformation strategy
-
-**Available in 31 languages** - [See all translations](Books/)
-
-**ISBN:** 978-3-9826255-9-1
-
-[**Download Free PDF (All Languages)**](Books/)
-
-</td>
-</tr>
-</table>
 
 ---
 
