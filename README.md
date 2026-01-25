@@ -308,19 +308,16 @@ pie title Time Savings by Process
     "Rate Lookup (99%)" : 99
 ```
 
-### Calculation Example
+### What Gets Automated
 
-| Metric | Value |
-|--------|-------|
-| Company size | 30 employees, 5 projects |
-| Estimates savings | 5/month × 14 hr = 70 hr/month |
-| Reports savings | 5 projects × 1.8 hr × 22 days = 198 hr/month |
-| Tracking savings | 5 projects × 3.5 hr × 4 weeks = 70 hr/month |
-| **Total savings** | **338 hr/month** |
-| At $50/hour | $16,900/month |
-| Conservative (50%) | $8,450/month |
-| Implementation cost | $3,000 (one-time) |
-| **Payback period** | **< 1 month** |
+| Process | Before | After |
+|---------|--------|-------|
+| Create estimate | 2 days manual work | 2 hours with ETL |
+| Daily report | 2 hours collecting data | 10 min auto-generated |
+| Find work item rate | 15 min searching manuals | 10 sec semantic search |
+| Budget variance check | Weekly manual review | Real-time alerts |
+
+**Result:** Teams focus on decisions, not data entry.
 
 ---
 

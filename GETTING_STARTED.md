@@ -775,23 +775,24 @@ def check_schedule_variance(project_id):
 | Budget Tracking | 4 hours/week | 30 min | 87% |
 | Rate Lookup | 15 min/item | 10 sec | 99% |
 
-### Calculation Example
+### Key Benefits
 
 ```
-Company: 30 employees, 5 active projects
-
-Time Savings:
-- Estimates: 5/month × 14 hr savings = 70 hr/month
-- Reports: 5 projects × 1.8 hr × 22 days = 198 hr/month
-- Tracking: 5 projects × 3.5 hr × 4 weeks = 70 hr/month
-
-Total: 338 hours/month
-
-At $50/hour rate: $16,900/month
-Conservative estimate (50%): $8,450/month
-
-Implementation cost: $3,000 (one-time)
-Payback period: < 1 month
+┌─────────────────────────────────────────────────────────────────────┐
+│                      AUTOMATION BENEFITS                             │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│  BEFORE                           AFTER                             │
+│  ──────                           ─────                             │
+│  • Manual data entry              • Automatic data flow             │
+│  • Excel copy-paste               • ETL pipelines                   │
+│  • Searching through manuals      • Semantic search (10 sec)        │
+│  • Weekly variance reports        • Real-time alerts                │
+│  • Errors from manual transfer    • Validated data quality          │
+│                                                                      │
+│  RESULT: Teams focus on decisions, not data collection              │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
