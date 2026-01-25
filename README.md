@@ -1,8 +1,11 @@
-# DDC Skills Collection for Claude Code
+# DDC Skills Collection for AI Coding Assistants
 
 **AI Tools for Construction Company Automation**
 
 > *"ETL: transitioning from manual to automated management allows companies to process data without constant human intervention."* — Data-Driven Construction, Chapter 4.2
+
+### Works with any AI coding assistant:
+`Claude Code` · `Cursor` · `GitHub Copilot` · `Gemini Code Assist` · `Cody` · `Continue` · `OpenCode` · `Aider`
 
 ---
 
@@ -308,7 +311,7 @@ pie title Time Savings by Process
     "Rate Lookup (99%)" : 99
 ```
 
-### What Gets Automated
+### Example Use Cases
 
 | Process | Before | After |
 |---------|--------|-------|
@@ -316,8 +319,14 @@ pie title Time Savings by Process
 | Daily report | 2 hours collecting data | 10 min auto-generated |
 | Find work item rate | 15 min searching manuals | 10 sec semantic search |
 | Budget variance check | Weekly manual review | Real-time alerts |
+| IFC quantity takeoff | Manual measurement | Automatic extraction |
+| Subcontractor comparison | Spreadsheet analysis | AI-powered matching |
+| Site photo documentation | Manual sorting & tagging | CV auto-classification |
+| Schedule delay detection | Monthly review meetings | Predictive alerts |
+| Document classification | Manual filing | NLP auto-categorization |
+| Cost forecasting | Expert intuition | ML prediction models |
 
-**Result:** Teams focus on decisions, not data entry.
+*These are just a few examples. See [GETTING_STARTED.md](GETTING_STARTED.md) for complete automation scenarios.*
 
 ---
 
@@ -329,6 +338,8 @@ pie title Time Savings by Process
 | Website | https://datadrivenconstruction.io |
 | CWICR Demo | https://openconstructionestimate.com |
 | GitHub | https://github.com/datadrivenconstruction |
+| CWICR Database | https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR |
+| CAD2Data Pipeline | https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto |
 
 ---
 
