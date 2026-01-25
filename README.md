@@ -11,7 +11,7 @@
 
 ## What is this?
 
-A collection of **196 skills** for automating construction company processes with AI coding assistants.
+A collection of **221 skills** for automating construction company processes with AI coding assistants.
 
 ### What is a "Skill"?
 
@@ -31,7 +31,7 @@ Skills are organized by source and complexity level:
 
 ```mermaid
 mindmap
-  root((DDC Skills<br/>196 skills))
+  root((DDC Skills<br/>221 skills))
     1_DDC_Toolkit
       CWICR Database
         55,719 work items
@@ -73,9 +73,9 @@ mindmap
 |----------|-------------|--------|
 | **1_DDC_Toolkit** | Production-ready tools: CWICR database, CAD converters | 85 |
 | **2_DDC_Book** | Skills from each book chapter - your learning path | 67 |
-| **3_DDC_Insights** | Community workflows: n8n automation, AI agents, field tools | 10 |
-| **4_DDC_Curated** | External integrations: document generation, quality checks | 12 |
-| **5_DDC_Innovative** | Advanced: computer vision, IoT, digital twins | 22 |
+| **3_DDC_Insights** | Community workflows: n8n automation, AI agents, field tools | 20 |
+| **4_DDC_Curated** | External integrations: document generation, quality checks | 20 |
+| **5_DDC_Innovative** | Advanced: computer vision, IoT, digital twins | 29 |
 
 ---
 
@@ -326,17 +326,17 @@ DDC_Skills/
 │   ├── 4.2-ETL-Automation/     ← Automate data pipelines
 │   └── ...
 │
-├── 3_DDC_Insights/             ← Practical workflows (10 skills)
+├── 3_DDC_Insights/             ← Practical workflows (20 skills)
 │   ├── Automation-Workflows/   ← n8n automation
 │   ├── AI-Agents/              ← Multi-agent systems (2026)
 │   ├── Field-Automation/       ← Telegram bot, voice reports
 │   └── Open-Data-Transparency/ ← Uberization readiness
 │
-├── 4_DDC_Curated/              ← External skills (12 skills)
+├── 4_DDC_Curated/              ← External skills (20 skills)
 │   ├── Document-Generation/    ← PDF/Excel generation
 │   └── Quality-Assurance/      ← Quality checks
 │
-├── 5_DDC_Innovative/           ← Advanced AI/ML skills (22 skills)
+├── 5_DDC_Innovative/           ← Advanced AI/ML skills (29 skills)
 │   ├── defect-detection-ai/    ← Computer vision for defects
 │   ├── digital-twin-sync/      ← Real-time BIM sync
 │   └── ...
