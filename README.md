@@ -11,7 +11,7 @@
 
 ## What is this?
 
-A collection of **167 ready-to-use skills** for automating construction company processes with AI.
+A collection of **172 ready-to-use skills** for automating construction company processes with AI.
 
 ```mermaid
 flowchart LR
@@ -98,7 +98,7 @@ flowchart LR
 
 ```mermaid
 mindmap
-  root((DDC Skills<br/>167 skills))
+  root((DDC Skills<br/>172 skills))
     1_DDC_Toolkit
       CWICR Database
         55,719 work items
@@ -283,8 +283,11 @@ DDC_Skills/
 │   ├── 4.2-ETL-Automation/     ← Automate data pipelines
 │   └── ...
 │
-├── 3_DDC_Insights/             ← Practical workflows (5 skills)
-│   └── Automation-Workflows/   ← n8n automation
+├── 3_DDC_Insights/             ← Practical workflows (10 skills)
+│   ├── Automation-Workflows/   ← n8n automation
+│   ├── AI-Agents/              ← Multi-agent systems (2026)
+│   ├── Field-Automation/       ← Telegram bot, voice reports
+│   └── Open-Data-Transparency/ ← Uberization readiness
 │
 ├── 4_DDC_Curated/              ← External skills (5 skills)
 │   ├── Document-Generation/    ← PDF/Excel generation
