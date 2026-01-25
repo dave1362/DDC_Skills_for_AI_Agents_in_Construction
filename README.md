@@ -11,7 +11,17 @@
 
 ## What is this?
 
-A collection of **196 ready-to-use skills** for automating construction company processes with AI.
+A collection of **196 skills** for automating construction company processes with AI coding assistants.
+
+### What is a "Skill"?
+
+A skill is a `SKILL.md` file containing structured instructions that AI coding assistants can follow. Each skill includes:
+- **Context** — what problem it solves
+- **Instructions** — step-by-step implementation guide
+- **Code examples** — Python, SQL, or workflow configurations
+- **Dependencies** — required libraries and tools
+
+When you open a skill folder in your AI assistant (Claude Code, Cursor, etc.), the assistant reads `SKILL.md` and can help you implement the described functionality.
 
 ---
 
@@ -71,7 +81,7 @@ mindmap
 
 ## Data Pipeline Overview
 
-Transform your raw construction data into actionable insights. DDC Skills process Excel estimates, BIM models, site photos, and PDF documents through specialized pipelines — delivering automated reports, cost estimates, and searchable databases.
+Skills cover the typical data flow in construction: from raw input files to processed outputs.
 
 ```mermaid
 flowchart LR
@@ -212,12 +222,28 @@ flowchart TB
 
 ---
 
+## Prerequisites
+
+| Requirement | Details |
+|-------------|---------|
+| **Python 3.9+** | Most skills use Python scripts |
+| **AI Coding Assistant** | Claude Code, Cursor, Copilot, or similar |
+| **Basic Python knowledge** | Ability to run scripts and install packages |
+| **Your data** | Excel files, PDFs, or BIM models to process |
+
+Optional for advanced skills:
+- Docker (for n8n workflows)
+- PostgreSQL or SQLite (for database skills)
+- OpenAI API key (for LLM-based skills)
+
+---
+
 ## Quick Start
 
 ### 1. Installation
 
 ```bash
-pip install pandas openpyxl ifcopenshell pdfplumber qdrant-client
+pip install pandas openpyxl ifcopenshell pdfplumber
 ```
 
 ### 2. Example: Search Work Items
@@ -293,7 +319,7 @@ DDC_Skills/
 │   ├── CAD-Converters/         ← Revit/IFC/DWG → Excel
 │   └── ...
 │
-├── 2_DDC_Book/                 ← Skills from the book (50 skills)
+├── 2_DDC_Book/                 ← Skills from the book (67 skills)
 │   ├── 1.1-Data-Evolution/     ← Digital maturity assessment
 │   ├── 1.2-Data-Silos-Integration/  ← Find & connect data sources
 │   ├── 3.1-Cost-Estimation/    ← Build estimates from data
@@ -306,7 +332,7 @@ DDC_Skills/
 │   ├── Field-Automation/       ← Telegram bot, voice reports
 │   └── Open-Data-Transparency/ ← Uberization readiness
 │
-├── 4_DDC_Curated/              ← External skills (5 skills)
+├── 4_DDC_Curated/              ← External skills (12 skills)
 │   ├── Document-Generation/    ← PDF/Excel generation
 │   └── Quality-Assurance/      ← Quality checks
 │
@@ -345,6 +371,20 @@ pie title Typical Time Reduction
 | Document organization | Manual folder sorting | Metadata-based classification |
 
 *Results depend on data preparation and workflow complexity. See [GETTING_STARTED.md](GETTING_STARTED.md) for implementation guidance.*
+
+---
+
+## Limitations
+
+This collection provides templates and starting points, not turnkey solutions:
+
+- **Data preparation required** — skills assume clean, structured input data
+- **Customization needed** — code examples require adaptation to your specific workflows
+- **No GUI** — most skills are command-line scripts, not desktop applications
+- **AI-dependent** — skills are designed to work with AI coding assistants, not standalone
+- **English-centric** — code comments and documentation are primarily in English
+
+For production deployment, expect to invest time in testing, error handling, and integration with your existing systems.
 
 ---
 
@@ -408,6 +448,17 @@ If you find these tools useful, please give the repository a star! It helps othe
 |------------|-------------|
 | [OpenConstructionEstimate-DDC-CWICR](https://github.com/datadrivenconstruction/OpenConstructionEstimate-DDC-CWICR) | 55,719 work items database in 31 languages |
 | [cad2data Pipeline](https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto) | Revit/IFC/DWG/DGN to Excel converter |
+
+---
+
+## Contributing
+
+Contributions are welcome:
+- **Report issues** — bugs, unclear documentation, broken links
+- **Suggest skills** — describe the automation you need
+- **Submit PRs** — new skills, improvements, translations
+
+Each skill should include a `SKILL.md` with clear instructions and working code examples.
 
 ---
 
