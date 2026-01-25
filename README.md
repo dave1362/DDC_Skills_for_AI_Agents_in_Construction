@@ -69,6 +69,10 @@ mindmap
 
 ---
 
+## Data Pipeline Overview
+
+Transform your raw construction data into actionable insights. DDC Skills process Excel estimates, BIM models, site photos, and PDF documents through specialized pipelines — delivering automated reports, cost estimates, and searchable databases.
+
 ```mermaid
 flowchart LR
     subgraph INPUT["📥 YOUR DATA"]
@@ -117,6 +121,8 @@ flowchart LR
 
 ## How does it work?
 
+Start with detecting data silos, connect your sources, build automated pipelines, then scale with AI/ML. Each step has dedicated skills to guide you through the implementation.
+
 ```mermaid
 flowchart LR
     subgraph S1["STEP 1<br/>1-2 days"]
@@ -151,6 +157,8 @@ flowchart LR
 ---
 
 ## Data Types in Construction
+
+Construction data comes in three forms: structured (Excel, SQL, CSV), semi-structured (IFC/BIM, JSON, XML), and unstructured (PDF, photos, scans). All data flows into a central database through SQL queries, parsing, or AI/OCR — enabling unified automation.
 
 ```mermaid
 flowchart TB
@@ -315,6 +323,8 @@ DDC_Skills/
 ---
 
 ## ROI of Automation
+
+Real-world time savings from construction companies using DDC automation tools. Rate lookup shows the highest efficiency gain — from 15 minutes of manual searching to 10 seconds with semantic search.
 
 ```mermaid
 pie title Time Savings by Process
