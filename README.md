@@ -277,10 +277,10 @@ DDC_Skills/
 │   └── ...
 │
 ├── 2_DDC_Book/                 ← Skills from the book (50 skills)
-│   ├── Chapter-1.1/            ← Data evolution
-│   ├── Chapter-1.2/            ← Data silos
-│   ├── Chapter-2.1/            ← Data types
-│   ├── Chapter-4.2/            ← ETL pipelines
+│   ├── 1.1-Data-Evolution/     ← Digital maturity assessment
+│   ├── 1.2-Data-Silos-Integration/  ← Find & connect data sources
+│   ├── 3.1-Cost-Estimation/    ← Build estimates from data
+│   ├── 4.2-ETL-Automation/     ← Automate data pipelines
 │   └── ...
 │
 ├── 3_DDC_Insights/             ← Practical workflows (5 skills)

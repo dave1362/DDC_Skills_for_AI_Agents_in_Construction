@@ -1,4 +1,4 @@
-# DDC_Methodology
+# DDC Book Skills
 
 Skills derived from the book **"Data-Driven Construction"** by Artem Boiko.
 
@@ -12,106 +12,105 @@ Skills derived from the book **"Data-Driven Construction"** by Artem Boiko.
 | Part IV | Analytics, Automation and Machine Learning |
 | Chapter 5 | Threats and Strategy |
 
-## Skills by Chapter
+## Skills by Topic
 
+### 1.1 Data Evolution
+*How data usage evolved in construction*
+- [data-evolution-analysis](1.1-Data-Evolution/data-evolution-analysis/)
 
-### Chapter 1.1: Evolution of Data Usage in Construction
+### 1.2 Data Silos & Integration
+*Detect isolated data sources, plan integration*
+- [erp-integration-analysis](1.2-Data-Silos-Integration/erp-integration-analysis/)
+- [data-silo-detection](1.2-Data-Silos-Integration/data-silo-detection/)
 
-- [data-evolution-analysis](Chapter-1.1/data-evolution-analysis/)
+### 2.1 Data Types Classification
+*Classify structured, semi-structured, unstructured data*
+- [data-type-classifier](2.1-Data-Types-Classification/data-type-classifier/)
+- [sql-query-builder](2.1-Data-Types-Classification/sql-query-builder/)
 
-### Chapter 1.2: Technologies and Management Systems in Modern Construction
+### 2.2 Open Data Standards
+*Work with open standards and ontologies*
+- [ontology-mapper](2.2-Open-Data-Standards/ontology-mapper/)
+- [open-data-integrator](2.2-Open-Data-Standards/open-data-integrator/)
 
-- [erp-integration-analysis](Chapter-1.2/erp-integration-analysis/)
-- [data-silo-detection](Chapter-1.2/data-silo-detection/)
+### 2.3 Pandas & LLM Analysis
+*Automate data analysis with Python and AI*
+- [pandas-construction-analysis](2.3-Pandas-LLM-Analysis/pandas-construction-analysis/)
+- [llm-data-automation](2.3-Pandas-LLM-Analysis/llm-data-automation/)
+- [rag-construction](2.3-Pandas-LLM-Analysis/rag-construction/)
 
-### Chapter 2.1: Data Types in Construction
+### 2.4 PDF/CAD to Data
+*Transform unstructured documents to structured data*
+- [pdf-to-structured](2.4-PDF-CAD-to-Data/pdf-to-structured/)
+- [image-to-data](2.4-PDF-CAD-to-Data/image-to-data/)
+- [cad-to-data](2.4-PDF-CAD-to-Data/cad-to-data/)
 
-- [data-type-classifier](Chapter-2.1/data-type-classifier/)
-- [sql-query-builder](Chapter-2.1/sql-query-builder/)
+### 2.5 Data Modeling Standards
+*Design data models and check compliance*
+- [data-model-designer](2.5-Data-Modeling-Standards/data-model-designer/)
+- [standards-compliance-checker](2.5-Data-Modeling-Standards/standards-compliance-checker/)
 
-### Chapter 2.2: Open Data Dominance
+### 2.6 Data Quality Validation
+*Validate data quality and build validation rules*
+- [data-quality-check](2.6-Data-Quality-Validation/data-quality-check/)
+- [validation-rules-builder](2.6-Data-Quality-Validation/validation-rules-builder/)
 
-- [ontology-mapper](Chapter-2.2/ontology-mapper/)
-- [open-data-integrator](Chapter-2.2/open-data-integrator/)
+### 3.1 Cost Estimation
+*Build cost estimates from data*
+- [cost-estimation-resource](3.1-Cost-Estimation/cost-estimation-resource/)
+- [estimate-builder](3.1-Cost-Estimation/estimate-builder/)
 
-### Chapter 2.3: Pandas DataFrame and LLM ChatGPT
+### 3.2 QTO & Auto Estimates
+*Automated quantity takeoff and estimate generation*
+- [qto-report](3.2-QTO-Auto-Estimates/qto-report/)
+- [auto-estimate-generator](3.2-QTO-Auto-Estimates/auto-estimate-generator/)
 
-- [pandas-construction-analysis](Chapter-2.3/pandas-construction-analysis/)
-- [llm-data-automation](Chapter-2.3/llm-data-automation/)
-- [rag-construction](Chapter-2.3/rag-construction/)
+### 3.3 4D BIM & CO2 Simulation
+*Schedule simulation and carbon footprint calculation*
+- [gantt-chart](3.3-4D-BIM-CO2-Simulation/gantt-chart/)
+- [co2-estimation](3.3-4D-BIM-CO2-Simulation/co2-estimation/)
+- [4d-simulation](3.3-4D-BIM-CO2-Simulation/4d-simulation/)
 
-### Chapter 2.4: Data Transformation to Structured Form
+### 3.4 ERP Integration
+*Extract and integrate ERP data*
+- [erp-data-extractor](3.4-ERP-Integration/erp-data-extractor/)
 
-- [pdf-to-structured](Chapter-2.4/pdf-to-structured/)
-- [image-to-data](Chapter-2.4/image-to-data/)
-- [cad-to-data](Chapter-2.4/cad-to-data/)
+### 3.5 Interoperability
+*Analyze and solve data interoperability issues*
+- [interoperability-analyzer](3.5-Interoperability/interoperability-analyzer/)
 
-### Chapter 2.5: Data Modeling and Standards
+### 4.1 Analytics & KPI Dashboard
+*Build dashboards and support decision making*
+- [kpi-dashboard](4.1-Analytics-KPI-Dashboard/kpi-dashboard/)
+- [data-visualization](4.1-Analytics-KPI-Dashboard/data-visualization/)
+- [decision-support](4.1-Analytics-KPI-Dashboard/decision-support/)
 
-- [data-model-designer](Chapter-2.5/data-model-designer/)
-- [standards-compliance-checker](Chapter-2.5/standards-compliance-checker/)
+### 4.2 ETL Automation
+*Automate data pipelines and report generation*
+- [etl-pipeline](4.2-ETL-Automation/etl-pipeline/)
+- [pdf-report-generator](4.2-ETL-Automation/pdf-report-generator/)
+- [workflow-automation](4.2-ETL-Automation/workflow-automation/)
 
-### Chapter 2.6: Data Quality Requirements
+### 4.3 BIM Validation Pipeline
+*Validate BIM models against requirements*
+- [bim-validation-pipeline](4.3-BIM-Validation-Pipeline/bim-validation-pipeline/)
+- [ids-checker](4.3-BIM-Validation-Pipeline/ids-checker/)
 
-- [data-quality-check](Chapter-2.6/data-quality-check/)
-- [validation-rules-builder](Chapter-2.6/validation-rules-builder/)
+### 4.4 Vector Search & Big Data
+*Modern data technologies for construction*
+- [parquet-converter](4.4-Vector-Search-BigData/parquet-converter/)
+- [vector-search](4.4-Vector-Search-BigData/vector-search/)
+- [big-data-analysis](4.4-Vector-Search-BigData/big-data-analysis/)
 
-### Chapter 3.1: Cost Calculations and Estimates
+### 4.5 ML Cost Prediction
+*Machine learning for cost and duration forecasting*
+- [cost-prediction](4.5-ML-Cost-Prediction/cost-prediction/)
+- [duration-prediction](4.5-ML-Cost-Prediction/duration-prediction/)
+- [ml-model-builder](4.5-ML-Cost-Prediction/ml-model-builder/)
 
-- [cost-estimation-resource](Chapter-3.1/cost-estimation-resource/)
-- [estimate-builder](Chapter-3.1/estimate-builder/)
-
-### Chapter 3.2: QTO and Automated Estimates
-
-- [qto-report](Chapter-3.2/qto-report/)
-- [auto-estimate-generator](Chapter-3.2/auto-estimate-generator/)
-
-### Chapter 3.3: 4D-8D BIM and CO2 Calculation
-
-- [gantt-chart](Chapter-3.3/gantt-chart/)
-- [co2-estimation](Chapter-3.3/co2-estimation/)
-- [4d-simulation](Chapter-3.3/4d-simulation/)
-
-### Chapter 3.4: Construction ERP System
-
-- [erp-data-extractor](Chapter-3.4/erp-data-extractor/)
-
-### Chapter 3.5: Data Challenges in Construction
-
-- [interoperability-analyzer](Chapter-3.5/interoperability-analyzer/)
-
-### Chapter 4.1: Data Analytics and Decision Making
-
-- [kpi-dashboard](Chapter-4.1/kpi-dashboard/)
-- [data-visualization](Chapter-4.1/data-visualization/)
-- [decision-support](Chapter-4.1/decision-support/)
-
-### Chapter 4.2: ETL and Process Automation
-
-- [etl-pipeline](Chapter-4.2/etl-pipeline/)
-- [pdf-report-generator](Chapter-4.2/pdf-report-generator/)
-- [workflow-automation](Chapter-4.2/workflow-automation/)
-
-### Chapter 4.3: Automated ETL Pipeline for Data Validation
-
-- [bim-validation-pipeline](Chapter-4.3/bim-validation-pipeline/)
-- [ids-checker](Chapter-4.3/ids-checker/)
-
-### Chapter 4.4: Modern Data Technologies
-
-- [parquet-converter](Chapter-4.4/parquet-converter/)
-- [vector-search](Chapter-4.4/vector-search/)
-- [big-data-analysis](Chapter-4.4/big-data-analysis/)
-
-### Chapter 4.5: Future: Predictions and Machine Learning
-
-- [cost-prediction](Chapter-4.5/cost-prediction/)
-- [duration-prediction](Chapter-4.5/duration-prediction/)
-- [ml-model-builder](Chapter-4.5/ml-model-builder/)
-
-### Chapter 5.1: Uberization and Open Data
-
-- [digital-maturity-assessment](Chapter-5.1/digital-maturity-assessment/)
+### 5.1 Digital Maturity Strategy
+*Assess and plan digital transformation*
+- [digital-maturity-assessment](5.1-Digital-Maturity-Strategy/digital-maturity-assessment/)
 
 
 ## Source
