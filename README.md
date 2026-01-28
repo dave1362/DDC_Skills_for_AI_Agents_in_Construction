@@ -1,10 +1,23 @@
-# DDC Skills Collection for AI Coding Assistants
+<h1 align="center">DDC Skills Collection for AI Coding Assistants</h1>
 
-**AI Tools for Construction Company Automation**
+<p align="center">
+  <strong>AI Tools for Construction Company Automation</strong>
+</p>
 
-### Works with any AI coding assistant:
+<p align="center">
+  <img src="https://img.shields.io/badge/Skills-221-blue?style=flat-square" alt="Skills">
+  <img src="https://img.shields.io/badge/Categories-5-green?style=flat-square" alt="Categories">
+  <img src="https://img.shields.io/badge/Book_Languages-31-orange?style=flat-square" alt="Languages">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
+  <a href="https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction"><img src="https://img.shields.io/github/stars/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction?style=flat-square" alt="GitHub stars"></a>
+</p>
 
-<p>
+<!-- TODO: Insert cover image here -->
+<!-- <p align="center"><img src="assets/cover.png" alt="DDC Skills" width="800"></p> -->
+
+<h3 align="center">Works with any AI coding assistant:</h3>
+
+<p align="center">
   <a href="https://claude.ai/download"><img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"></a>
   <a href="https://antigravity.google/"><img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Antigravity"></a>
   <a href="https://github.com/nicepkg/opencode"><img src="https://img.shields.io/badge/OpenCode-333333?style=for-the-badge&logo=github&logoColor=white" alt="OpenCode"></a>
