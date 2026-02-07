@@ -1,5 +1,6 @@
 ---
-name: resource-pool-optimizer
+slug: "resource-pool-optimizer"
+display_name: "Resource Pool Optimizer"
 description: "Optimize shared resource pools across multiple construction projects. Balance resource allocation, minimize conflicts, and maximize utilization across the portfolio."
 ---
 

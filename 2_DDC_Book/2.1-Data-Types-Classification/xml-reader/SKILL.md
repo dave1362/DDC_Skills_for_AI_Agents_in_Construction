@@ -1,5 +1,6 @@
 ---
-name: xml-reader
+slug: "xml-reader"
+display_name: "Xml Reader"
 description: "Read and parse XML from construction systems - P6 schedules, BSDD exports, IFC-XML, COBie-XML. Convert to pandas DataFrames."
 ---
 

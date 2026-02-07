@@ -1,5 +1,6 @@
 ---
-name: labor-productivity-analytics
+slug: "labor-productivity-analytics"
+display_name: "Labor Productivity Analytics"
 description: "Analyze construction labor productivity using data analytics. Track worker performance, identify inefficiencies, predict resource needs, and optimize crew allocation for maximum efficiency."
 ---
 

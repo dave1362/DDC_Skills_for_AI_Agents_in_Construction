@@ -1,5 +1,6 @@
 ---
-name: risk-assessment-ml
+slug: "risk-assessment-ml"
+display_name: "Risk Assessment ML"
 description: "Apply machine learning for construction project risk assessment. Predict schedule delays, cost overruns, and safety incidents using historical data and project characteristics."
 ---
 

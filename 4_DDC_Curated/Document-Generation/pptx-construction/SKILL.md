@@ -1,5 +1,6 @@
 ---
-name: pptx-construction
+slug: "pptx-construction"
+display_name: "PPTX Construction"
 description: "PowerPoint generation for construction: project updates, stakeholder presentations, progress reports, bid presentations. Automated slide creation with charts and data."
 ---
 

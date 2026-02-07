@@ -1,5 +1,6 @@
 ---
-name: csv-handler
+slug: "csv-handler"
+display_name: "CSV Handler"
 description: "Handle CSV files from construction software exports. Auto-detect delimiters, encodings, and clean messy data."
 ---
 

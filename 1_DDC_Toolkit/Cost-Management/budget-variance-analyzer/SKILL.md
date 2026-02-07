@@ -1,5 +1,6 @@
 ---
-name: budget-variance-analyzer
+slug: "budget-variance-analyzer"
+display_name: "Budget Variance Analyzer"
 description: "Analyze budget vs actual cost variances. Identify overruns, forecast final costs, and generate variance reports."
 ---
 

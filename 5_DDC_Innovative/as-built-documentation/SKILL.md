@@ -1,5 +1,6 @@
 ---
-name: as-built-documentation
+slug: "as-built-documentation"
+display_name: "As Built Documentation"
 description: "Automate as-built documentation and digital handover for construction. Compile project records, generate O&M manuals, create asset databases, and ensure complete project closeout."
 ---
 

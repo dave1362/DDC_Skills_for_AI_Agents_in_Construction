@@ -1,5 +1,6 @@
 ---
-name: site-logistics-optimization
+slug: "site-logistics-optimization"
+display_name: "Site Logistics Optimization"
 description: "Optimize construction site logistics including material delivery scheduling, crane positioning, storage area allocation, and traffic flow using operations research and simulation."
 ---
 

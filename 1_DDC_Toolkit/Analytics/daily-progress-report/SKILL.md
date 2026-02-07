@@ -1,5 +1,6 @@
 ---
-name: daily-progress-report
+slug: "daily-progress-report"
+display_name: "Daily Progress Report"
 description: "Generate automated daily progress reports from site data. Track work completed, labor hours, equipment usage, and weather conditions."
 ---
 

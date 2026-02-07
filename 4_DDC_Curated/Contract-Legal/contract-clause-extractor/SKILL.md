@@ -1,5 +1,6 @@
 ---
-name: contract-clause-extractor
+slug: "contract-clause-extractor"
+display_name: "Contract Clause Extractor"
 description: "Extract and analyze key clauses from construction contracts. Identify payment terms, change order procedures, dispute resolution, warranties, and risk allocation provisions."
 ---
 

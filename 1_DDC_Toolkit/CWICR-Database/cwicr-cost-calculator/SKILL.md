@@ -1,5 +1,6 @@
 ---
-name: cwicr-cost-calculator
+slug: "cwicr-cost-calculator"
+display_name: "CWICR Cost Calculator"
 description: "Calculate construction costs using DDC CWICR resource-based methodology. Break down costs into labor, materials, equipment with transparent pricing."
 ---
 

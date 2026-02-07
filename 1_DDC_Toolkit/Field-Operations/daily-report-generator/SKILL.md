@@ -1,6 +1,7 @@
 ---
-name: daily-report-generator
-description: Automatically generate daily construction reports from field data, worker inputs, weather, and progress photos. Creates professional PDF reports.
+slug: "daily-report-generator"
+display_name: "Daily Report Generator"
+description: "Automatically generate daily construction reports from field data, worker inputs, weather, and progress photos. Creates professional PDF reports."
 ---
 
 # Daily Report Generator for Construction Sites

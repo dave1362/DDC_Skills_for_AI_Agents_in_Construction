@@ -1,5 +1,6 @@
 ---
-name: safety-compliance-checker
+slug: "safety-compliance-checker"
+display_name: "Safety Compliance Checker"
 description: "Automated safety compliance verification for construction sites. Check PPE usage, zone access, working at heights regulations, and generate compliance reports using rule-based and ML approaches."
 ---
 

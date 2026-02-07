@@ -1,5 +1,6 @@
 ---
-name: docx-construction
+slug: "docx-construction"
+display_name: "DOCX Construction"
 description: "Word document generation for construction: contracts, proposals, reports, specifications, transmittals. Template-based with dynamic content insertion."
 ---
 

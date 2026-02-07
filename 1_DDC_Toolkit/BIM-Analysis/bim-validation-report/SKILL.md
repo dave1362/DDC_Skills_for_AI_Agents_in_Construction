@@ -1,5 +1,6 @@
 ---
-name: bim-validation-report
+slug: "bim-validation-report"
+display_name: "BIM Validation Report"
 description: "Generate comprehensive BIM model validation reports. Check data quality, completeness, and compliance with standards."
 ---
 

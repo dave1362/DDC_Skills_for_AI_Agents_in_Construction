@@ -1,5 +1,6 @@
 ---
-name: data-silo-detection
+slug: "data-silo-detection"
+display_name: "Data Silo Detection"
 description: "Detect and map data silos in construction organizations. Identify disconnected data sources and integration opportunities"
 ---
 

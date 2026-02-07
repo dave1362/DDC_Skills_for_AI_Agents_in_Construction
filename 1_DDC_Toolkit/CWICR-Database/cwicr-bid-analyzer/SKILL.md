@@ -1,5 +1,6 @@
 ---
-name: cwicr-bid-analyzer
+slug: "cwicr-bid-analyzer"
+display_name: "CWICR Bid Analyzer"
 description: "Analyze contractor bids against CWICR benchmarks. Identify pricing anomalies, compare bid components, and support bid evaluation decisions."
 ---
 

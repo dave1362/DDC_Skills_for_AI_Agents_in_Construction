@@ -1,5 +1,6 @@
 ---
-name: subcontractor-prequalification
+slug: "subcontractor-prequalification"
+display_name: "Subcontractor Prequalification"
 description: "Prequalify subcontractors based on safety, financial, and performance criteria."
 ---
 

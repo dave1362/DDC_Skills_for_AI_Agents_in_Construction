@@ -1,6 +1,7 @@
 ---
-name: bim-cost-estimation-cwicr
-description: Automated cost estimation from BIM models using DDC CWICR database with 55,719 work items. AI classification + vector search for accurate pricing.
+slug: "bim-cost-estimation-cwicr"
+display_name: "BIM Cost Estimation CWICR"
+description: "Automated cost estimation from BIM models using DDC CWICR database with 55,719 work items. AI classification + vector search for accurate pricing."
 ---
 
 # BIM Cost Estimation with DDC CWICR

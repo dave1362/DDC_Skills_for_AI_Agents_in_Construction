@@ -1,5 +1,6 @@
 ---
-name: nobim-image-generator
+slug: "nobim-image-generator"
+display_name: "Nobim Image Generator"
 description: "Generate images and visualizations from Revit/IFC files without BIM software. Python-based noBIM tool for batch processing."
 ---
 

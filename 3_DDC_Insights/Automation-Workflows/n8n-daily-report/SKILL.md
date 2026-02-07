@@ -1,5 +1,6 @@
 ---
-name: n8n-daily-report
+slug: "n8n-daily-report"
+display_name: "N8N Daily Report"
 description: "Automate daily construction report generation using n8n workflow automation."
 ---
 

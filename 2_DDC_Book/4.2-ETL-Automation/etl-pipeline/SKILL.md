@@ -1,5 +1,6 @@
 ---
-name: etl-pipeline
+slug: "etl-pipeline"
+display_name: "ETL Pipeline"
 description: "Build automated ETL (Extract-Transform-Load) pipelines for construction data. Process PDFs, Excel, BIM exports. Generate reports, dashboards, and integrate with other systems. Orchestrate with Airflow or n8n."
 ---
 

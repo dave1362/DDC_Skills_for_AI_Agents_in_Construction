@@ -1,5 +1,6 @@
 ---
-name: cwicr-report-generator
+slug: "cwicr-report-generator"
+display_name: "CWICR Report Generator"
 description: "Generate professional cost estimation reports from CWICR calculations. HTML, PDF, Excel outputs with charts and breakdowns."
 ---
 

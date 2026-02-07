@@ -1,5 +1,6 @@
 ---
-name: n8n-cost-estimation
+slug: "n8n-cost-estimation"
+display_name: "N8N Cost Estimation"
 description: "Build n8n pipeline for automated cost estimation from Revit/IFC using DDC CWICR database and LLM classification."
 ---
 

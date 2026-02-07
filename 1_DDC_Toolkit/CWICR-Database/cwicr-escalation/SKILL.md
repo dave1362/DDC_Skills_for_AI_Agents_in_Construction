@@ -1,5 +1,6 @@
 ---
-name: cwicr-escalation
+slug: "cwicr-escalation"
+display_name: "CWICR Escalation"
 description: "Apply price escalation to CWICR estimates over time. Calculate inflation adjustments, material price indices, and labor rate increases."
 ---
 

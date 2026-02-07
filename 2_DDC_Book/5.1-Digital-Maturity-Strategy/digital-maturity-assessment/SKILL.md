@@ -1,5 +1,6 @@
 ---
-name: digital-maturity-assessment
+slug: "digital-maturity-assessment"
+display_name: "Digital Maturity Assessment"
 description: "Assess organization's digital transformation readiness. Evaluate data culture, technology adoption, and process maturity."
 ---
 

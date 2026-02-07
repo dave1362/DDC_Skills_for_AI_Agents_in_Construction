@@ -1,5 +1,6 @@
 ---
-name: validation-rules-builder
+slug: "validation-rules-builder"
+display_name: "Validation Rules Builder"
 description: "Build validation rules for construction data. Create RegEx and logic-based validation for BIM elements, cost codes, and schedule data."
 ---
 

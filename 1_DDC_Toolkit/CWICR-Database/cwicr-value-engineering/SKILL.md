@@ -1,5 +1,6 @@
 ---
-name: cwicr-value-engineering
+slug: "cwicr-value-engineering"
+display_name: "CWICR Value Engineering"
 description: "Perform value engineering analysis using CWICR data. Identify cost-saving alternatives while maintaining function and quality."
 ---
 

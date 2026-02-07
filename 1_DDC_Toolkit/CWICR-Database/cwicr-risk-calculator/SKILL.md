@@ -1,5 +1,6 @@
 ---
-name: cwicr-risk-calculator
+slug: "cwicr-risk-calculator"
+display_name: "CWICR Risk Calculator"
 description: "Calculate risk-adjusted cost estimates using CWICR data. Apply contingencies, Monte Carlo simulation, and probability distributions to cost estimates."
 ---
 

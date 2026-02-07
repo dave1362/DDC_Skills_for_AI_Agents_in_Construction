@@ -1,5 +1,6 @@
 ---
-name: critical-path-analyzer
+slug: "critical-path-analyzer"
+display_name: "Critical Path Analyzer"
 description: "Analyze construction schedule critical path. Identify critical activities, calculate float, simulate schedule impacts, and optimize project duration."
 ---
 

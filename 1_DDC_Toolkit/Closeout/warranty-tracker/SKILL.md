@@ -1,5 +1,6 @@
 ---
-name: warranty-tracker
+slug: "warranty-tracker"
+display_name: "Warranty Tracker"
 description: "Track and manage construction warranties. Monitor expiration dates, claims, and manufacturer documentation."
 ---
 

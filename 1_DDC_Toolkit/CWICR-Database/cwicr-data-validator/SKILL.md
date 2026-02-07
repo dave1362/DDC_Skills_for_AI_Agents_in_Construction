@@ -1,5 +1,6 @@
 ---
-name: cwicr-data-validator
+slug: "cwicr-data-validator"
+display_name: "CWICR Data Validator"
 description: "Validate CWICR data quality and estimate inputs. Check for errors, inconsistencies, outliers, and missing data."
 ---
 

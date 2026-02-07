@@ -1,5 +1,6 @@
 ---
-name: labor-allocation
+slug: "labor-allocation"
+display_name: "Labor Allocation"
 description: "Allocate and track labor resources across project activities. Balance workload, track attendance, and optimize crew assignments."
 ---
 

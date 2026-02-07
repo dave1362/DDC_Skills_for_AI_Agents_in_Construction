@@ -1,5 +1,6 @@
 ---
-name: cwicr-overhead-markup
+slug: "cwicr-overhead-markup"
+display_name: "CWICR Overhead Markup"
 description: "Apply overhead, profit, and markup to CWICR estimates. Calculate indirect costs, general conditions, and contractor margins."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: drone-site-survey
+slug: "drone-site-survey"
+display_name: "Drone Site Survey"
 description: "Process drone survey data for construction sites. Generate orthomosaics, DEMs, point clouds, calculate volumes, track progress, and integrate with BIM models for comparison."
 ---
 

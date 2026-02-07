@@ -1,5 +1,6 @@
 ---
-name: llm-data-automation
+slug: "llm-data-automation"
+display_name: "Llm Data Automation"
 description: "Automate construction data processing using LLM (ChatGPT, Claude, LLaMA). Generate Python/Pandas scripts, extract data from documents, and create automated pipelines without deep programming knowledge."
 ---
 

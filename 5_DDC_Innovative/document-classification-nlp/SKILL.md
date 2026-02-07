@@ -1,5 +1,6 @@
 ---
-name: document-classification-nlp
+slug: "document-classification-nlp"
+display_name: "Document Classification Nlp"
 description: "Automatically classify and extract information from construction documents using NLP. Categorize RFIs, submittals, change orders, specifications, and contracts."
 ---
 

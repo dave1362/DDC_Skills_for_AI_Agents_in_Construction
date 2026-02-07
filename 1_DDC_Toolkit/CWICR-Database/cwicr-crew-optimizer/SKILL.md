@@ -1,5 +1,6 @@
 ---
-name: cwicr-crew-optimizer
+slug: "cwicr-crew-optimizer"
+display_name: "CWICR Crew Optimizer"
 description: "Optimize crew composition using CWICR labor norms. Balance productivity, cost, and skill requirements for construction crews."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: cwicr-unit-converter
+slug: "cwicr-unit-converter"
+display_name: "CWICR Unit Converter"
 description: "Convert between construction measurement units. Handle metric/imperial conversion, area/volume calculations, and unit normalization for CWICR data."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: standards-compliance-checker
+slug: "standards-compliance-checker"
+display_name: "Standards Compliance Checker"
 description: "Check data compliance with construction standards. Validate data against ISO 19650, IFC, COBie, UniFormat standards."
 ---
 

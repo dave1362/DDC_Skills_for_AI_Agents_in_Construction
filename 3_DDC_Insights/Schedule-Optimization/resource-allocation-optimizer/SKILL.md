@@ -1,5 +1,6 @@
 ---
-name: resource-allocation-optimizer
+slug: "resource-allocation-optimizer"
+display_name: "Resource Allocation Optimizer"
 description: "Optimize construction resource allocation across activities. Level resources, resolve over-allocations, and balance workload while minimizing schedule impact."
 ---
 

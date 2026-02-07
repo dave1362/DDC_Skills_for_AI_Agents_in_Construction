@@ -1,5 +1,6 @@
 ---
-name: multi-agent-estimation
+slug: "multi-agent-estimation"
+display_name: "Multi Agent Estimation"
 description: "Build multi-agent AI systems for construction estimation. Use CrewAI/LangGraph to orchestrate specialized agents: QTO agent, pricing agent, validation agent. Automate complex estimation workflows."
 ---
 

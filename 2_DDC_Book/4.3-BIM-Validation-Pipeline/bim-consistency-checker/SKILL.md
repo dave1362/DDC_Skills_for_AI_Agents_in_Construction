@@ -1,5 +1,6 @@
 ---
-name: bim-consistency-checker
+slug: "bim-consistency-checker"
+display_name: "BIM Consistency Checker"
 description: "Check BIM model consistency: naming conventions, parameter completeness, spatial relationships, and data integrity across model elements."
 ---
 

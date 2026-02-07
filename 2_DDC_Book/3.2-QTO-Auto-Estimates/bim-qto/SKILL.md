@@ -1,5 +1,6 @@
 ---
-name: bim-qto
+slug: "bim-qto"
+display_name: "BIM QTO"
 description: "Extract quantities from BIM/CAD data for cost estimation. Group by type, level, zone. Generate QTO reports."
 ---
 

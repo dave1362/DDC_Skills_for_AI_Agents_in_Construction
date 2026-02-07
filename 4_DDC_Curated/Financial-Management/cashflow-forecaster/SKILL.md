@@ -1,5 +1,6 @@
 ---
-name: cashflow-forecaster
+slug: "cashflow-forecaster"
+display_name: "Cashflow Forecaster"
 description: "Forecast construction project cash flow. Project income and expenses, identify funding gaps, and optimize payment timing for improved financial management."
 ---
 

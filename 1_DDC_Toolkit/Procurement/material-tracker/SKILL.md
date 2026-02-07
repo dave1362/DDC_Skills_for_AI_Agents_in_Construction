@@ -1,5 +1,6 @@
 ---
-name: material-tracker
+slug: "material-tracker"
+display_name: "Material Tracker"
 description: "Track material orders, deliveries, and inventory on construction sites. Monitor lead times, delivery status, and stock levels."
 ---
 

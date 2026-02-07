@@ -1,5 +1,6 @@
 ---
-name: cwicr-change-order
+slug: "cwicr-change-order"
+display_name: "CWICR Change Order"
 description: "Process construction change orders using CWICR data. Calculate cost impact, compare to original estimate, and generate change order documentation."
 ---
 

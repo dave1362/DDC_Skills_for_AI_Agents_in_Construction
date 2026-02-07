@@ -1,5 +1,6 @@
 ---
-name: bim-to-schedule-4d
+slug: "bim-to-schedule-4d"
+display_name: "BIM To Schedule 4D"
 description: "Create 4D construction simulations by linking BIM models with project schedules."
 ---
 

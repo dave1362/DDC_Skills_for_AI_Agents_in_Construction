@@ -1,5 +1,6 @@
 ---
-name: drawing-analyzer
+slug: "drawing-analyzer"
+display_name: "Drawing Analyzer"
 description: "Analyze construction drawings to extract dimensions, annotations, symbols, and metadata. Support quantity takeoff and design review automation."
 ---
 

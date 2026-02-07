@@ -1,5 +1,6 @@
 ---
-name: contractor-matching-ai
+slug: "contractor-matching-ai"
+display_name: "Contractor Matching AI"
 description: "AI-powered contractor matching and selection for construction projects. Analyze contractor capabilities, past performance, certifications, and project requirements to recommend optimal matches."
 ---
 

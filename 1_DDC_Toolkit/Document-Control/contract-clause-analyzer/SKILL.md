@@ -1,5 +1,6 @@
 ---
-name: contract-clause-analyzer
+slug: "contract-clause-analyzer"
+display_name: "Contract Clause Analyzer"
 description: "Analyze construction contract clauses. Identify risks, obligations, and key terms using NLP."
 ---
 

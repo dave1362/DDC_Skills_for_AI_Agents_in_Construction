@@ -1,5 +1,6 @@
 ---
-name: schema-validation
+slug: "schema-validation"
+display_name: "Schema Validation"
 description: "JSON/data schema validation for construction data exchange: API payloads, file imports, BIM exports. Ensure data structure compliance before processing."
 ---
 

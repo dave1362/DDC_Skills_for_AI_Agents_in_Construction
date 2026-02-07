@@ -1,5 +1,6 @@
 ---
-name: dgn-to-excel
+slug: "dgn-to-excel"
+display_name: "DGN To Excel"
 description: "Convert DGN files (v7-v8) to Excel databases. Extract elements, levels, and properties from infrastructure CAD files."
 ---
 

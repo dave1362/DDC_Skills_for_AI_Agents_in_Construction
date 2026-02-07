@@ -1,6 +1,7 @@
 ---
-name: rfi-management
-description: Complete RFI (Request for Information) management system. Create, track, route, and analyze RFIs with automatic notifications and response deadline tracking.
+slug: "rfi-management"
+display_name: "Rfi Management"
+description: "Complete RFI (Request for Information) management system. Create, track, route, and analyze RFIs with automatic notifications and response deadline tracking."
 ---
 
 # RFI Management System for Construction

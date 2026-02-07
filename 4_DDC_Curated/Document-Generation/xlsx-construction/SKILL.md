@@ -1,5 +1,6 @@
 ---
-name: xlsx-construction
+slug: "xlsx-construction"
+display_name: "Xlsx Construction"
 description: "Excel/spreadsheet processing for construction: estimates, schedules, tracking logs, quantity takeoffs. Formulas, formatting, analysis."
 ---
 

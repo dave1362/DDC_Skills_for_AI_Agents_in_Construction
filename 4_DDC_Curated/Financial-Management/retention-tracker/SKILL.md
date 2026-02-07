@@ -1,5 +1,6 @@
 ---
-name: retention-tracker
+slug: "retention-tracker"
+display_name: "Retention Tracker"
 description: "Track construction retainage/retention amounts. Monitor held amounts by subcontractor, track release conditions, and manage retainage billing."
 ---
 

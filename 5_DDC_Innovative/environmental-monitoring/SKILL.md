@@ -1,5 +1,6 @@
 ---
-name: environmental-monitoring
+slug: "environmental-monitoring"
+display_name: "Environmental Monitoring"
 description: "Monitor environmental conditions on construction sites. Track air quality, noise levels, vibration, dust, and weather to ensure compliance and worker safety."
 ---
 

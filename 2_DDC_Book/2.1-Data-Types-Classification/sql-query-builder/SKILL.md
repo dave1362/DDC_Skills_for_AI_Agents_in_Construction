@@ -1,5 +1,6 @@
 ---
-name: sql-query-builder
+slug: "sql-query-builder"
+display_name: "SQL Query Builder"
 description: "Build SQL queries for construction databases. Generate optimized SQL queries for construction data retrieval"
 ---
 

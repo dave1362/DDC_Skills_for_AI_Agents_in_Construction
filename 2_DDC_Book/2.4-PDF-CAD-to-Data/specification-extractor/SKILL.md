@@ -1,5 +1,6 @@
 ---
-name: specification-extractor
+slug: "specification-extractor"
+display_name: "Specification Extractor"
 description: "Extract structured data from construction specifications. Parse CSI sections, requirements, submittals, and product data from spec documents."
 ---
 

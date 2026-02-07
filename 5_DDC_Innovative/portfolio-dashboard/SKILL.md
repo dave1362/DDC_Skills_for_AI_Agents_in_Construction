@@ -1,5 +1,6 @@
 ---
-name: portfolio-dashboard
+slug: "portfolio-dashboard"
+display_name: "Portfolio Dashboard"
 description: "Multi-project portfolio analytics dashboard. Aggregate KPIs across projects, track portfolio health, compare performance, and support executive decision-making."
 ---
 

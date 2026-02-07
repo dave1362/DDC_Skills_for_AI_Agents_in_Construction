@@ -1,5 +1,6 @@
 ---
-name: schedule-forecaster
+slug: "schedule-forecaster"
+display_name: "Schedule Forecaster"
 description: "Predict project completion dates using ML models. Forecast schedule delays based on current progress, historical patterns, and risk factors."
 ---
 

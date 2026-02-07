@@ -1,5 +1,6 @@
 ---
-name: vector-search
+slug: "vector-search"
+display_name: "Vector Search"
 description: "Implement semantic vector search for construction data. Build AI-powered search using embeddings and vector databases (Qdrant, ChromaDB) for intelligent querying of specifications, standards, and project documents."
 ---
 

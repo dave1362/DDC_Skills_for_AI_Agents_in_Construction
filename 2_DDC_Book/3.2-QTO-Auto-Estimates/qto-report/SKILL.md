@@ -1,5 +1,6 @@
 ---
-name: qto-report
+slug: "qto-report"
+display_name: "QTO Report"
 description: "Generate Quantity Take-Off (QTO) reports from BIM/CAD data. Extract volumes, areas, counts by category. Group elements, apply calculation rules, and create cost estimates automatically."
 ---
 

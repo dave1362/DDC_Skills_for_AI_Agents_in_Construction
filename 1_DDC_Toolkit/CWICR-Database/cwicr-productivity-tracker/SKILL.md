@@ -1,5 +1,6 @@
 ---
-name: cwicr-productivity-tracker
+slug: "cwicr-productivity-tracker"
+display_name: "CWICR Productivity Tracker"
 description: "Track actual vs planned productivity using CWICR norms. Calculate productivity rates, identify variances, and generate performance reports."
 ---
 

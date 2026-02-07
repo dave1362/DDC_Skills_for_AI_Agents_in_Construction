@@ -1,5 +1,6 @@
 ---
-name: data-model-designer
+slug: "data-model-designer"
+display_name: "Data Model Designer"
 description: "Design data models for construction projects. Create entity-relationship diagrams, define schemas, and generate database structures."
 ---
 

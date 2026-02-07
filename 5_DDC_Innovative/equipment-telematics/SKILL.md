@@ -1,5 +1,6 @@
 ---
-name: equipment-telematics
+slug: "equipment-telematics"
+display_name: "Equipment Telematics"
 description: "Integrate and analyze telematics data from heavy construction equipment. Track location, utilization, fuel consumption, maintenance needs, and operator behavior."
 ---
 

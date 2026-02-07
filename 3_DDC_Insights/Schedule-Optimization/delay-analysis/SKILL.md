@@ -1,5 +1,6 @@
 ---
-name: delay-analysis
+slug: "delay-analysis"
+display_name: "Delay Analysis"
 description: "Analyze construction schedule delays for claims and recovery. Perform time impact analysis, identify delay causes, calculate damages, and document for disputes."
 ---
 

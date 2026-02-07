@@ -1,5 +1,6 @@
 ---
-name: schedule-compression
+slug: "schedule-compression"
+display_name: "Schedule Compression"
 description: "Compress construction schedules using crashing and fast-tracking techniques. Analyze cost-time tradeoffs and find optimal acceleration strategies."
 ---
 

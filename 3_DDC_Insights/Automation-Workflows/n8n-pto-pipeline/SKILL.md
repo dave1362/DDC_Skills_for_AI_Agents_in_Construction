@@ -1,5 +1,6 @@
 ---
-name: n8n-pto-pipeline
+slug: "n8n-pto-pipeline"
+display_name: "N8N Pto Pipeline"
 description: "Create n8n workflow for daily task assignment from PTO engineer to foreman via Telegram bot with status reporting."
 ---
 

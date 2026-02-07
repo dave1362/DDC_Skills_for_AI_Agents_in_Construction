@@ -1,5 +1,6 @@
 ---
-name: ids-checker
+slug: "ids-checker"
+display_name: "Ids Checker"
 description: "Check BIM data against IDS (Information Delivery Specification). Validate model information requirements and compliance."
 ---
 

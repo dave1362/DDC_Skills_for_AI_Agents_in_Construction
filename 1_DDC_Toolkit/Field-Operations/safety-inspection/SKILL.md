@@ -1,6 +1,7 @@
 ---
-name: safety-inspection
-description: Digital safety inspection system for construction sites. Checklists, hazard tracking, incident reporting, and compliance documentation.
+slug: "safety-inspection"
+display_name: "Safety Inspection"
+description: "Digital safety inspection system for construction sites. Checklists, hazard tracking, incident reporting, and compliance documentation."
 ---
 
 # Safety Inspection System for Construction

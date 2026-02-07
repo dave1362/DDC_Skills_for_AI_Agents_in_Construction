@@ -1,5 +1,6 @@
 ---
-name: change-order-manager
+slug: "change-order-manager"
+display_name: "Change Order Manager"
 description: "Manage construction change orders from request to approval. Track costs, schedule impacts, and maintain audit trail for dispute prevention."
 ---
 

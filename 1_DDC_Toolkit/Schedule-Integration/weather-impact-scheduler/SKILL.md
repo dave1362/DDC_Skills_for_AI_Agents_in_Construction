@@ -1,5 +1,6 @@
 ---
-name: weather-impact-scheduler
+slug: "weather-impact-scheduler"
+display_name: "Weather Impact Scheduler"
 description: "Analyze weather impact on construction schedule. Predict delays and adjust activities based on forecast."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: enterprise-risk-aggregator
+slug: "enterprise-risk-aggregator"
+display_name: "Enterprise Risk Aggregator"
 description: "Aggregate and analyze risks across construction project portfolio. Identify correlated risks, systemic exposures, and portfolio-level risk mitigation strategies."
 ---
 

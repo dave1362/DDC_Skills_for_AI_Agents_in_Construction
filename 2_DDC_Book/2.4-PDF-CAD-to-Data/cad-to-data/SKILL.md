@@ -1,5 +1,6 @@
 ---
-name: cad-to-data
+slug: "cad-to-data"
+display_name: "CAD To Data"
 description: "Convert CAD/BIM files to structured data. Extract element data from Revit, IFC, DWG, DGN files"
 ---
 

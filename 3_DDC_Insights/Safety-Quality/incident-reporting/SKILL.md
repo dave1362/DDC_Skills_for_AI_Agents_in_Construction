@@ -1,5 +1,6 @@
 ---
-name: incident-reporting
+slug: "incident-reporting"
+display_name: "Incident Reporting"
 description: "Construction safety incident reporting and analysis. Capture incidents, conduct investigations, track corrective actions, and analyze trends for prevention."
 ---
 

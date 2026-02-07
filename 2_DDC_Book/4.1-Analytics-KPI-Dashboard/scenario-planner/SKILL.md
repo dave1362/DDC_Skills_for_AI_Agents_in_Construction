@@ -1,5 +1,6 @@
 ---
-name: scenario-planner
+slug: "scenario-planner"
+display_name: "Scenario Planner"
 description: "What-if analysis for construction projects: model different scenarios and their cost/schedule/resource impacts. Compare alternatives and optimize decisions."
 ---
 

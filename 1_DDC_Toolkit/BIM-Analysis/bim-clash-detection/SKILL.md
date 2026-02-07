@@ -1,5 +1,6 @@
 ---
-name: bim-clash-detection
+slug: "bim-clash-detection"
+display_name: "BIM Clash Detection"
 description: "Detect and analyze geometric clashes in BIM models. Identify MEP, structural, and architectural conflicts before construction."
 ---
 

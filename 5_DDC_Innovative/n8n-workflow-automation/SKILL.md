@@ -1,5 +1,6 @@
 ---
-name: n8n-workflow-automation
+slug: "n8n-workflow-automation"
+display_name: "N8N Workflow Automation"
 description: "Build no-code/low-code automation workflows for construction using n8n. Automate data extraction, cost estimation, report generation, and system integrations without writing code."
 ---
 

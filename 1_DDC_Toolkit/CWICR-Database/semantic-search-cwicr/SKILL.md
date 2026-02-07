@@ -1,5 +1,6 @@
 ---
-name: semantic-search-cwicr
+slug: "semantic-search-cwicr"
+display_name: "Semantic Search CWICR"
 description: "Semantic search in DDC CWICR construction database using vector embeddings. Find similar work items and resources for cost estimation."
 ---
 

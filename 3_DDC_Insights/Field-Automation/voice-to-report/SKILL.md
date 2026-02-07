@@ -1,5 +1,6 @@
 ---
-name: voice-to-report
+slug: "voice-to-report"
+display_name: "Voice To Report"
 description: "Convert voice recordings to structured construction reports. Field workers speak, AI transcribes and formats. Supports daily reports, safety observations, progress updates."
 ---
 

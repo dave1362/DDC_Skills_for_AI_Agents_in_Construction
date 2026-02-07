@@ -1,5 +1,6 @@
 ---
-name: data-type-classifier
+slug: "data-type-classifier"
+display_name: "Data Type Classifier"
 description: "Classify construction data by type (structured, unstructured, semi-structured). Analyze data sources and recommend appropriate storage/processing methods"
 ---
 

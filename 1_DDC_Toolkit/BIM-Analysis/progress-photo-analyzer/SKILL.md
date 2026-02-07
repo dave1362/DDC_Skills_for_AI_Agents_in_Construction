@@ -1,5 +1,6 @@
 ---
-name: progress-photo-analyzer
+slug: "progress-photo-analyzer"
+display_name: "Progress Photo Analyzer"
 description: "Analyze construction site photos to track progress, detect safety issues, and compare against BIM models using computer vision."
 ---
 

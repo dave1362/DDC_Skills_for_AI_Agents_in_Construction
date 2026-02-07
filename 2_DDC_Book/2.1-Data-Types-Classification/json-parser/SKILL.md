@@ -1,5 +1,6 @@
 ---
-name: json-parser
+slug: "json-parser"
+display_name: "Json Parser"
 description: "Parse and validate JSON data from construction APIs, IoT sensors, and BIM exports. Transform nested JSON to flat DataFrames."
 ---
 

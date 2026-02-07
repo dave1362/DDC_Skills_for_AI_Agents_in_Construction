@@ -1,5 +1,6 @@
 ---
-name: capacity-planning
+slug: "capacity-planning"
+display_name: "Capacity Planning"
 description: "Plan organizational capacity for construction projects. Forecast resource needs, identify capacity gaps, and support strategic planning for project pursuit and staffing."
 ---
 

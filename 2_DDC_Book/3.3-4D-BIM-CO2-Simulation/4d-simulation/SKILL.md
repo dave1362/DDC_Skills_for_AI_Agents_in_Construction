@@ -1,5 +1,6 @@
 ---
-name: 4d-simulation
+slug: "4d-simulation"
+display_name: "4D Simulation"
 description: "Create 4D construction simulations by linking BIM elements to project schedules. Generate time-based visualizations, sequence analysis, and construction phasing with Gantt integration."
 ---
 

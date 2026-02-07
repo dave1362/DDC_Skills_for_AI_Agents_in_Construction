@@ -1,5 +1,6 @@
 ---
-name: submittal-tracker
+slug: "submittal-tracker"
+display_name: "Submittal Tracker"
 description: "Track construction submittals through the review process. Manage approvals, revisions, and compliance."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: budget-variance-analyzer
+slug: "budget-variance-analyzer"
+display_name: "Budget Variance Analyzer"
 description: "Analyze construction budget variances. Compare estimated vs actual costs, identify trends, forecast final costs, and generate variance reports for cost control."
 ---
 

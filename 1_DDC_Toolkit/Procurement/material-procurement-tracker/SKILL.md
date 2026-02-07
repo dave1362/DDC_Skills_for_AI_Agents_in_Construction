@@ -1,5 +1,6 @@
 ---
-name: material-procurement-tracker
+slug: "material-procurement-tracker"
+display_name: "Material Procurement Tracker"
 description: "Track material procurement from requisition to delivery. Monitor lead times, vendors, and costs."
 ---
 

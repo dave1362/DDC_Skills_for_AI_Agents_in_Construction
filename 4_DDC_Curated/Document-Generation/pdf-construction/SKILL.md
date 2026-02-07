@@ -1,5 +1,6 @@
 ---
-name: pdf-construction
+slug: "pdf-construction"
+display_name: "PDF Construction"
 description: "PDF processing for construction documents: RFIs, submittals, specifications, drawing packages. Extract data, merge packages, fill forms."
 ---
 

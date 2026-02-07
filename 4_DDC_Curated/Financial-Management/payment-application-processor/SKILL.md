@@ -1,5 +1,6 @@
 ---
-name: payment-application-processor
+slug: "payment-application-processor"
+display_name: "Payment Application Processor"
 description: "Process construction payment applications. Validate schedule of values, calculate retainage, track billing status, and generate G702/G703 forms."
 ---
 

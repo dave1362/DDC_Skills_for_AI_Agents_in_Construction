@@ -1,5 +1,6 @@
 ---
-name: digital-twin-sync
+slug: "digital-twin-sync"
+display_name: "Digital Twin Sync"
 description: "Synchronize construction digital twins with real-time data. Connect BIM models with IoT sensors, progress updates, and field data for live project visualization and monitoring."
 ---
 

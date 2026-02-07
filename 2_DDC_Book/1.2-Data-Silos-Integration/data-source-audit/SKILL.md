@@ -1,5 +1,6 @@
 ---
-name: data-source-audit
+slug: "data-source-audit"
+display_name: "Data Source Audit"
 description: "Comprehensive audit of all construction data sources and systems. Map data flows, identify silos, assess quality, and create integration roadmap."
 ---
 

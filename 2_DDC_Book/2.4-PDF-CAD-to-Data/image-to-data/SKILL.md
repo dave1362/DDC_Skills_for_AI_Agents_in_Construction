@@ -1,5 +1,6 @@
 ---
-name: image-to-data
+slug: "image-to-data"
+display_name: "Image To Data"
 description: "Extract data from construction images using AI Vision. Analyze site photos, scanned documents, drawings"
 ---
 

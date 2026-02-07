@@ -1,5 +1,6 @@
 ---
-name: cwicr-schedule-integrator
+slug: "cwicr-schedule-integrator"
+display_name: "CWICR Schedule Integrator"
 description: "Integrate CWICR cost data with project schedules. Link work items to schedule activities, generate cost-loaded schedules, and cash flow projections."
 ---
 

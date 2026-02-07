@@ -1,5 +1,6 @@
 ---
-name: schedule-cost-link
+slug: "schedule-cost-link"
+display_name: "Schedule Cost Link"
 description: "Link schedule activities to cost items. Create cost-loaded schedules, generate cash flow curves, and track earned value."
 ---
 

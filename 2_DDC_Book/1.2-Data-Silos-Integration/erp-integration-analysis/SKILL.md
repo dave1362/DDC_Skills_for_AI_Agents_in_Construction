@@ -1,5 +1,6 @@
 ---
-name: erp-integration-analysis
+slug: "erp-integration-analysis"
+display_name: "Erp Integration Analysis"
 description: "Analyze ERP system integration for construction data flows. Map and optimize data flows between ERP modules"
 ---
 

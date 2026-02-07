@@ -1,5 +1,6 @@
 ---
-name: n8n-photo-report
+slug: "n8n-photo-report"
+display_name: "N8N Photo Report"
 description: "Automate construction photo report generation using n8n with AI-powered image analysis."
 ---
 

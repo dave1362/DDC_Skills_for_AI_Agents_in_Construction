@@ -1,5 +1,6 @@
 ---
-name: cwicr-assembly-builder
+slug: "cwicr-assembly-builder"
+display_name: "CWICR Assembly Builder"
 description: "Build cost assemblies from CWICR work items. Combine multiple items into reusable templates for common construction elements."
 ---
 

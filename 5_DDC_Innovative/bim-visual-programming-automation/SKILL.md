@@ -1,5 +1,6 @@
 ---
-name: bim-visual-programming-automation
+slug: "bim-visual-programming-automation"
+display_name: "BIM Visual Programming Automation"
 description: "Automate BIM workflows using visual programming and Python. Create parametric schedules, export data, batch modify elements, and integrate with external data sources."
 ---
 

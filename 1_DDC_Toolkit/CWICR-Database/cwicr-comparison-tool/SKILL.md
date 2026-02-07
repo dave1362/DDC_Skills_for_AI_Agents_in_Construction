@@ -1,5 +1,6 @@
 ---
-name: cwicr-comparison-tool
+slug: "cwicr-comparison-tool"
+display_name: "CWICR Comparison Tool"
 description: "Compare cost estimates across projects, versions, and scenarios. Identify variances, benchmark against standards, and generate comparison reports."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: input-validation
+slug: "input-validation"
+display_name: "Input Validation"
 description: "Validate construction data inputs before processing: cost estimates, schedules, BIM data, field reports. Catch errors early with domain-specific rules."
 ---
 

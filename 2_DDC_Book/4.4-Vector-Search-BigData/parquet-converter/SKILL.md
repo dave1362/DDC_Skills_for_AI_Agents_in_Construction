@@ -1,5 +1,6 @@
 ---
-name: parquet-converter
+slug: "parquet-converter"
+display_name: "Parquet Converter"
 description: "Convert construction data to/from Parquet format. Optimize storage, enable fast queries, and integrate with data lakehouses."
 ---
 

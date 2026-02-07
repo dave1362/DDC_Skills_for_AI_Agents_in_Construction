@@ -1,5 +1,6 @@
 ---
-name: telegram-field-bot
+slug: "telegram-field-bot"
+display_name: "Telegram Field Bot"
 description: "Build Telegram bots for construction field workers. Real-time reporting, photo uploads, task assignments, progress tracking. Integrate with n8n for automated workflows."
 ---
 

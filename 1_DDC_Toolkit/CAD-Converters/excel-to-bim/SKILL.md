@@ -1,5 +1,6 @@
 ---
-name: excel-to-bim
+slug: "excel-to-bim"
+display_name: "Excel To BIM"
 description: "Push Excel data back to BIM models. Update parameters, properties, and attributes from structured spreadsheets."
 ---
 

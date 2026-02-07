@@ -1,5 +1,6 @@
 ---
-name: cwicr-equipment-planner
+slug: "cwicr-equipment-planner"
+display_name: "CWICR Equipment Planner"
 description: "Plan equipment requirements using CWICR norms. Calculate equipment hours, scheduling, utilization rates, and rental vs purchase analysis."
 ---
 

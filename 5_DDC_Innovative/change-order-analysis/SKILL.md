@@ -1,5 +1,6 @@
 ---
-name: change-order-analysis
+slug: "change-order-analysis"
+display_name: "Change Order Analysis"
 description: "Analyze and predict construction change orders using ML. Classify change order types, predict costs and schedule impacts, identify patterns, and optimize approval workflows."
 ---
 

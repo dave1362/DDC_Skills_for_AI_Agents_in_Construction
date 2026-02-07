@@ -1,5 +1,6 @@
 ---
-name: decision-support
+slug: "decision-support"
+display_name: "Decision Support"
 description: "Provide data-driven decision support for construction. Analyze multiple factors and recommend optimal project decisions."
 ---
 

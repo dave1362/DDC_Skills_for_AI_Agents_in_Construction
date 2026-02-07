@@ -1,5 +1,6 @@
 ---
-name: prefab-optimization
+slug: "prefab-optimization"
+display_name: "Prefab Optimization"
 description: "Optimize prefabrication and modular construction workflows. Plan module sequencing, factory scheduling, transportation logistics, and on-site assembly for maximum efficiency."
 ---
 

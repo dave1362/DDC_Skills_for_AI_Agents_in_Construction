@@ -1,5 +1,6 @@
 ---
-name: few-shot-examples
+slug: "few-shot-examples"
+display_name: "Few Shot Examples"
 description: "Curated few-shot examples for construction AI tasks: classification, extraction, analysis. Domain-specific examples for improved LLM performance."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: historical-data-manager
+slug: "historical-data-manager"
+display_name: "Historical Data Manager"
 description: "Extract, clean, and organize legacy construction data from archives. Migrate historical project data, cost records, and schedules into modern formats."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: equipment-fleet-manager
+slug: "equipment-fleet-manager"
+display_name: "Equipment Fleet Manager"
 description: "Manage construction equipment fleet. Track utilization, maintenance, and assignments."
 ---
 

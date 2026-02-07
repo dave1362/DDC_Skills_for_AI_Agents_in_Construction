@@ -1,5 +1,6 @@
 ---
-name: look-ahead-scheduler
+slug: "look-ahead-scheduler"
+display_name: "Look Ahead Scheduler"
 description: "Generate rolling look-ahead schedules for construction. Create 2-week, 3-week, or 6-week look-aheads with constraint analysis and crew coordination."
 ---
 

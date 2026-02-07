@@ -1,5 +1,6 @@
 ---
-name: cwicr-location-factor
+slug: "cwicr-location-factor"
+display_name: "CWICR Location Factor"
 description: "Apply geographic location factors to CWICR estimates. Adjust costs for regional labor rates, material prices, and market conditions."
 ---
 

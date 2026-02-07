@@ -1,5 +1,6 @@
 ---
-name: duration-prediction
+slug: "duration-prediction"
+display_name: "Duration Prediction"
 description: "Predict project duration using k-NN and regression. Estimate timeline based on similar historical projects."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: ontology-mapper
+slug: "ontology-mapper"
+display_name: "Ontology Mapper"
 description: "Map construction data to standard ontologies. Create semantic mappings between different data schemas"
 ---
 

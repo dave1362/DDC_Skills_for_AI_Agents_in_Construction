@@ -1,5 +1,6 @@
 ---
-name: uberization-readiness
+slug: "uberization-readiness"
+display_name: "Uberization Readiness"
 description: "Assess company readiness for construction industry uberization. Analyze data transparency, process automation, and competitive positioning against open data platforms."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: airflow-dag
+slug: "airflow-dag"
+display_name: "Airflow Dag"
 description: "Create Apache Airflow DAGs for construction data pipelines. Orchestrate ETL, validation, and reporting workflows."
 ---
 

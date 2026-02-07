@@ -1,5 +1,6 @@
 ---
-name: rvt-to-excel
+slug: "rvt-to-excel"
+display_name: "RVT To Excel"
 description: "Convert RVT/RFA files to Excel databases. Extract BIM element data, properties, and quantities."
 ---
 

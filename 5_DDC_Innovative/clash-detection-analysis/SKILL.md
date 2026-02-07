@@ -1,5 +1,6 @@
 ---
-name: clash-detection-analysis
+slug: "clash-detection-analysis"
+display_name: "Clash Detection Analysis"
 description: "Detect and analyze geometric clashes between BIM elements. Identify hard clashes, soft clashes, and workflow conflicts using spatial analysis and rule-based detection."
 ---
 

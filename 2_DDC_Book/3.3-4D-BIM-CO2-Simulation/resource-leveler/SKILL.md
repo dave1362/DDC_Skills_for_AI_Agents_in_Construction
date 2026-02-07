@@ -1,5 +1,6 @@
 ---
-name: resource-leveler
+slug: "resource-leveler"
+display_name: "Resource Leveler"
 description: "Level and optimize construction resource allocation across project schedule. Balance labor, equipment usage, and avoid overallocation while maintaining critical path."
 ---
 

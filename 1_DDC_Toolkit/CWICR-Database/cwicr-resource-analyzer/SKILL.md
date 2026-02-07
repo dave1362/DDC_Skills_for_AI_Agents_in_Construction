@@ -1,5 +1,6 @@
 ---
-name: cwicr-resource-analyzer
+slug: "cwicr-resource-analyzer"
+display_name: "CWICR Resource Analyzer"
 description: "Analyze construction resources (labor, materials, equipment) from DDC CWICR database. Calculate resource requirements, productivity metrics, and optimization recommendations."
 ---
 

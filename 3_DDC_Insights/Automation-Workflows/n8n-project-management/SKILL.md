@@ -1,6 +1,7 @@
 ---
-name: n8n-project-management
-description: Build a complete project management system with Telegram bot, task distribution, and photo reports using n8n. Based on DDC Project Management repository.
+slug: "n8n-project-management"
+display_name: "N8N Project Management"
+description: "Build a complete project management system with Telegram bot, task distribution, and photo reports using n8n. Based on DDC Project Management repository."
 ---
 
 # n8n Project Management System for Construction

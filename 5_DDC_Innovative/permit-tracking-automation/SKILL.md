@@ -1,5 +1,6 @@
 ---
-name: permit-tracking-automation
+slug: "permit-tracking-automation"
+display_name: "Permit Tracking Automation"
 description: "Automate construction permit tracking and management. Monitor application status, track renewal deadlines, manage document requirements, and integrate with municipal systems."
 ---
 

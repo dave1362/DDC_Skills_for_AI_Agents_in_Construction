@@ -1,5 +1,6 @@
 ---
-name: labor-productivity-analyzer
+slug: "labor-productivity-analyzer"
+display_name: "Labor Productivity Analyzer"
 description: "Analyze labor productivity by trade, activity, and location. Track efficiency and identify improvement opportunities."
 ---
 

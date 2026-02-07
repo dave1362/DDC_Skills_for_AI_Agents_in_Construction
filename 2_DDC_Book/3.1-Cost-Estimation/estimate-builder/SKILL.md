@@ -1,5 +1,6 @@
 ---
-name: estimate-builder
+slug: "estimate-builder"
+display_name: "Estimate Builder"
 description: "Build construction project estimates. Generate detailed cost breakdowns with labor, materials, equipment, and overhead."
 ---
 

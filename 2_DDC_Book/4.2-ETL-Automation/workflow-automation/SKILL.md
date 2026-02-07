@@ -1,5 +1,6 @@
 ---
-name: workflow-automation
+slug: "workflow-automation"
+display_name: "Workflow Automation"
 description: "Automate construction data workflows. Build ETL pipelines and DAG workflows for recurring tasks."
 ---
 

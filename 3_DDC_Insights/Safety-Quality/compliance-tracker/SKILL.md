@@ -1,5 +1,6 @@
 ---
-name: compliance-tracker
+slug: "compliance-tracker"
+display_name: "Compliance Tracker"
 description: "Track regulatory compliance for construction projects. Monitor permits, certifications, inspections, and regulatory requirements with automated alerts and reporting."
 ---
 

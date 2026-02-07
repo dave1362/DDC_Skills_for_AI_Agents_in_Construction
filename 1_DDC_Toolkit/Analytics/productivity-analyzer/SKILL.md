@@ -1,5 +1,6 @@
 ---
-name: productivity-analyzer
+slug: "productivity-analyzer"
+display_name: "Productivity Analyzer"
 description: "Analyze labor productivity from site data. Compare planned vs actual, identify trends, benchmark against industry standards."
 ---
 

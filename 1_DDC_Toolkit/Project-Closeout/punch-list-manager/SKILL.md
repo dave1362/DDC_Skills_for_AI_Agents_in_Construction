@@ -1,5 +1,6 @@
 ---
-name: punch-list-manager
+slug: "punch-list-manager"
+display_name: "Punch List Manager"
 description: "Manage construction punch lists for project closeout. Track deficiencies, assign corrections, and monitor completion status."
 ---
 

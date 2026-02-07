@@ -1,6 +1,7 @@
 ---
-name: punch-list-manager
-description: Digital punch list management for construction project closeout. Track deficiencies, assign corrections, photo documentation, and completion verification.
+slug: "punch-list-manager"
+display_name: "Punch List Manager"
+description: "Digital punch list management for construction project closeout. Track deficiencies, assign corrections, photo documentation, and completion verification."
 ---
 
 # Punch List Manager for Construction Closeout

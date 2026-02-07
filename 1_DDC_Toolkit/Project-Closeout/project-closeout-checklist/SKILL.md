@@ -1,5 +1,6 @@
 ---
-name: project-closeout-checklist
+slug: "project-closeout-checklist"
+display_name: "Project Closeout Checklist"
 description: "Manage project closeout activities. Track completion of documentation, warranties, and final inspections."
 ---
 

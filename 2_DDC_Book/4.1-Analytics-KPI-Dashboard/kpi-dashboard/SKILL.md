@@ -1,5 +1,6 @@
 ---
-name: kpi-dashboard
+slug: "kpi-dashboard"
+display_name: "KPI Dashboard"
 description: "Build KPI dashboards for construction projects. Track CPI, SPI, quality, safety metrics in real-time."
 ---
 

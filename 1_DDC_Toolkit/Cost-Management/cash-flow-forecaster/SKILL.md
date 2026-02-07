@@ -1,5 +1,6 @@
 ---
-name: cash-flow-forecaster
+slug: "cash-flow-forecaster"
+display_name: "Cash Flow Forecaster"
 description: "Forecast project cash flow based on schedule and cost data. Generate S-curves and payment projections."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: cwicr-material-substitution
+slug: "cwicr-material-substitution"
+display_name: "CWICR Material Substitution"
 description: "Find substitute materials using CWICR data. Identify equivalent alternatives based on function, cost, and availability."
 ---
 

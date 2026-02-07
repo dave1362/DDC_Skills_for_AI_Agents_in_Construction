@@ -1,5 +1,6 @@
 ---
-name: lien-waiver-tracker
+slug: "lien-waiver-tracker"
+display_name: "Lien Waiver Tracker"
 description: "Track and manage construction lien waivers. Monitor conditional and unconditional waivers, ensure compliance before payments, and prevent lien exposure."
 ---
 

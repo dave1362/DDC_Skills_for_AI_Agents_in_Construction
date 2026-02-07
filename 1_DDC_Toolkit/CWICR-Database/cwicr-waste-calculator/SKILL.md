@@ -1,5 +1,6 @@
 ---
-name: cwicr-waste-calculator
+slug: "cwicr-waste-calculator"
+display_name: "CWICR Waste Calculator"
 description: "Calculate material waste factors and losses using CWICR norms. Apply waste percentages, cutting losses, and spillage factors to material quantities."
 ---
 

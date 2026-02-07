@@ -1,6 +1,7 @@
 ---
-name: verification-loop-construction
-description: Comprehensive verification system for construction automation deliverables. Use after completing estimates, schedules, reports, or data processing tasks to ensure quality.
+slug: "verification-loop-construction"
+display_name: "Verification Loop Construction"
+description: "Comprehensive verification system for construction automation deliverables. Use after completing estimates, schedules, reports, or data processing tasks to ensure quality."
 ---
 
 # Verification Loop for Construction Automation

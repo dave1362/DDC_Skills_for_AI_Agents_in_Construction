@@ -1,5 +1,6 @@
 ---
-name: material-tracking-iot
+slug: "material-tracking-iot"
+display_name: "Material Tracking IOT"
 description: "IoT-based material tracking for construction sites. Monitor material delivery, storage conditions, usage, and inventory with sensors, RFID, GPS, and real-time dashboards."
 ---
 

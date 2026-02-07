@@ -1,5 +1,6 @@
 ---
-name: email-construction
+slug: "email-construction"
+display_name: "Email Construction"
 description: "Email generation for construction workflows: RFI responses, submittal transmittals, meeting notices, change order notifications. Professional templates with context-aware content."
 ---
 

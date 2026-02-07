@@ -1,5 +1,6 @@
 ---
-name: ml-model-builder
+slug: "ml-model-builder"
+display_name: "ML Model Builder"
 description: "Build ML models for construction predictions. Train and evaluate custom models for cost, duration, and risk prediction."
 ---
 

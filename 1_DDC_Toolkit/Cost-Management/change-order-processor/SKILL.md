@@ -1,5 +1,6 @@
 ---
-name: change-order-processor
+slug: "change-order-processor"
+display_name: "Change Order Processor"
 description: "Process and manage construction change orders. Track costs, approvals, and impact on schedule and budget."
 ---
 

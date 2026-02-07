@@ -1,5 +1,6 @@
 ---
-name: cwicr-takeoff-helper
+slug: "cwicr-takeoff-helper"
+display_name: "CWICR Takeoff Helper"
 description: "Assist with quantity takeoff using CWICR data. Calculate quantities from dimensions, apply waste factors, and suggest related work items."
 ---
 

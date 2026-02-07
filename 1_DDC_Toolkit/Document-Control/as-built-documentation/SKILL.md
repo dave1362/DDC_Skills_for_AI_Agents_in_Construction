@@ -1,5 +1,6 @@
 ---
-name: as-built-documentation
+slug: "as-built-documentation"
+display_name: "As Built Documentation"
 description: "Manage as-built documentation for project closeout. Track drawing markups, coordinate updates, and verify completeness."
 ---
 

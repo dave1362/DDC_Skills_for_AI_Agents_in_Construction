@@ -1,5 +1,6 @@
 ---
-name: meeting-minutes-generator
+slug: "meeting-minutes-generator"
+display_name: "Meeting Minutes Generator"
 description: "Generate structured construction meeting minutes. Track action items, decisions, and attendees."
 ---
 

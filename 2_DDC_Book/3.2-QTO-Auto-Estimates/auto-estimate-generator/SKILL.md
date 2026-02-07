@@ -1,5 +1,6 @@
 ---
-name: auto-estimate-generator
+slug: "auto-estimate-generator"
+display_name: "Auto Estimate Generator"
 description: "Automatically generate estimates from QTO data. Apply pricing rules to BIM quantities for cost estimates."
 ---
 

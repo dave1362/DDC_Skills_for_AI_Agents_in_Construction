@@ -1,5 +1,6 @@
 ---
-name: open-data-integrator
+slug: "open-data-integrator"
+display_name: "Open Data Integrator"
 description: "Integrate open construction datasets. Combine open data sources for enhanced analysis"
 ---
 

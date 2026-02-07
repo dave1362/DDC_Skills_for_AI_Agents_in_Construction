@@ -1,5 +1,6 @@
 ---
-name: price-api
+slug: "price-api"
+display_name: "Price API"
 description: "Fetch construction material prices from open APIs. Track price trends, regional variations, and update cost databases."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: ml-model-retrainer
+slug: "ml-model-retrainer"
+display_name: "ML Model Retrainer"
 description: "Automated pipeline for retraining ML models with new construction data. Monitor model drift, trigger retraining, and validate model performance."
 ---
 

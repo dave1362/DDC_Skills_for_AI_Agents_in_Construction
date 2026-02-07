@@ -1,5 +1,6 @@
 ---
-name: sensor-data-aggregator
+slug: "sensor-data-aggregator"
+display_name: "Sensor Data Aggregator"
 description: "Aggregate and analyze IoT sensor data from construction sites. Collect data from multiple sensor types, detect anomalies, and trigger alerts for safety and quality monitoring."
 ---
 

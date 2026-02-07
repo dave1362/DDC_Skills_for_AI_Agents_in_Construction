@@ -1,5 +1,6 @@
 ---
-name: historical-cost-analyzer
+slug: "historical-cost-analyzer"
+display_name: "Historical Cost Analyzer"
 description: "Analyze historical construction costs for benchmarking, trend analysis, and estimating calibration. Compare projects, track escalation, identify patterns."
 ---
 

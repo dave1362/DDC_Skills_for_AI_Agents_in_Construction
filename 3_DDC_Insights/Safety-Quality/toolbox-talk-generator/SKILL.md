@@ -1,5 +1,6 @@
 ---
-name: toolbox-talk-generator
+slug: "toolbox-talk-generator"
+display_name: "Toolbox Talk Generator"
 description: "Generate safety toolbox talks for construction crews. Create contextual safety briefings based on weather, work activities, and recent incidents. Support multiple languages."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: big-data-analysis
+slug: "big-data-analysis"
+display_name: "Big Data Analysis"
 description: "Analyze large-scale construction datasets. Process thousands of projects for patterns, benchmarks, and predictive insights."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: cwicr-quantity-matcher
+slug: "cwicr-quantity-matcher"
+display_name: "CWICR Quantity Matcher"
 description: "Match BIM quantities to CWICR work items. Map element categories to cost codes, validate quantities, and generate cost-linked QTOs."
 ---
 

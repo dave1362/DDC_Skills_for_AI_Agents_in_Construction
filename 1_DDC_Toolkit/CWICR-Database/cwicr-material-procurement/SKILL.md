@@ -1,5 +1,6 @@
 ---
-name: cwicr-material-procurement
+slug: "cwicr-material-procurement"
+display_name: "CWICR Material Procurement"
 description: "Generate material procurement lists from CWICR data. Calculate quantities with waste factors, group by supplier categories, and create purchase orders."
 ---
 

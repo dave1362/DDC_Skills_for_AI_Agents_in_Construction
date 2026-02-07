@@ -1,5 +1,6 @@
 ---
-name: schedule-delay-analyzer
+slug: "schedule-delay-analyzer"
+display_name: "Schedule Delay Analyzer"
 description: "Analyze schedule delays, identify causes, and calculate time impacts using delay analysis methods."
 ---
 

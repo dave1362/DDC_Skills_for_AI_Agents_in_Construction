@@ -1,5 +1,6 @@
 ---
-name: payment-application-generator
+slug: "payment-application-generator"
+display_name: "Payment Application Generator"
 description: "Generate AIA-style payment applications. Track schedule of values, calculate retention, and produce payment documentation."
 ---
 

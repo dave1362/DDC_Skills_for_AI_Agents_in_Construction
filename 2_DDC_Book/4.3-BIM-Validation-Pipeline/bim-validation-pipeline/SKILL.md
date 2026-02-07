@@ -1,5 +1,6 @@
 ---
-name: bim-validation-pipeline
+slug: "bim-validation-pipeline"
+display_name: "BIM Validation Pipeline"
 description: "Build automated BIM validation pipelines for IFC/Revit data. Continuous validation against IDS, LOD requirements, COBie, and project-specific BEP standards."
 ---
 

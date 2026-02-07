@@ -1,5 +1,6 @@
 ---
-name: interoperability-analyzer
+slug: "interoperability-analyzer"
+display_name: "Interoperability Analyzer"
 description: "Analyze data interoperability issues in construction projects. Identify format incompatibilities and data loss points."
 ---
 

@@ -1,6 +1,7 @@
 ---
-name: continuous-learning-construction
-description: Automatically extract patterns, best practices, and reusable knowledge from construction automation sessions to improve future performance.
+slug: "continuous-learning-construction"
+display_name: "Continuous Learning Construction"
+description: "Automatically extract patterns, best practices, and reusable knowledge from construction automation sessions to improve future performance."
 ---
 
 # Continuous Learning for Construction Automation

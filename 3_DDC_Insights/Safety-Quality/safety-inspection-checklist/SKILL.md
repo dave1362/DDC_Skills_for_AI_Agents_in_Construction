@@ -1,5 +1,6 @@
 ---
-name: safety-inspection-checklist
+slug: "safety-inspection-checklist"
+display_name: "Safety Inspection Checklist"
 description: "Digital safety inspection checklists for construction sites. Generate, conduct, and track safety inspections with automated reporting and compliance monitoring."
 ---
 

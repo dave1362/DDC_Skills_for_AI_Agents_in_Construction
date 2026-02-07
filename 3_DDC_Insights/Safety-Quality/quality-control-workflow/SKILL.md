@@ -1,5 +1,6 @@
 ---
-name: quality-control-workflow
+slug: "quality-control-workflow"
+display_name: "Quality Control Workflow"
 description: "Construction quality control workflow automation. Manage QC inspections, track defects, generate NCRs, and ensure specification compliance throughout the project."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: predictive-analytics-construction
+slug: "predictive-analytics-construction"
+display_name: "Predictive Analytics Construction"
 description: "Forecast project outcomes using historical data: cost overruns, schedule delays, risk probabilities. Machine learning models for construction prediction."
 ---
 

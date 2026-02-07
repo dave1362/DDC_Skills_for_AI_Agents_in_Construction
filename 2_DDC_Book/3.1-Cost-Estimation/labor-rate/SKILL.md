@@ -1,5 +1,6 @@
 ---
-name: labor-rate
+slug: "labor-rate"
+display_name: "Labor Rate"
 description: "Calculate construction labor rates with overhead, benefits, and productivity factors. Regional rate databases and crew composition."
 ---
 

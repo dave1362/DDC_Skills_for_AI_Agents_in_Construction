@@ -1,5 +1,6 @@
 ---
-name: cwicr-labor-scheduler
+slug: "cwicr-labor-scheduler"
+display_name: "CWICR Labor Scheduler"
 description: "Schedule labor crews based on CWICR norms and project timeline. Calculate crew sizes, shifts, and labor loading curves."
 ---
 

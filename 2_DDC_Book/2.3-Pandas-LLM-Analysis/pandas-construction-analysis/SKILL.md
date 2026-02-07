@@ -1,5 +1,6 @@
 ---
-name: pandas-construction-analysis
+slug: "pandas-construction-analysis"
+display_name: "Pandas Construction Analysis"
 description: "Comprehensive Pandas toolkit for construction data analysis. Filter, group, aggregate BIM elements, calculate quantities, merge datasets, and generate reports from structured construction data."
 ---
 

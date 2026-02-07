@@ -1,5 +1,6 @@
 ---
-name: progress-monitoring-cv
+slug: "progress-monitoring-cv"
+display_name: "Progress Monitoring Cv"
 description: "Monitor construction progress using computer vision. Analyze site photos and drone imagery to track work completion, detect safety issues, and compare against BIM models."
 ---
 

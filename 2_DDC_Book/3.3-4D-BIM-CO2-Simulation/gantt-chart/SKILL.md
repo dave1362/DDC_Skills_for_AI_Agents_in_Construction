@@ -1,5 +1,6 @@
 ---
-name: gantt-chart
+slug: "gantt-chart"
+display_name: "Gantt Chart"
 description: "Generate Gantt charts for construction scheduling. Create visual project timelines with dependencies and progress tracking."
 ---
 

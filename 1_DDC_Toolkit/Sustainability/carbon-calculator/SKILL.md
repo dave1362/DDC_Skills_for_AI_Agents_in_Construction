@@ -1,5 +1,6 @@
 ---
-name: carbon-calculator
+slug: "carbon-calculator"
+display_name: "Carbon Calculator"
 description: "Calculate embodied carbon in construction materials. Track CO2 emissions, compare alternatives, and generate sustainability reports."
 ---
 

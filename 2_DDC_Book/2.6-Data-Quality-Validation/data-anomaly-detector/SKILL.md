@@ -1,5 +1,6 @@
 ---
-name: data-anomaly-detector
+slug: "data-anomaly-detector"
+display_name: "Data Anomaly Detector"
 description: "Detect anomalies and outliers in construction data: unusual costs, schedule variances, productivity spikes. Statistical and ML-based detection methods."
 ---
 

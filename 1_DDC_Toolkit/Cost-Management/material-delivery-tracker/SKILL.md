@@ -1,5 +1,6 @@
 ---
-name: material-delivery-tracker
+slug: "material-delivery-tracker"
+display_name: "Material Delivery Tracker"
 description: "Track material deliveries, manage inventory, and coordinate logistics. Monitor delivery schedules and site storage."
 ---
 

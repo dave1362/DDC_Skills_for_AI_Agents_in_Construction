@@ -1,5 +1,6 @@
 ---
-name: rag-construction
+slug: "rag-construction"
+display_name: "Rag Construction"
 description: "Build RAG systems for construction knowledge bases. Create searchable AI-powered construction document systems"
 ---
 

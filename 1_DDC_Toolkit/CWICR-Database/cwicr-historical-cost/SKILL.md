@@ -1,5 +1,6 @@
 ---
-name: cwicr-historical-cost
+slug: "cwicr-historical-cost"
+display_name: "CWICR Historical Cost"
 description: "Track and analyze historical cost data using CWICR. Compare actual vs estimated costs, build project cost database, and improve future estimates."
 ---
 

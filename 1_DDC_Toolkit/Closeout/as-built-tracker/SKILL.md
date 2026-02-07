@@ -1,5 +1,6 @@
 ---
-name: as-built-tracker
+slug: "as-built-tracker"
+display_name: "As Built Tracker"
 description: "Track as-built documentation and record drawings. Monitor submission status, manage revisions, and ensure completeness for handover."
 ---
 

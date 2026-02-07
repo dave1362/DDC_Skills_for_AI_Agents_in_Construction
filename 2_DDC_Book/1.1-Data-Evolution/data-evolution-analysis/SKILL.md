@@ -1,5 +1,6 @@
 ---
-name: data-evolution-analysis
+slug: "data-evolution-analysis"
+display_name: "Data Evolution Analysis"
 description: "Analyze data evolution patterns in construction organizations. Assess digital maturity and data strategy for construction companies"
 ---
 

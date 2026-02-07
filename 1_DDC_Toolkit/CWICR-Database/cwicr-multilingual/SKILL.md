@@ -1,5 +1,6 @@
 ---
-name: cwicr-multilingual
+slug: "cwicr-multilingual"
+display_name: "CWICR Multilingual"
 description: "Work with CWICR database across 9 languages. Cross-language matching, translation, and regional pricing."
 ---
 

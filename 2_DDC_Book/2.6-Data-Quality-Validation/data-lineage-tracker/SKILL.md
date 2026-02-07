@@ -1,5 +1,6 @@
 ---
-name: data-lineage-tracker
+slug: "data-lineage-tracker"
+display_name: "Data Lineage Tracker"
 description: "Track data origin, transformations, and flow through construction systems. Essential for audit trails, compliance, and debugging data issues."
 ---
 

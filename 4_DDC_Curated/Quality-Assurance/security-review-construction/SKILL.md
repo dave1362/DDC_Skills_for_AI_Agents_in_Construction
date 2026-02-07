@@ -1,6 +1,7 @@
 ---
-name: security-review-construction
-description: Security review checklist for construction software systems. Use when building integrations, APIs, data pipelines, or dashboards for construction projects.
+slug: "security-review-construction"
+display_name: "Security Review Construction"
+description: "Security review checklist for construction software systems. Use when building integrations, APIs, data pipelines, or dashboards for construction projects."
 ---
 
 # Security Review Skill for Construction Systems

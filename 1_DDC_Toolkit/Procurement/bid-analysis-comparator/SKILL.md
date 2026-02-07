@@ -1,5 +1,6 @@
 ---
-name: bid-analysis-comparator
+slug: "bid-analysis-comparator"
+display_name: "Bid Analysis Comparator"
 description: "Compare and analyze contractor bids. Score proposals, identify scope gaps, and recommend selections."
 ---
 

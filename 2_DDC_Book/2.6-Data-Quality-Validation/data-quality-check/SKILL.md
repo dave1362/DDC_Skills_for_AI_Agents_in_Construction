@@ -1,5 +1,6 @@
 ---
-name: data-quality-check
+slug: "data-quality-check"
+display_name: "Data Quality Check"
 description: "Assess construction data quality using completeness, accuracy, consistency, timeliness, and validity metrics. Automated validation with regex patterns, thresholds, and reporting."
 ---
 

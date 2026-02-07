@@ -1,5 +1,6 @@
 ---
-name: prompt-templates
+slug: "prompt-templates"
+display_name: "Prompt Templates"
 description: "Reusable prompt templates for construction AI tasks: cost estimation, schedule analysis, document processing, BIM queries. Structured prompts for consistent results."
 ---
 

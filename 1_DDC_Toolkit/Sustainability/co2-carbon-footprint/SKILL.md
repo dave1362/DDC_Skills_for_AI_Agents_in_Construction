@@ -1,5 +1,6 @@
 ---
-name: co2-carbon-footprint
+slug: "co2-carbon-footprint"
+display_name: "Co2 Carbon Footprint"
 description: "Calculate and track CO2 emissions and carbon footprint for construction projects."
 ---
 

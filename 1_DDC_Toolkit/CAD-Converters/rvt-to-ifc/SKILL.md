@@ -1,5 +1,6 @@
 ---
-name: rvt-to-ifc
+slug: "rvt-to-ifc"
+display_name: "RVT To IFC"
 description: "Convert RVT files to IFC format. Support IFC2x3, IFC4, IFC4.3 with customizable export settings."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: excel-to-rvt
+slug: "excel-to-rvt"
+display_name: "Excel To RVT"
 description: "Import Excel data into RVT projects. Update element parameters, create schedules, and sync external data sources."
 ---
 

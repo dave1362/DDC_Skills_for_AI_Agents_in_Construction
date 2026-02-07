@@ -1,5 +1,6 @@
 ---
-name: subcontractor-payment-tracker
+slug: "subcontractor-payment-tracker"
+display_name: "Subcontractor Payment Tracker"
 description: "Track subcontractor payments, lien waivers, and compliance. Manage payment schedules and documentation."
 ---
 

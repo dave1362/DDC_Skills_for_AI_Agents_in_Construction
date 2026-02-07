@@ -1,5 +1,6 @@
 ---
-name: pdf-report-generator
+slug: "pdf-report-generator"
+display_name: "PDF Report Generator"
 description: "Automatically generate PDF reports from construction data. Create formatted project reports with charts and tables."
 ---
 

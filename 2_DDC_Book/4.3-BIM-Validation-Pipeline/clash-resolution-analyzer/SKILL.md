@@ -1,5 +1,6 @@
 ---
-name: clash-resolution-analyzer
+slug: "clash-resolution-analyzer"
+display_name: "Clash Resolution Analyzer"
 description: "Analyze BIM clash detection results and suggest resolutions. Prioritize clashes, identify patterns, assign responsibility, and track resolution status."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: data-profiler
+slug: "data-profiler"
+display_name: "Data Profiler"
 description: "Profile construction data to understand characteristics, distributions, quality metrics, and patterns. Essential for data quality assessment and ETL planning."
 ---
 

@@ -1,5 +1,6 @@
 ---
-name: energy-simulation
+slug: "energy-simulation"
+display_name: "Energy Simulation"
 description: "Building energy simulation and analysis for construction. Calculate heating/cooling loads, evaluate envelope performance, optimize HVAC sizing, and ensure energy code compliance."
 ---
 

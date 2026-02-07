@@ -1,5 +1,6 @@
 ---
-name: df-merger
+slug: "df-merger"
+display_name: "Df Merger"
 description: "Merge pandas DataFrames from multiple construction sources. Handle different schemas, keys, and data quality issues."
 ---
 

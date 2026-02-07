@@ -1,5 +1,6 @@
 ---
-name: progress-photo-analyzer
+slug: "progress-photo-analyzer"
+display_name: "Progress Photo Analyzer"
 description: "Analyze field progress photos. Catalog, tag, and compare against planned progress."
 ---
 

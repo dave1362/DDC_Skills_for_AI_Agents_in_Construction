@@ -1,5 +1,6 @@
 ---
-name: co2-estimation
+slug: "co2-estimation"
+display_name: "Co2 Estimation"
 description: "Calculate carbon footprint of construction projects. Estimate CO2 emissions from materials, transportation, and construction processes using emission factors databases."
 ---
 
