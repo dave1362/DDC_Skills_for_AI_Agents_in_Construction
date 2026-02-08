@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License">
 </p>
 
-<p align="center"><img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC_Skills_Githhub.png" alt="DDC Skills" width="90%"></p>
+<p align="center"><img src="https://github.com/datadrivenconstruction/cad2data-Revit-IFC-DWG-DGN-pipeline-with-conversion-validation-qto/blob/main/DDC_in_additon/DDC_readme_content/DDC_Skills_Githhub3.png" alt="DDC Skills" width="90%"></p>
 
 <h3 align="center">Works with any AI coding assistant:</h3>
 
