@@ -1,9 +1,9 @@
 ---
-slug: "few-shot-examples"
-display_name: "Few Shot Examples"
+name: "few-shot-examples"
 description: "Curated few-shot examples for construction AI tasks: classification, extraction, analysis. Domain-specific examples for improved LLM performance."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💡", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Few-Shot Examples for Construction AI
 
 ## Overview

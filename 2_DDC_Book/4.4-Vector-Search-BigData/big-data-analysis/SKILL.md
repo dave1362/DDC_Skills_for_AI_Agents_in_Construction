@@ -1,9 +1,9 @@
 ---
-slug: "big-data-analysis"
-display_name: "Big Data Analysis"
+name: "big-data-analysis"
 description: "Analyze large-scale construction datasets. Process thousands of projects for patterns, benchmarks, and predictive insights."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔢", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Big Data Analysis
 
 ## Business Case

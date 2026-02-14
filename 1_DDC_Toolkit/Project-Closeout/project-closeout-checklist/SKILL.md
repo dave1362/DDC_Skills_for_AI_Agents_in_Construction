@@ -1,9 +1,9 @@
 ---
-slug: "project-closeout-checklist"
-display_name: "Project Closeout Checklist"
+name: "project-closeout-checklist"
 description: "Manage project closeout activities. Track completion of documentation, warranties, and final inspections."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "✅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Project Closeout Checklist
 
 ## Technical Implementation

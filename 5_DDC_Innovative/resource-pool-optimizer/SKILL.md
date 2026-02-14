@@ -1,9 +1,9 @@
 ---
-slug: "resource-pool-optimizer"
-display_name: "Resource Pool Optimizer"
+name: "resource-pool-optimizer"
 description: "Optimize shared resource pools across multiple construction projects. Balance resource allocation, minimize conflicts, and maximize utilization across the portfolio."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Resource Pool Optimizer
 
 ## Overview

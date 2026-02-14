@@ -1,7 +1,8 @@
 ---
-slug: "unit-price-database-manager"
-display_name: "Unit Price Database Manager"
+name: "unit-price-database-manager"
 description: "Manage construction unit price databases: update prices, track vendors, apply location factors, maintain historical records. Essential for accurate estimating."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw":{"emoji":"🗃️","os":["darwin","linux","win32"],"homepage":"https://datadrivenconstruction.io","requires":{"bins":["python3"]}}}
 ---
 
 # Unit Price Database Manager for Construction

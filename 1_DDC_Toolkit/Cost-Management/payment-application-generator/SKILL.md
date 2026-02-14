@@ -1,9 +1,9 @@
 ---
-slug: "payment-application-generator"
-display_name: "Payment Application Generator"
+name: "payment-application-generator"
 description: "Generate AIA-style payment applications. Track schedule of values, calculate retention, and produce payment documentation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Payment Application Generator
 
 ## Business Case

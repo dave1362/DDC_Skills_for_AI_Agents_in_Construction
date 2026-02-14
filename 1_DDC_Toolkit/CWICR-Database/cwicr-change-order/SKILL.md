@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-change-order"
-display_name: "CWICR Change Order"
+name: "cwicr-change-order"
 description: "Process construction change orders using CWICR data. Calculate cost impact, compare to original estimate, and generate change order documentation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Change Order Processor
 
 ## Business Case

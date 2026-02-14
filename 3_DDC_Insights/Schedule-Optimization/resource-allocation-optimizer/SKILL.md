@@ -1,9 +1,9 @@
 ---
-slug: "resource-allocation-optimizer"
-display_name: "Resource Allocation Optimizer"
+name: "resource-allocation-optimizer"
 description: "Optimize construction resource allocation across activities. Level resources, resolve over-allocations, and balance workload while minimizing schedule impact."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⏱️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Resource Allocation Optimizer
 
 ## Overview

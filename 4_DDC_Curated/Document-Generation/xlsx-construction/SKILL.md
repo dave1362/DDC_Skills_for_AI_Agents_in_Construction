@@ -1,9 +1,9 @@
 ---
-slug: "xlsx-construction"
-display_name: "Xlsx Construction"
+name: "xlsx-construction"
 description: "Excel/spreadsheet processing for construction: estimates, schedules, tracking logs, quantity takeoffs. Formulas, formatting, analysis."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Excel Processing for Construction
 
 ## Overview

@@ -1,9 +1,9 @@
 ---
-slug: "delay-analysis"
-display_name: "Delay Analysis"
+name: "delay-analysis"
 description: "Analyze construction schedule delays for claims and recovery. Perform time impact analysis, identify delay causes, calculate damages, and document for disputes."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⏱️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Delay Analysis
 
 ## Overview

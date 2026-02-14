@@ -1,9 +1,9 @@
 ---
-slug: "input-validation"
-display_name: "Input Validation"
+name: "input-validation"
 description: "Validate construction data inputs before processing: cost estimates, schedules, BIM data, field reports. Catch errors early with domain-specific rules."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "✔️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Input Validation for Construction Data
 
 ## Overview

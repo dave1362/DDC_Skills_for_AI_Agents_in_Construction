@@ -1,9 +1,9 @@
 ---
-slug: "subcontractor-prequalification"
-display_name: "Subcontractor Prequalification"
+name: "subcontractor-prequalification"
 description: "Prequalify subcontractors based on safety, financial, and performance criteria."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛒", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Subcontractor Prequalification
 
 ## Technical Implementation

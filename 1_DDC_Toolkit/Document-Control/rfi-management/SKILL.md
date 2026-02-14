@@ -1,9 +1,9 @@
 ---
-slug: "rfi-management"
-display_name: "Rfi Management"
+name: "rfi-management"
 description: "Complete RFI (Request for Information) management system. Create, track, route, and analyze RFIs with automatic notifications and response deadline tracking."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📋", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # RFI Management System for Construction
 
 Comprehensive system for managing Requests for Information (RFIs) throughout the construction project lifecycle.

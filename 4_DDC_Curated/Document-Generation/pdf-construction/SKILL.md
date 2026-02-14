@@ -1,9 +1,9 @@
 ---
-slug: "pdf-construction"
-display_name: "PDF Construction"
+name: "pdf-construction"
 description: "PDF processing for construction documents: RFIs, submittals, specifications, drawing packages. Extract data, merge packages, fill forms."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # PDF Processing for Construction
 
 ## Overview

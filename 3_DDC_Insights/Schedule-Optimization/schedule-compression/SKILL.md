@@ -1,9 +1,9 @@
 ---
-slug: "schedule-compression"
-display_name: "Schedule Compression"
+name: "schedule-compression"
 description: "Compress construction schedules using crashing and fast-tracking techniques. Analyze cost-time tradeoffs and find optimal acceleration strategies."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⏱️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Schedule Compression
 
 ## Overview

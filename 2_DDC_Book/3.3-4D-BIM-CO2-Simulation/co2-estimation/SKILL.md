@@ -1,9 +1,9 @@
 ---
-slug: "co2-estimation"
-display_name: "Co2 Estimation"
+name: "co2-estimation"
 description: "Calculate carbon footprint of construction projects. Estimate CO2 emissions from materials, transportation, and construction processes using emission factors databases."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🎬", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CO2 Estimation for Construction
 
 ## Overview

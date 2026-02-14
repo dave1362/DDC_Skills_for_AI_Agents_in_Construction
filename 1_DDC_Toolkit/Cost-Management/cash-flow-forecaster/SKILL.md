@@ -1,9 +1,9 @@
 ---
-slug: "cash-flow-forecaster"
-display_name: "Cash Flow Forecaster"
+name: "cash-flow-forecaster"
 description: "Forecast project cash flow based on schedule and cost data. Generate S-curves and payment projections."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Cash Flow Forecaster
 
 ## Business Case

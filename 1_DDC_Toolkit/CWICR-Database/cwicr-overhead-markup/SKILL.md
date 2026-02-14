@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-overhead-markup"
-display_name: "CWICR Overhead Markup"
+name: "cwicr-overhead-markup"
 description: "Apply overhead, profit, and markup to CWICR estimates. Calculate indirect costs, general conditions, and contractor margins."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Overhead & Markup Calculator
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "parquet-converter"
-display_name: "Parquet Converter"
+name: "parquet-converter"
 description: "Convert construction data to/from Parquet format. Optimize storage, enable fast queries, and integrate with data lakehouses."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔢", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Parquet Converter
 
 ## Business Case

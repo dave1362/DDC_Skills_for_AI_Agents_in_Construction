@@ -1,9 +1,9 @@
 ---
-slug: "compliance-tracker"
-display_name: "Compliance Tracker"
+name: "compliance-tracker"
 description: "Track regulatory compliance for construction projects. Monitor permits, certifications, inspections, and regulatory requirements with automated alerts and reporting."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🦺", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Compliance Tracker
 
 ## Overview

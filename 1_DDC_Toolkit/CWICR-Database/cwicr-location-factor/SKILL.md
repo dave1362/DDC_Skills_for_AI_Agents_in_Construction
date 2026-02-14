@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-location-factor"
-display_name: "CWICR Location Factor"
+name: "cwicr-location-factor"
 description: "Apply geographic location factors to CWICR estimates. Adjust costs for regional labor rates, material prices, and market conditions."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Location Factor
 
 ## Business Case

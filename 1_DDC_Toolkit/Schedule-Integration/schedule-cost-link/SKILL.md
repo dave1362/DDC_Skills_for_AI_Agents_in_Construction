@@ -1,9 +1,9 @@
 ---
-slug: "schedule-cost-link"
-display_name: "Schedule Cost Link"
+name: "schedule-cost-link"
 description: "Link schedule activities to cost items. Create cost-loaded schedules, generate cash flow curves, and track earned value."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Schedule-Cost Linker
 
 ## Business Case

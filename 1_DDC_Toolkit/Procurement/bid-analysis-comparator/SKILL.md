@@ -1,9 +1,9 @@
 ---
-slug: "bid-analysis-comparator"
-display_name: "Bid Analysis Comparator"
+name: "bid-analysis-comparator"
 description: "Compare and analyze contractor bids. Score proposals, identify scope gaps, and recommend selections."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛒", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Bid Analysis Comparator
 
 ## Business Case

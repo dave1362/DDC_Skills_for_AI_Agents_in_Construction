@@ -1,9 +1,9 @@
 ---
-slug: "weather-impact-analysis"
-display_name: "Weather Impact Analysis"
+name: "weather-impact-analysis"
 description: "Analyze weather data impact on construction schedules. Predict weather delays, optimize work scheduling based on forecasts, and calculate weather-related risk factors for project planning."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Weather Impact Analysis
 
 ## Overview

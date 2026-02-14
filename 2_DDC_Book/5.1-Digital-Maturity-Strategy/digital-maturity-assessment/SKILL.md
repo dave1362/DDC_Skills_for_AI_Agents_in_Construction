@@ -1,9 +1,9 @@
 ---
-slug: "digital-maturity-assessment"
-display_name: "Digital Maturity Assessment"
+name: "digital-maturity-assessment"
 description: "Assess organization's digital transformation readiness. Evaluate data culture, technology adoption, and process maturity."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🎯", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Digital Maturity Assessment
 
 ## Business Case

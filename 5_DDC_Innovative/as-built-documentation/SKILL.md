@@ -1,9 +1,9 @@
 ---
-slug: "as-built-documentation"
-display_name: "As Built Documentation"
+name: "as-built-documentation"
 description: "Automate as-built documentation and digital handover for construction. Compile project records, generate O&M manuals, create asset databases, and ensure complete project closeout."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # As-Built Documentation
 
 ## Overview

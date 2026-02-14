@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-report-generator"
-display_name: "CWICR Report Generator"
+name: "cwicr-report-generator"
 description: "Generate professional cost estimation reports from CWICR calculations. HTML, PDF, Excel outputs with charts and breakdowns."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Report Generator
 
 ## Overview

@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-quantity-matcher"
-display_name: "CWICR Quantity Matcher"
+name: "cwicr-quantity-matcher"
 description: "Match BIM quantities to CWICR work items. Map element categories to cost codes, validate quantities, and generate cost-linked QTOs."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Quantity Matcher
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "n8n-photo-report"
-display_name: "N8N Photo Report"
+name: "n8n-photo-report"
 description: "Automate construction photo report generation using n8n with AI-powered image analysis."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔧", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # n8n Photo Report Automation
 
 ## Business Case

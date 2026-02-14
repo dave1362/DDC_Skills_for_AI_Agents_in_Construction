@@ -1,9 +1,9 @@
 ---
-slug: "excel-to-rvt"
-display_name: "Excel To RVT"
+name: "excel-to-rvt"
 description: "Import Excel data into RVT projects. Update element parameters, create schedules, and sync external data sources."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Excel to RVT Import
 
 > **Note:** RVT is the file format. Examples may reference Autodesk® Revit® APIs. Autodesk and Revit are registered trademarks of Autodesk, Inc.

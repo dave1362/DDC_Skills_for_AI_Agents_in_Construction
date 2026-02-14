@@ -1,9 +1,9 @@
 ---
-slug: "as-built-documentation"
-display_name: "As Built Documentation"
+name: "as-built-documentation"
 description: "Manage as-built documentation for project closeout. Track drawing markups, coordinate updates, and verify completeness."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📋", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # As-Built Documentation Manager
 
 ## Business Case

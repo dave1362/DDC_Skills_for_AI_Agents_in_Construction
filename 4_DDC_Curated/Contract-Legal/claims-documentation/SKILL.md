@@ -1,9 +1,9 @@
 ---
-slug: "claims-documentation"
-display_name: "Claims Documentation"
+name: "claims-documentation"
 description: "Document construction claims for disputes and recovery. Compile evidence, calculate damages, track notice requirements, and prepare claim packages."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📝", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Claims Documentation
 
 ## Overview

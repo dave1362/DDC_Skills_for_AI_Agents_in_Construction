@@ -1,9 +1,9 @@
 ---
-slug: "progress-monitoring-cv"
-display_name: "Progress Monitoring Cv"
+name: "progress-monitoring-cv"
 description: "Monitor construction progress using computer vision. Analyze site photos and drone imagery to track work completion, detect safety issues, and compare against BIM models."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Progress Monitoring with Computer Vision
 
 ## Overview

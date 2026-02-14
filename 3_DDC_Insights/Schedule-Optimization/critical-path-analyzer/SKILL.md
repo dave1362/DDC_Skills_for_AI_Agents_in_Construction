@@ -1,9 +1,9 @@
 ---
-slug: "critical-path-analyzer"
-display_name: "Critical Path Analyzer"
+name: "critical-path-analyzer"
 description: "Analyze construction schedule critical path. Identify critical activities, calculate float, simulate schedule impacts, and optimize project duration."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⏱️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Critical Path Analyzer
 
 ## Overview

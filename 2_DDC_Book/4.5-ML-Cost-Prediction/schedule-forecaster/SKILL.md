@@ -1,9 +1,9 @@
 ---
-slug: "schedule-forecaster"
-display_name: "Schedule Forecaster"
+name: "schedule-forecaster"
 description: "Predict project completion dates using ML models. Forecast schedule delays based on current progress, historical patterns, and risk factors."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🤖", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Schedule Forecaster for Construction
 
 ## Overview

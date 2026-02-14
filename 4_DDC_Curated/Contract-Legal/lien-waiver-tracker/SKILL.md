@@ -1,9 +1,9 @@
 ---
-slug: "lien-waiver-tracker"
-display_name: "Lien Waiver Tracker"
+name: "lien-waiver-tracker"
 description: "Track and manage construction lien waivers. Monitor conditional and unconditional waivers, ensure compliance before payments, and prevent lien exposure."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📝", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Lien Waiver Tracker
 
 ## Overview

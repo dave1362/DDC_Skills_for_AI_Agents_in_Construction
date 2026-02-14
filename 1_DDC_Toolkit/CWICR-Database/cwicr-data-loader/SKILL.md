@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-data-loader"
-display_name: "CWICR Data Loader"
+name: "cwicr-data-loader"
 description: "Load and parse DDC CWICR construction cost database from multiple formats: Parquet, Excel, CSV, Qdrant snapshots. Foundation for all CWICR operations."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "env": ["QDRANT_URL"]}, "primaryEnv": "QDRANT_URL"}}
 ---
-
 # CWICR Data Loader
 
 ## Business Case

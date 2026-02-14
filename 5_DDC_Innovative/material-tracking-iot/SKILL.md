@@ -1,9 +1,9 @@
 ---
-slug: "material-tracking-iot"
-display_name: "Material Tracking IOT"
+name: "material-tracking-iot"
 description: "IoT-based material tracking for construction sites. Monitor material delivery, storage conditions, usage, and inventory with sensors, RFID, GPS, and real-time dashboards."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Material Tracking with IoT
 
 ## Overview

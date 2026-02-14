@@ -1,9 +1,9 @@
 ---
-slug: "carbon-calculator"
-display_name: "Carbon Calculator"
+name: "carbon-calculator"
 description: "Calculate embodied carbon in construction materials. Track CO2 emissions, compare alternatives, and generate sustainability reports."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🌱", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Carbon Calculator
 
 ## Business Case

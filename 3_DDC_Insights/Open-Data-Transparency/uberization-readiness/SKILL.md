@@ -1,9 +1,9 @@
 ---
-slug: "uberization-readiness"
-display_name: "Uberization Readiness"
+name: "uberization-readiness"
 description: "Assess company readiness for construction industry uberization. Analyze data transparency, process automation, and competitive positioning against open data platforms."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🌍", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Uberization Readiness Assessment
 
 ## Overview

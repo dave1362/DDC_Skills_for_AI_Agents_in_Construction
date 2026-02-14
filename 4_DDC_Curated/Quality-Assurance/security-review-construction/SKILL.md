@@ -1,9 +1,9 @@
 ---
-slug: "security-review-construction"
-display_name: "Security Review Construction"
+name: "security-review-construction"
 description: "Security review checklist for construction software systems. Use when building integrations, APIs, data pipelines, or dashboards for construction projects."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛡️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Security Review Skill for Construction Systems
 
 This skill ensures all construction software systems follow security best practices, protecting sensitive project data, financial information, and business intelligence.

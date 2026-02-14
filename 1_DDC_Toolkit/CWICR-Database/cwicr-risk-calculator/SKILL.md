@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-risk-calculator"
-display_name: "CWICR Risk Calculator"
+name: "cwicr-risk-calculator"
 description: "Calculate risk-adjusted cost estimates using CWICR data. Apply contingencies, Monte Carlo simulation, and probability distributions to cost estimates."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Risk Calculator
 
 ## Business Case

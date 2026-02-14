@@ -1,9 +1,9 @@
 ---
-slug: "sql-query-builder"
-display_name: "SQL Query Builder"
+name: "sql-query-builder"
 description: "Build SQL queries for construction databases. Generate optimized SQL queries for construction data retrieval"
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🏷️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # SQL Query Builder
 
 ## Overview

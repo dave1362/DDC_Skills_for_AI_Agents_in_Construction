@@ -1,9 +1,9 @@
 ---
-slug: "daily-progress-report"
-display_name: "Daily Progress Report"
+name: "daily-progress-report"
 description: "Generate automated daily progress reports from site data. Track work completed, labor hours, equipment usage, and weather conditions."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📊", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Daily Progress Report Generator
 
 ## Business Case

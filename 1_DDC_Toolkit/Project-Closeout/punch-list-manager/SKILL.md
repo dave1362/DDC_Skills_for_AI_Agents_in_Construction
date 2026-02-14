@@ -1,9 +1,9 @@
 ---
-slug: "punch-list-manager"
-display_name: "Punch List Manager"
+name: "punch-list-manager"
 description: "Manage construction punch lists for project closeout. Track deficiencies, assign corrections, and monitor completion status."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "✅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Punch List Manager
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-assembly-builder"
-display_name: "CWICR Assembly Builder"
+name: "cwicr-assembly-builder"
 description: "Build cost assemblies from CWICR work items. Combine multiple items into reusable templates for common construction elements."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Assembly Builder
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "defect-detection-ai"
-display_name: "Defect Detection AI"
+name: "defect-detection-ai"
 description: "AI-powered construction defect detection using computer vision. Identify cracks, spalling, corrosion, and other defects in concrete, steel, and building components from images and video."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # AI Defect Detection
 
 ## Overview

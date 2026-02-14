@@ -1,9 +1,9 @@
 ---
-slug: "workflow-automation"
-display_name: "Workflow Automation"
+name: "workflow-automation"
 description: "Automate construction data workflows. Build ETL pipelines and DAG workflows for recurring tasks."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⚙️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Workflow Automation
 
 ## Business Case

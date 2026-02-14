@@ -1,9 +1,9 @@
 ---
-slug: "n8n-daily-report"
-display_name: "N8N Daily Report"
+name: "n8n-daily-report"
 description: "Automate daily construction report generation using n8n workflow automation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔧", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # n8n Daily Report Automation
 
 ## Business Case

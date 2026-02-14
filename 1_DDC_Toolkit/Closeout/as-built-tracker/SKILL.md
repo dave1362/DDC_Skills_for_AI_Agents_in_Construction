@@ -1,9 +1,9 @@
 ---
-slug: "as-built-tracker"
-display_name: "As Built Tracker"
+name: "as-built-tracker"
 description: "Track as-built documentation and record drawings. Monitor submission status, manage revisions, and ensure completeness for handover."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "✅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # As-Built Documentation Tracker
 
 ## Business Case

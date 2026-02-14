@@ -1,9 +1,9 @@
 ---
-slug: "clash-detection-analysis"
-display_name: "Clash Detection Analysis"
+name: "clash-detection-analysis"
 description: "Detect and analyze geometric clashes between BIM elements. Identify hard clashes, soft clashes, and workflow conflicts using spatial analysis and rule-based detection."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "anyBins": ["ifcopenshell"]}}}
 ---
-
 # Clash Detection Analysis
 
 ## Overview

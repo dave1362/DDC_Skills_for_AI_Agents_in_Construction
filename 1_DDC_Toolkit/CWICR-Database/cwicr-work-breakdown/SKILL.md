@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-work-breakdown"
-display_name: "CWICR Work Breakdown"
+name: "cwicr-work-breakdown"
 description: "Break down CWICR work items into component resources. Decompose aggregate items, analyze resource composition, and generate detailed bills of resources."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Work Breakdown
 
 ## Business Case

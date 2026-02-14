@@ -1,9 +1,9 @@
 ---
-slug: "bim-classification-ai"
-display_name: "BIM Classification AI"
+name: "bim-classification-ai"
 description: "Classify BIM elements using AI and standard classification systems. Map elements to UniFormat, MasterFormat, OmniClass, and CWICR codes."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔍", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # BIM Classification AI
 
 ## Business Case

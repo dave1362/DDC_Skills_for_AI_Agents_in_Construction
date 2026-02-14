@@ -1,9 +1,9 @@
 ---
-slug: "predictive-analytics-construction"
-display_name: "Predictive Analytics Construction"
+name: "predictive-analytics-construction"
 description: "Forecast project outcomes using historical data: cost overruns, schedule delays, risk probabilities. Machine learning models for construction prediction."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📈", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Predictive Analytics for Construction
 
 ## Overview

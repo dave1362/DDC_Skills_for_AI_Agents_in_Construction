@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-subcontractor"
-display_name: "CWICR Subcontractor"
+name: "cwicr-subcontractor"
 description: "Analyze and compare subcontractor bids against CWICR benchmarks. Evaluate pricing, identify outliers, and support negotiation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Subcontractor Analyzer
 
 ## Business Case

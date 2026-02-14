@@ -1,9 +1,9 @@
 ---
-slug: "safety-compliance-checker"
-display_name: "Safety Compliance Checker"
+name: "safety-compliance-checker"
 description: "Automated safety compliance verification for construction sites. Check PPE usage, zone access, working at heights regulations, and generate compliance reports using rule-based and ML approaches."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Safety Compliance Checker
 
 ## Overview

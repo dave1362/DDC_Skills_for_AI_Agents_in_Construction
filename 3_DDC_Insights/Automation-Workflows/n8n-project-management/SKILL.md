@@ -1,9 +1,9 @@
 ---
-slug: "n8n-project-management"
-display_name: "N8N Project Management"
+name: "n8n-project-management"
 description: "Build a complete project management system with Telegram bot, task distribution, and photo reports using n8n. Based on DDC Project Management repository."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔧", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # n8n Project Management System for Construction
 
 Build a universal task management and reporting system for construction projects using n8n automation, Telegram bot, and Google Sheets.

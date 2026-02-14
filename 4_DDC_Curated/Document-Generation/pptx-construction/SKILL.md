@@ -1,9 +1,9 @@
 ---
-slug: "pptx-construction"
-display_name: "PPTX Construction"
+name: "pptx-construction"
 description: "PowerPoint generation for construction: project updates, stakeholder presentations, progress reports, bid presentations. Automated slide creation with charts and data."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # PowerPoint Generation for Construction
 
 ## Overview

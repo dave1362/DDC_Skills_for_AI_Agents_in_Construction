@@ -1,7 +1,8 @@
 ---
-slug: "historical-cost-analyzer"
-display_name: "Historical Cost Analyzer"
+name: "historical-cost-analyzer"
 description: "Analyze historical construction costs for benchmarking, trend analysis, and estimating calibration. Compare projects, track escalation, identify patterns."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw":{"emoji":"📈","os":["darwin","linux","win32"],"homepage":"https://datadrivenconstruction.io","requires":{"bins":["python3"]}}}
 ---
 
 # Historical Cost Analyzer for Construction

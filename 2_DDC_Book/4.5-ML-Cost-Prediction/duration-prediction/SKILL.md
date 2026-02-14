@@ -1,9 +1,9 @@
 ---
-slug: "duration-prediction"
-display_name: "Duration Prediction"
+name: "duration-prediction"
 description: "Predict project duration using k-NN and regression. Estimate timeline based on similar historical projects."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🤖", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Duration Prediction
 
 ## Business Case

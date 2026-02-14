@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-labor-scheduler"
-display_name: "CWICR Labor Scheduler"
+name: "cwicr-labor-scheduler"
 description: "Schedule labor crews based on CWICR norms and project timeline. Calculate crew sizes, shifts, and labor loading curves."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Labor Scheduler
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "labor-allocation"
-display_name: "Labor Allocation"
+name: "labor-allocation"
 description: "Allocate and track labor resources across project activities. Balance workload, track attendance, and optimize crew assignments."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "👷", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Labor Allocation Manager
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "pdf-report-generator"
-display_name: "PDF Report Generator"
+name: "pdf-report-generator"
 description: "Automatically generate PDF reports from construction data. Create formatted project reports with charts and tables."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⚙️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # PDF Report Generator
 
 ## Business Case

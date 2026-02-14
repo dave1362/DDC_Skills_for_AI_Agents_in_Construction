@@ -1,9 +1,9 @@
 ---
-slug: "vector-search"
-display_name: "Vector Search"
+name: "vector-search"
 description: "Implement semantic vector search for construction data. Build AI-powered search using embeddings and vector databases (Qdrant, ChromaDB) for intelligent querying of specifications, standards, and project documents."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔢", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "env": ["OPENAI_API_KEY", "QDRANT_URL"]}, "primaryEnv": "OPENAI_API_KEY"}}
 ---
-
 # Vector Search for Construction
 
 ## Overview

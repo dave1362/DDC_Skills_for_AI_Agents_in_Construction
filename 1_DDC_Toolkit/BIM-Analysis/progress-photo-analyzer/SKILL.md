@@ -1,9 +1,9 @@
 ---
-slug: "progress-photo-analyzer"
-display_name: "Progress Photo Analyzer"
+name: "progress-photo-analyzer"
 description: "Analyze construction site photos to track progress, detect safety issues, and compare against BIM models using computer vision."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔍", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Progress Photo Analyzer
 
 ## Business Case

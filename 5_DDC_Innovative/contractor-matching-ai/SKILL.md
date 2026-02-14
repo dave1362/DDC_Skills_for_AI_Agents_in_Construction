@@ -1,9 +1,9 @@
 ---
-slug: "contractor-matching-ai"
-display_name: "Contractor Matching AI"
+name: "contractor-matching-ai"
 description: "AI-powered contractor matching and selection for construction projects. Analyze contractor capabilities, past performance, certifications, and project requirements to recommend optimal matches."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # AI Contractor Matching
 
 ## Overview

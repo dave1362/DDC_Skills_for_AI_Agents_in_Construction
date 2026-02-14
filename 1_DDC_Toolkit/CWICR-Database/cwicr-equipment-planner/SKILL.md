@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-equipment-planner"
-display_name: "CWICR Equipment Planner"
+name: "cwicr-equipment-planner"
 description: "Plan equipment requirements using CWICR norms. Calculate equipment hours, scheduling, utilization rates, and rental vs purchase analysis."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Equipment Planner
 
 ## Business Case

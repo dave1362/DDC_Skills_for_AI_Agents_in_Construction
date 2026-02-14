@@ -1,9 +1,9 @@
 ---
-slug: "bim-validation-report"
-display_name: "BIM Validation Report"
+name: "bim-validation-report"
 description: "Generate comprehensive BIM model validation reports. Check data quality, completeness, and compliance with standards."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔍", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # BIM Validation Report Generator
 
 ## Business Case

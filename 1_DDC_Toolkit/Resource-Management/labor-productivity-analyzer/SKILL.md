@@ -1,9 +1,9 @@
 ---
-slug: "labor-productivity-analyzer"
-display_name: "Labor Productivity Analyzer"
+name: "labor-productivity-analyzer"
 description: "Analyze labor productivity by trade, activity, and location. Track efficiency and identify improvement opportunities."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "👷", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Labor Productivity Analyzer
 
 ## Technical Implementation

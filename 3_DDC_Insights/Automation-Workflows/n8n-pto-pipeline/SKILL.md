@@ -1,9 +1,9 @@
 ---
-slug: "n8n-pto-pipeline"
-display_name: "N8N Pto Pipeline"
+name: "n8n-pto-pipeline"
 description: "Create n8n workflow for daily task assignment from PTO engineer to foreman via Telegram bot with status reporting."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔧", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {}}}
 ---
-
 # n8n PTO-Foreman Pipeline
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "digital-twin-sync"
-display_name: "Digital Twin Sync"
+name: "digital-twin-sync"
 description: "Synchronize construction digital twins with real-time data. Connect BIM models with IoT sensors, progress updates, and field data for live project visualization and monitoring."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Digital Twin Synchronization
 
 ## Overview

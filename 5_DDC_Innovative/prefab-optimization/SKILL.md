@@ -1,9 +1,9 @@
 ---
-slug: "prefab-optimization"
-display_name: "Prefab Optimization"
+name: "prefab-optimization"
 description: "Optimize prefabrication and modular construction workflows. Plan module sequencing, factory scheduling, transportation logistics, and on-site assembly for maximum efficiency."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Prefabrication Optimization
 
 ## Overview

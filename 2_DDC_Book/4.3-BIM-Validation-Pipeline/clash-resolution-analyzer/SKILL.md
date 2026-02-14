@@ -1,9 +1,9 @@
 ---
-slug: "clash-resolution-analyzer"
-display_name: "Clash Resolution Analyzer"
+name: "clash-resolution-analyzer"
 description: "Analyze BIM clash detection results and suggest resolutions. Prioritize clashes, identify patterns, assign responsibility, and track resolution status."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔎", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Clash Resolution Analyzer for Construction
 
 ## Overview

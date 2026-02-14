@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-material-substitution"
-display_name: "CWICR Material Substitution"
+name: "cwicr-material-substitution"
 description: "Find substitute materials using CWICR data. Identify equivalent alternatives based on function, cost, and availability."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Material Substitution
 
 ## Business Case

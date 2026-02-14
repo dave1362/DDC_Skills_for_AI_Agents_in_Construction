@@ -1,9 +1,9 @@
 ---
-slug: "quality-control-workflow"
-display_name: "Quality Control Workflow"
+name: "quality-control-workflow"
 description: "Construction quality control workflow automation. Manage QC inspections, track defects, generate NCRs, and ensure specification compliance throughout the project."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🦺", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Quality Control Workflow
 
 ## Overview

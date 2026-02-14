@@ -1,9 +1,9 @@
 ---
-slug: "material-procurement-tracker"
-display_name: "Material Procurement Tracker"
+name: "material-procurement-tracker"
 description: "Track material procurement from requisition to delivery. Monitor lead times, vendors, and costs."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛒", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Material Procurement Tracker
 
 ## Business Case

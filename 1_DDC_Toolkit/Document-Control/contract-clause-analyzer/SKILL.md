@@ -1,9 +1,9 @@
 ---
-slug: "contract-clause-analyzer"
-display_name: "Contract Clause Analyzer"
+name: "contract-clause-analyzer"
 description: "Analyze construction contract clauses. Identify risks, obligations, and key terms using NLP."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📋", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Contract Clause Analyzer
 
 ## Business Case

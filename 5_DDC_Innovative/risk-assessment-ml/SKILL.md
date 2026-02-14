@@ -1,9 +1,9 @@
 ---
-slug: "risk-assessment-ml"
-display_name: "Risk Assessment ML"
+name: "risk-assessment-ml"
 description: "Apply machine learning for construction project risk assessment. Predict schedule delays, cost overruns, and safety incidents using historical data and project characteristics."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Risk Assessment with Machine Learning
 
 ## Overview

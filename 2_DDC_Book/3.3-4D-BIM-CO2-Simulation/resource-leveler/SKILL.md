@@ -1,9 +1,9 @@
 ---
-slug: "resource-leveler"
-display_name: "Resource Leveler"
+name: "resource-leveler"
 description: "Level and optimize construction resource allocation across project schedule. Balance labor, equipment usage, and avoid overallocation while maintaining critical path."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🎬", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Resource Leveler for Construction
 
 ## Overview

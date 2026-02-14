@@ -1,9 +1,9 @@
 ---
-slug: "decision-support"
-display_name: "Decision Support"
+name: "decision-support"
 description: "Provide data-driven decision support for construction. Analyze multiple factors and recommend optimal project decisions."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📈", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Decision Support System
 
 ## Business Case

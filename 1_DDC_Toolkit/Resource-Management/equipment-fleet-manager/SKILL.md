@@ -1,9 +1,9 @@
 ---
-slug: "equipment-fleet-manager"
-display_name: "Equipment Fleet Manager"
+name: "equipment-fleet-manager"
 description: "Manage construction equipment fleet. Track utilization, maintenance, and assignments."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "👷", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Equipment Fleet Manager
 
 ## Technical Implementation

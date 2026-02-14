@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-value-engineering"
-display_name: "CWICR Value Engineering"
+name: "cwicr-value-engineering"
 description: "Perform value engineering analysis using CWICR data. Identify cost-saving alternatives while maintaining function and quality."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Value Engineering
 
 ## Business Case

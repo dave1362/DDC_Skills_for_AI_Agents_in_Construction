@@ -1,9 +1,9 @@
 ---
-slug: "bim-visual-programming-automation"
-display_name: "BIM Visual Programming Automation"
+name: "bim-visual-programming-automation"
 description: "Automate BIM workflows using visual programming and Python. Create parametric schedules, export data, batch modify elements, and integrate with external data sources."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # BIM Visual Programming Automation
 
 ## Overview

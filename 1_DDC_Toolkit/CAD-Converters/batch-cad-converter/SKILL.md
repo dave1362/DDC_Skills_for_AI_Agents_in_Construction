@@ -1,7 +1,8 @@
 ---
-slug: "batch-cad-converter"
-display_name: "Batch CAD Converter"
+name: "batch-cad-converter"
 description: "Batch convert multiple CAD/BIM files (Revit, IFC, DWG, DGN) with progress tracking, error handling, and consolidated reporting."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw":{"emoji":"🔄","os":["win32"],"homepage":"https://datadrivenconstruction.io","requires":{"bins":["python3"],"anyBins":["RvtExporter","DwgExporter","DgnExporter","RVT2IFCconverter"]}}}
 ---
 
 # Batch CAD/BIM Converter

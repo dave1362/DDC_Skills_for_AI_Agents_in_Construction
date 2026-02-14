@@ -1,9 +1,9 @@
 ---
-slug: "contract-clause-extractor"
-display_name: "Contract Clause Extractor"
+name: "contract-clause-extractor"
 description: "Extract and analyze key clauses from construction contracts. Identify payment terms, change order procedures, dispute resolution, warranties, and risk allocation provisions."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📝", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Contract Clause Extractor
 
 ## Overview

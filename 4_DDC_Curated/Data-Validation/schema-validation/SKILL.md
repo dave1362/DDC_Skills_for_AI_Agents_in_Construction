@@ -1,9 +1,9 @@
 ---
-slug: "schema-validation"
-display_name: "Schema Validation"
+name: "schema-validation"
 description: "JSON/data schema validation for construction data exchange: API payloads, file imports, BIM exports. Ensure data structure compliance before processing."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "✔️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Schema Validation for Construction Data
 
 ## Overview

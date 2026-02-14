@@ -1,9 +1,9 @@
 ---
-slug: "data-visualization"
-display_name: "Data Visualization"
+name: "data-visualization"
 description: "Create visualizations for construction data. Generate charts, graphs, heatmaps, and interactive dashboards using Matplotlib, Seaborn, and Plotly for project analysis and reporting."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📈", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Data Visualization for Construction
 
 ## Overview

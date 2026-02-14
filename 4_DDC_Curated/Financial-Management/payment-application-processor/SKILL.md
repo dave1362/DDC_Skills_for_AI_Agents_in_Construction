@@ -1,9 +1,9 @@
 ---
-slug: "payment-application-processor"
-display_name: "Payment Application Processor"
+name: "payment-application-processor"
 description: "Process construction payment applications. Validate schedule of values, calculate retainage, track billing status, and generate G702/G703 forms."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💵", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Payment Application Processor
 
 ## Overview

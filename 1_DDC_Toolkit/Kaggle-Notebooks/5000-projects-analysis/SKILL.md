@@ -1,9 +1,9 @@
 ---
-slug: "5000-projects-analysis"
-display_name: "5000 Projects Analysis"
+name: "5000-projects-analysis"
 description: "Analyze 5000+ IFC and Revit projects at scale for patterns, benchmarks, and insights. Big data analysis for construction."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📓", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Large-Scale BIM Project Analysis
 
 ## Business Case

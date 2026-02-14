@@ -1,9 +1,9 @@
 ---
-slug: "continuous-learning-construction"
-display_name: "Continuous Learning Construction"
+name: "continuous-learning-construction"
 description: "Automatically extract patterns, best practices, and reusable knowledge from construction automation sessions to improve future performance."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛡️", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Continuous Learning for Construction Automation
 
 This skill enables automatic extraction of valuable patterns, solutions, and best practices from construction automation sessions to build institutional knowledge.

@@ -1,9 +1,9 @@
 ---
-slug: "cashflow-forecaster"
-display_name: "Cashflow Forecaster"
+name: "cashflow-forecaster"
 description: "Forecast construction project cash flow. Project income and expenses, identify funding gaps, and optimize payment timing for improved financial management."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💵", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Cashflow Forecaster
 
 ## Overview

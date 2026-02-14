@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-schedule-integrator"
-display_name: "CWICR Schedule Integrator"
+name: "cwicr-schedule-integrator"
 description: "Integrate CWICR cost data with project schedules. Link work items to schedule activities, generate cost-loaded schedules, and cash flow projections."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Schedule Integrator
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "bim-validation-pipeline"
-display_name: "BIM Validation Pipeline"
+name: "bim-validation-pipeline"
 description: "Build automated BIM validation pipelines for IFC/Revit data. Continuous validation against IDS, LOD requirements, COBie, and project-specific BEP standards."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔎", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "anyBins": ["ifcopenshell"]}}}
 ---
-
 # BIM Validation Pipeline
 
 ## Overview

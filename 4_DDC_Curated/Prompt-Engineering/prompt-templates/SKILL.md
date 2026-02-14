@@ -1,9 +1,9 @@
 ---
-slug: "prompt-templates"
-display_name: "Prompt Templates"
+name: "prompt-templates"
 description: "Reusable prompt templates for construction AI tasks: cost estimation, schedule analysis, document processing, BIM queries. Structured prompts for consistent results."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💡", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Prompt Templates for Construction AI
 
 ## Overview

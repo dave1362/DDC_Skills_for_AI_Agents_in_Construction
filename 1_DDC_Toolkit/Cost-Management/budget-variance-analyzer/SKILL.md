@@ -1,9 +1,9 @@
 ---
-slug: "budget-variance-analyzer"
-display_name: "Budget Variance Analyzer"
+name: "budget-variance-analyzer"
 description: "Analyze budget vs actual cost variances. Identify overruns, forecast final costs, and generate variance reports."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Budget Variance Analyzer
 
 ## Business Case

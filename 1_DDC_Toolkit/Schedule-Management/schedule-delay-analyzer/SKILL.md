@@ -1,9 +1,9 @@
 ---
-slug: "schedule-delay-analyzer"
-display_name: "Schedule Delay Analyzer"
+name: "schedule-delay-analyzer"
 description: "Analyze schedule delays, identify causes, and calculate time impacts using delay analysis methods."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Schedule Delay Analyzer
 
 ## Technical Implementation

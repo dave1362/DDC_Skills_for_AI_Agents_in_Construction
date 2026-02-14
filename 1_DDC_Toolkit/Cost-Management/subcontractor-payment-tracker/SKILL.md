@@ -1,9 +1,9 @@
 ---
-slug: "subcontractor-payment-tracker"
-display_name: "Subcontractor Payment Tracker"
+name: "subcontractor-payment-tracker"
 description: "Track subcontractor payments, lien waivers, and compliance. Manage payment schedules and documentation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Subcontractor Payment Tracker
 
 ## Business Case

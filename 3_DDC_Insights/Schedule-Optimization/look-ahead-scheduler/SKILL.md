@@ -1,9 +1,9 @@
 ---
-slug: "look-ahead-scheduler"
-display_name: "Look Ahead Scheduler"
+name: "look-ahead-scheduler"
 description: "Generate rolling look-ahead schedules for construction. Create 2-week, 3-week, or 6-week look-aheads with constraint analysis and crew coordination."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "⏱️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Look-Ahead Scheduler
 
 ## Overview

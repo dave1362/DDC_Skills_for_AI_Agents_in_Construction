@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-crew-optimizer"
-display_name: "CWICR Crew Optimizer"
+name: "cwicr-crew-optimizer"
 description: "Optimize crew composition using CWICR labor norms. Balance productivity, cost, and skill requirements for construction crews."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Crew Optimizer
 
 ## Business Case

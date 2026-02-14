@@ -1,9 +1,9 @@
 ---
-slug: "voice-to-report"
-display_name: "Voice To Report"
+name: "voice-to-report"
 description: "Convert voice recordings to structured construction reports. Field workers speak, AI transcribes and formats. Supports daily reports, safety observations, progress updates."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📱", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "env": ["OPENAI_API_KEY"]}, "primaryEnv": "OPENAI_API_KEY"}}
 ---
-
 # Voice to Report
 
 ## Overview

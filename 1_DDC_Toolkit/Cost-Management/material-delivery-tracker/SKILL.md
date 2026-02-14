@@ -1,9 +1,9 @@
 ---
-slug: "material-delivery-tracker"
-display_name: "Material Delivery Tracker"
+name: "material-delivery-tracker"
 description: "Track material deliveries, manage inventory, and coordinate logistics. Monitor delivery schedules and site storage."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Material Delivery Tracker
 
 ## Business Case

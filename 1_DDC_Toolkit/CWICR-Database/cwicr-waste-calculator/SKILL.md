@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-waste-calculator"
-display_name: "CWICR Waste Calculator"
+name: "cwicr-waste-calculator"
 description: "Calculate material waste factors and losses using CWICR norms. Apply waste percentages, cutting losses, and spillage factors to material quantities."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Waste Calculator
 
 ## Business Case

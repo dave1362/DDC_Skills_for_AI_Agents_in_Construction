@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-historical-cost"
-display_name: "CWICR Historical Cost"
+name: "cwicr-historical-cost"
 description: "Track and analyze historical cost data using CWICR. Compare actual vs estimated costs, build project cost database, and improve future estimates."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Historical Cost Tracker
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "telegram-field-bot"
-display_name: "Telegram Field Bot"
+name: "telegram-field-bot"
 description: "Build Telegram bots for construction field workers. Real-time reporting, photo uploads, task assignments, progress tracking. Integrate with n8n for automated workflows."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📱", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Telegram Field Bot
 
 ## Overview

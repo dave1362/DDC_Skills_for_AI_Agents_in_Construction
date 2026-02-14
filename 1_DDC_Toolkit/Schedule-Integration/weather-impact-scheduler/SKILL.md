@@ -1,9 +1,9 @@
 ---
-slug: "weather-impact-scheduler"
-display_name: "Weather Impact Scheduler"
+name: "weather-impact-scheduler"
 description: "Analyze weather impact on construction schedule. Predict delays and adjust activities based on forecast."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Weather Impact Scheduler
 
 ## Technical Implementation

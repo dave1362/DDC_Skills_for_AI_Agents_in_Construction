@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-comparison-tool"
-display_name: "CWICR Comparison Tool"
+name: "cwicr-comparison-tool"
 description: "Compare cost estimates across projects, versions, and scenarios. Identify variances, benchmark against standards, and generate comparison reports."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Comparison Tool
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "bim-to-schedule-4d"
-display_name: "BIM To Schedule 4D"
+name: "bim-to-schedule-4d"
 description: "Create 4D construction simulations by linking BIM models with project schedules."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📅", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # BIM to Schedule 4D Simulation
 
 ## Technical Implementation

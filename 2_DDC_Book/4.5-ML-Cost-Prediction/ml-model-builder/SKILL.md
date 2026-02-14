@@ -1,9 +1,9 @@
 ---
-slug: "ml-model-builder"
-display_name: "ML Model Builder"
+name: "ml-model-builder"
 description: "Build ML models for construction predictions. Train and evaluate custom models for cost, duration, and risk prediction."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🤖", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # ML Model Builder
 
 ## Business Case

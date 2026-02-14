@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-rate-updater"
-display_name: "CWICR Rate Updater"
+name: "cwicr-rate-updater"
 description: "Update CWICR resource rates with current market prices. Integrate external price data, apply inflation adjustments, and maintain rate history."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Rate Updater
 
 ## Business Case

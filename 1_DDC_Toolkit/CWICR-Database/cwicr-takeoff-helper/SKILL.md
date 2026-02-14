@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-takeoff-helper"
-display_name: "CWICR Takeoff Helper"
+name: "cwicr-takeoff-helper"
 description: "Assist with quantity takeoff using CWICR data. Calculate quantities from dimensions, apply waste factors, and suggest related work items."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Takeoff Helper
 
 ## Business Case

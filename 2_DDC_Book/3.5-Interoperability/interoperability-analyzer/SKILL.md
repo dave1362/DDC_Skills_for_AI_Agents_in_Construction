@@ -1,9 +1,9 @@
 ---
-slug: "interoperability-analyzer"
-display_name: "Interoperability Analyzer"
+name: "interoperability-analyzer"
 description: "Analyze data interoperability issues in construction projects. Identify format incompatibilities and data loss points."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔀", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Interoperability Analyzer
 
 ## Business Case

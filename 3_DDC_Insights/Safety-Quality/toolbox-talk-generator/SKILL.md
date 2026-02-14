@@ -1,9 +1,9 @@
 ---
-slug: "toolbox-talk-generator"
-display_name: "Toolbox Talk Generator"
+name: "toolbox-talk-generator"
 description: "Generate safety toolbox talks for construction crews. Create contextual safety briefings based on weather, work activities, and recent incidents. Support multiple languages."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🦺", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Toolbox Talk Generator
 
 ## Overview

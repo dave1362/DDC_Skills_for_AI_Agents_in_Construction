@@ -1,9 +1,9 @@
 ---
-slug: "ids-checker"
-display_name: "Ids Checker"
+name: "ids-checker"
 description: "Check BIM data against IDS (Information Delivery Specification). Validate model information requirements and compliance."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔎", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # IDS Checker
 
 ## Business Case

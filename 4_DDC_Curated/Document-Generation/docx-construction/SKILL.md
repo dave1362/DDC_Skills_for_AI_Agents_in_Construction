@@ -1,9 +1,9 @@
 ---
-slug: "docx-construction"
-display_name: "DOCX Construction"
+name: "docx-construction"
 description: "Word document generation for construction: contracts, proposals, reports, specifications, transmittals. Template-based with dynamic content insertion."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Word Document Generation for Construction
 
 ## Overview

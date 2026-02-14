@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-productivity-tracker"
-display_name: "CWICR Productivity Tracker"
+name: "cwicr-productivity-tracker"
 description: "Track actual vs planned productivity using CWICR norms. Calculate productivity rates, identify variances, and generate performance reports."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Productivity Tracker
 
 ## Business Case

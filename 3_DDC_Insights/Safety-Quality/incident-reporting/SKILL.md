@@ -1,9 +1,9 @@
 ---
-slug: "incident-reporting"
-display_name: "Incident Reporting"
+name: "incident-reporting"
 description: "Construction safety incident reporting and analysis. Capture incidents, conduct investigations, track corrective actions, and analyze trends for prevention."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🦺", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Incident Reporting System
 
 ## Overview

@@ -1,9 +1,9 @@
 ---
-slug: "verification-loop-construction"
-display_name: "Verification Loop Construction"
+name: "verification-loop-construction"
 description: "Comprehensive verification system for construction automation deliverables. Use after completing estimates, schedules, reports, or data processing tasks to ensure quality."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🛡️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Verification Loop for Construction Automation
 
 A systematic verification framework ensuring quality of construction automation outputs before delivery or deployment.

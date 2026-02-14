@@ -1,9 +1,9 @@
 ---
-slug: "nobim-image-generator"
-display_name: "Nobim Image Generator"
+name: "nobim-image-generator"
 description: "Generate images and visualizations from Revit/IFC files without BIM software. Python-based noBIM tool for batch processing."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🖼️", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "anyBins": ["ifcopenshell"]}}}
 ---
-
 # noBIM Image Generator
 
 ## Business Case

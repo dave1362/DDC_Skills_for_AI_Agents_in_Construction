@@ -1,9 +1,9 @@
 ---
-slug: "bim-consistency-checker"
-display_name: "BIM Consistency Checker"
+name: "bim-consistency-checker"
 description: "Check BIM model consistency: naming conventions, parameter completeness, spatial relationships, and data integrity across model elements."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔎", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # BIM Consistency Checker for Construction
 
 ## Overview

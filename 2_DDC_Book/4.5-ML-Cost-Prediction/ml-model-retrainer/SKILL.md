@@ -1,9 +1,9 @@
 ---
-slug: "ml-model-retrainer"
-display_name: "ML Model Retrainer"
+name: "ml-model-retrainer"
 description: "Automated pipeline for retraining ML models with new construction data. Monitor model drift, trigger retraining, and validate model performance."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🤖", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # ML Model Retrainer for Construction
 
 ## Overview

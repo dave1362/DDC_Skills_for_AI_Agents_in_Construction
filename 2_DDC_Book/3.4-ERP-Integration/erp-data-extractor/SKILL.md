@@ -1,9 +1,9 @@
 ---
-slug: "erp-data-extractor"
-display_name: "Erp Data Extractor"
+name: "erp-data-extractor"
 description: "Extract and analyze data from construction ERP systems. Pull project data for analytics, reporting, and integration."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔄", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # ERP Data Extractor
 
 ## Business Case

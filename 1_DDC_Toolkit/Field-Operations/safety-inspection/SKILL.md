@@ -1,9 +1,9 @@
 ---
-slug: "safety-inspection"
-display_name: "Safety Inspection"
+name: "safety-inspection"
 description: "Digital safety inspection system for construction sites. Checklists, hazard tracking, incident reporting, and compliance documentation."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🏗️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Safety Inspection System for Construction
 
 Comprehensive digital safety management system for construction sites with inspection checklists, hazard tracking, and incident reporting.

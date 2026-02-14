@@ -1,9 +1,9 @@
 ---
-slug: "safety-inspection-checklist"
-display_name: "Safety Inspection Checklist"
+name: "safety-inspection-checklist"
 description: "Digital safety inspection checklists for construction sites. Generate, conduct, and track safety inspections with automated reporting and compliance monitoring."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🦺", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Safety Inspection Checklist
 
 ## Overview

@@ -1,9 +1,9 @@
 ---
-slug: "llm-document-extraction"
-display_name: "Llm Document Extraction"
+name: "llm-document-extraction"
 description: "Extract structured data from construction documents using LLMs. Process RFIs, submittals, contracts, specifications. Convert unstructured PDFs to structured JSON/Excel."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🤖", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"], "env": ["OPENAI_API_KEY", "QDRANT_URL"]}, "primaryEnv": "OPENAI_API_KEY"}}
 ---
-
 # LLM Document Extraction
 
 ## Overview

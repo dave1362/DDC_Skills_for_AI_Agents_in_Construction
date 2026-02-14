@@ -1,9 +1,9 @@
 ---
-slug: "daily-report-generator"
-display_name: "Daily Report Generator"
+name: "daily-report-generator"
 description: "Automatically generate daily construction reports from field data, worker inputs, weather, and progress photos. Creates professional PDF reports."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🏗️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Daily Report Generator for Construction Sites
 
 Automate the creation of comprehensive daily construction reports by aggregating data from multiple sources into professional documentation.

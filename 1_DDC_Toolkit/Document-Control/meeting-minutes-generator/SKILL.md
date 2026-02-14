@@ -1,9 +1,9 @@
 ---
-slug: "meeting-minutes-generator"
-display_name: "Meeting Minutes Generator"
+name: "meeting-minutes-generator"
 description: "Generate structured construction meeting minutes. Track action items, decisions, and attendees."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📋", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Meeting Minutes Generator
 
 ## Business Case

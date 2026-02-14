@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-resource-analyzer"
-display_name: "CWICR Resource Analyzer"
+name: "cwicr-resource-analyzer"
 description: "Analyze construction resources (labor, materials, equipment) from DDC CWICR database. Calculate resource requirements, productivity metrics, and optimization recommendations."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Resource Analyzer
 
 ## Business Case

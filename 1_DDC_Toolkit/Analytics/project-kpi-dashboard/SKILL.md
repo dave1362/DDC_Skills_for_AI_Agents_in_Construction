@@ -1,9 +1,9 @@
 ---
-slug: "project-kpi-dashboard"
-display_name: "Project KPI Dashboard"
+name: "project-kpi-dashboard"
 description: "Create interactive KPI dashboards for construction projects. Track schedule, cost, quality, and safety metrics in real-time."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📊", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Project KPI Dashboard
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "cwicr-material-procurement"
-display_name: "CWICR Material Procurement"
+name: "cwicr-material-procurement"
 description: "Generate material procurement lists from CWICR data. Calculate quantities with waste factors, group by supplier categories, and create purchase orders."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🗄️", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # CWICR Material Procurement
 
 ## Business Case

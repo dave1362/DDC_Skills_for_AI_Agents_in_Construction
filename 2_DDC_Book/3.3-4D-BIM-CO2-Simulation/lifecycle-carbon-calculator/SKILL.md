@@ -1,9 +1,9 @@
 ---
-slug: "lifecycle-carbon-calculator"
-display_name: "Lifecycle Carbon Calculator"
+name: "lifecycle-carbon-calculator"
 description: "Calculate embodied carbon and lifecycle emissions for construction materials and projects. Support sustainable design decisions with carbon data."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🎬", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Lifecycle Carbon Calculator for Construction
 
 ## Overview

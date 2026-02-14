@@ -1,9 +1,9 @@
 ---
-slug: "n8n-cost-estimation"
-display_name: "N8N Cost Estimation"
+name: "n8n-cost-estimation"
 description: "Build n8n pipeline for automated cost estimation from Revit/IFC using DDC CWICR database and LLM classification."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🔧", "os": ["win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"env": ["QDRANT_URL"]}, "primaryEnv": "QDRANT_URL"}}
 ---
-
 # Automated Cost Estimation Pipeline
 
 ## Business Case

@@ -1,9 +1,9 @@
 ---
-slug: "email-construction"
-display_name: "Email Construction"
+name: "email-construction"
 description: "Email generation for construction workflows: RFI responses, submittal transmittals, meeting notices, change order notifications. Professional templates with context-aware content."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📄", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Email Generation for Construction
 
 ## Overview

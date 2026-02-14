@@ -1,9 +1,9 @@
 ---
-slug: "scenario-planner"
-display_name: "Scenario Planner"
+name: "scenario-planner"
 description: "What-if analysis for construction projects: model different scenarios and their cost/schedule/resource impacts. Compare alternatives and optimize decisions."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "📈", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Scenario Planner for Construction
 
 ## Overview

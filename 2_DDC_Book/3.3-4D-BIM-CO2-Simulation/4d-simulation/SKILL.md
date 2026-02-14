@@ -1,9 +1,9 @@
 ---
-slug: "4d-simulation"
-display_name: "4D Simulation"
+name: "4d-simulation"
 description: "Create 4D construction simulations by linking BIM elements to project schedules. Generate time-based visualizations, sequence analysis, and construction phasing with Gantt integration."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🎬", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # 4D Simulation for Construction
 
 ## Overview

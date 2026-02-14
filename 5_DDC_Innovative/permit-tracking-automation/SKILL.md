@@ -1,9 +1,9 @@
 ---
-slug: "permit-tracking-automation"
-display_name: "Permit Tracking Automation"
+name: "permit-tracking-automation"
 description: "Automate construction permit tracking and management. Monitor application status, track renewal deadlines, manage document requirements, and integrate with municipal systems."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Permit Tracking Automation
 
 ## Overview

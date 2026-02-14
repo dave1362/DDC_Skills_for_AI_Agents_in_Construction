@@ -1,9 +1,9 @@
 ---
-slug: "retention-tracker"
-display_name: "Retention Tracker"
+name: "retention-tracker"
 description: "Track construction retainage/retention amounts. Monitor held amounts by subcontractor, track release conditions, and manage retainage billing."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💵", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Retention Tracker
 
 ## Overview

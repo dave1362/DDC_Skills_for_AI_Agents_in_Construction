@@ -1,9 +1,9 @@
 ---
-slug: "change-order-processor"
-display_name: "Change Order Processor"
+name: "change-order-processor"
 description: "Process and manage construction change orders. Track costs, approvals, and impact on schedule and budget."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "💰", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Change Order Processor
 
 ## Business Case

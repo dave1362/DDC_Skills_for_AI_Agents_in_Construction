@@ -1,9 +1,9 @@
 ---
-slug: "enterprise-risk-aggregator"
-display_name: "Enterprise Risk Aggregator"
+name: "enterprise-risk-aggregator"
 description: "Aggregate and analyze risks across construction project portfolio. Identify correlated risks, systemic exposures, and portfolio-level risk mitigation strategies."
+homepage: "https://datadrivenconstruction.io"
+metadata: {"openclaw": {"emoji": "🚀", "os": ["darwin", "linux", "win32"], "homepage": "https://datadrivenconstruction.io", "requires": {"bins": ["python3"]}}}
 ---
-
 # Enterprise Risk Aggregator
 
 ## Overview
